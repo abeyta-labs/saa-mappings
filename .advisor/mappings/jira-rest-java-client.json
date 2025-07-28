@@ -1,0 +1,69 @@
+{
+  "slug" : "jira-rest-java-client",
+  "coordinates" : [
+    "com.atlassian.jira:jira-rest-java-client-app",
+    "com.atlassian.jira:jira-rest-java-client-api",
+    "com.atlassian.jira:jira-rest-java-client-core",
+    "com.atlassian.jira:jira-rest-java-client-parent",
+    "com.atlassian.jira:jira-rest-java-client-test"
+  ],
+  "repositoryUrl" : "https://bitbucket.org/atlassian/jira-rest-java-client",
+  "rewrite" : {
+    "5.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "5.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "5.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "7.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 21,
+          "minor" : 21
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

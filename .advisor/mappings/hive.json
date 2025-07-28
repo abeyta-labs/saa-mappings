@@ -1,0 +1,292 @@
+{
+  "slug" : "hive",
+  "coordinates" : [
+    "org.apache.hive.hcatalog:hive-hcatalog-pig-adapter",
+    "org.apache.hive:hive-llap-server",
+    "org.apache.hive.shims:hive-shims-common-secure",
+    "org.apache.hive:hive-orc",
+    "org.apache.hive:kafka-handler",
+    "org.apache.hive:hive-metastore-benchmarks",
+    "org.apache.hive:hive-vector-code-gen",
+    "org.apache.hive:hive-llap-client",
+    "org.apache.hive:hive-druid-handler",
+    "org.apache.hive:hive-ant",
+    "org.apache.hive.shims:hive-shims-scheduler",
+    "org.apache.hive:hive-shims-aggregator",
+    "org.apache.hive:spark-client",
+    "org.apache.hive:hive-llap-common",
+    "org.apache.hive.hcatalog:hive-webhcat-java-client",
+    "org.apache.hive:hive-hplsql",
+    "org.apache.hive.shims:hive-shims-common",
+    "org.apache.hive:hive-hbase-handler",
+    "org.apache.hive:hive-spark-client",
+    "org.apache.hive:hive-common",
+    "org.apache.hive:hive-odbc",
+    "org.apache.hive:hive-hwi",
+    "org.apache.hive:hive-kudu-handler",
+    "org.apache.hive:hive-metastore",
+    "org.apache.hive:hive-kryo-registrator",
+    "org.apache.hive:hive-llap-ext-client",
+    "org.apache.hive:hive-standalone-metastore-common",
+    "org.apache.hive:hive-storage-api",
+    "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+    "org.apache.hive:hive",
+    "org.apache.hive:hive-service",
+    "org.apache.hive:hive-service-rpc",
+    "org.apache.hive:hive-llap-tez",
+    "org.apache.hive:hive-udf",
+    "org.apache.hive:metastore-tools-common",
+    "org.apache.hive:hive-testutils",
+    "org.apache.hive:hive-cli",
+    "org.apache.hive:hive-accumulo-handler",
+    "org.apache.hive:hive-standalone-metastore-server",
+    "org.apache.hive.shims:hive-shims-0.20S",
+    "org.apache.hive:hive-standalone-metastore",
+    "org.apache.hive.hcatalog:hive-hcatalog-server-extensions",
+    "org.apache.hive:hive-upgrade-acid",
+    "org.apache.hive:hive-metastore-tools",
+    "org.apache.hive.hcatalog:hive-hcatalog",
+    "org.apache.hive:hive-packaging",
+    "org.apache.hive:hive-contrib",
+    "org.apache.hive:hive-classification",
+    "org.apache.hive:hive-exec",
+    "org.apache.hive.shims:hive-shims-0.23",
+    "org.apache.hive:hive-jdbc-handler",
+    "org.apache.hive.hcatalog:hive-webhcat",
+    "org.apache.hive.hcatalog:hive-hcatalog-streaming",
+    "org.apache.hive:hive-shims",
+    "org.apache.hive.shims:hive-shims-0.20",
+    "org.apache.hive:hive-parser",
+    "org.apache.hive:hive-serde",
+    "org.apache.hive.hcatalog:hive-hcatalog-core",
+    "org.apache.hive:hive-jdbc",
+    "org.apache.hive:hive-beeline",
+    "org.apache.hive:hive-streaming"
+  ],
+  "repositoryUrl" : "https://github.com/apache/hive",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.14.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 6,
+          "minor" : 6
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 6,
+          "minor" : 6
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler"
+        ]
+      }
+    },
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 6,
+          "minor" : 6
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler"
+        ]
+      }
+    },
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 6,
+          "minor" : 6
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-common-secure"
+        ]
+      }
+    },
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 7,
+          "minor" : 7
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-common-secure"
+        ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 7,
+          "minor" : 7
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure"
+        ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 7,
+          "minor" : 7
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive:hive-odbc"
+        ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.3.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 7,
+          "minor" : 7
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-storage-api"
+        ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "3.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 7,
+          "minor" : 7
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-storage-api"
+        ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "3.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-storage-api",
+          "org.apache.hive:spark-client"
+        ]
+      }
+    },
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "4.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-storage-api",
+          "org.apache.hive:spark-client"
+        ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.hcatalog:hive-hcatalog-streaming",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive.shims:hive-shims-scheduler",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-kryo-registrator",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-spark-client",
+          "org.apache.hive:hive-upgrade-acid",
+          "org.apache.hive:spark-client"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "slug" : "microsoft-authentication-library-for-java",
+  "coordinates" : [
+    "com.microsoft.azure:msal4j-brokers",
+    "com.microsoft.azure:msal4j-persistence-extension",
+    "com.microsoft.azure:microsoft-authentication-library-for-java",
+    "com.microsoft.azure:msal4j"
+  ],
+  "repositoryUrl" : "https://github.com/AzureAD/microsoft-authentication-library-for-java",
+  "rewrite" : {
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.0.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.3.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.4.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.5.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.6.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.7.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.8.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.9.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.10.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.11.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.12.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.13.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.14.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.15.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.16.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.17.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.18.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.19.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.20.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "1.21.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

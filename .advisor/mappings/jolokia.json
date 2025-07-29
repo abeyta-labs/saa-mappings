@@ -1,0 +1,72 @@
+{
+  "slug" : "jolokia",
+  "coordinates" : [
+    "org.jolokia:jolokia-service-discovery",
+    "org.jolokia:jolokia-it-core",
+    "org.jolokia:jolokia-service-notif-sse",
+    "org.jolokia:jolokia-client-javascript",
+    "org.jolokia:jolokia-client-jmx-adapter",
+    "org.jolokia:jolokia-example-osgi-restrictor",
+    "org.jolokia:jolokia-tools-siteskin",
+    "org.jolokia:jolokia-agent-jvm",
+    "org.jolokia:jolokia-service-jsr160",
+    "org.jolokia:jolokia-support-jmx",
+    "org.jolokia:jolokia-json",
+    "org.jolokia:jolokia-server-detector",
+    "org.jolokia:jolokia-server-core",
+    "org.jolokia:jolokia-service-history",
+    "org.jolokia:jolokia-parent",
+    "org.jolokia:jolokia-agent-war-unsecured",
+    "org.jolokia:jolokia-tools-test",
+    "org.jolokia:jolokia-client-java",
+    "org.jolokia:jolokia-example-client-javascript-test-app",
+    "org.jolokia:jolokia-bom",
+    "org.jolokia:jolokia-agent-war",
+    "org.jolokia:jolokia-it-war",
+    "org.jolokia:jolokia-service-jmx",
+    "org.jolokia:jolokia-service-notif-pull",
+    "org.jolokia:jolokia-agent-osgi",
+    "org.jolokia:jolokia-client-kubernetes",
+    "org.jolokia:jolokia-service-serializer",
+    "org.jolokia:jolokia-client-javascript-esm"
+  ],
+  "repositoryUrl" : "https://github.com/jolokia/jolokia",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.1.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 17,
+          "minor" : 17
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "2.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 17,
+          "minor" : 17
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 17,
+          "minor" : 17
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

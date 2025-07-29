@@ -1,0 +1,28 @@
+{
+  "slug" : "gemfire-10-0",
+  "coordinates" : [
+    "com.vmware.gemfire:gemfire-tcp-server",
+    "com.vmware.gemfire:gemfire-tcp-messenger",
+    "com.vmware.gemfire:gemfire-core",
+    "com.vmware.gemfire:gemfire-membership",
+    "com.vmware.gemfire:gemfire-management",
+    "com.vmware.gemfire:gemfire-cq",
+    "com.vmware.gemfire:gemfire-serialization",
+    "com.vmware.gemfire:gemfire-logging"
+  ],
+  "repositoryUrl" : "https://github.gwd.broadcom.net/TNZ/gemfire",
+  "rewrite" : {
+    "10.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

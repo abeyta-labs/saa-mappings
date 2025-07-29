@@ -1,0 +1,23 @@
+{
+  "slug": "spring-data-for-vmware-gemfire-2-7-10-1",
+  "coordinates": [
+    "com.vmware.gemfire:spring-data-2.7-gemfire-10.1"
+  ],
+  "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
+  "rewrite": {
+    "1.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
+        },
+        "supportedGenerations": {
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

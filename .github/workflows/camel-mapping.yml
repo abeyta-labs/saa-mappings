@@ -1,4 +1,4 @@
-name: shedlock-mapping
+name: camel-mapping
 
 on:
   # Manual trigger (on-demand)
@@ -10,10 +10,10 @@ on:
 permissions:
   contents: write
   pull-requests: write
-
+  
 jobs:
   call-mapping-workflow:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
-      mapping-name: shedlock
+      mapping-name: camel
     secrets: inherit

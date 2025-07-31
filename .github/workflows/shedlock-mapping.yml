@@ -1,5 +1,4 @@
 name: shedlock-mapping
-
 on:
   # Manual trigger (on-demand)
   workflow_dispatch:
@@ -8,8 +7,8 @@ on:
     - cron: '0 9 1,15 * *'
 
 jobs:
-  upgrade:
-    runs-on: ubuntu-latest
+  mapping:
+    runs-on: self-hosted
     permissions:
       contents: write
       pull-requests: write

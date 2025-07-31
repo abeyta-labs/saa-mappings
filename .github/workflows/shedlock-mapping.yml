@@ -8,7 +8,9 @@ on:
 
 jobs:
   mapping:
-    runs-on: self-hosted
+    #commented until next advisor release that is compatible with our hardware for self-hosted runners
+#    runs-on: self-hosted
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write

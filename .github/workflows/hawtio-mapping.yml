@@ -1,0 +1,19 @@
+name: hawtio-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  schedule:
+    # Runs at 9:00 AM UTC on the 1st and 15th of every month
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: ./.github/workflows/reusable-mapping.yml
+    with:
+      mapping-name: hawtio
+    secrets: inherit

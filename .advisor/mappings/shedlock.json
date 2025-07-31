@@ -1,5 +1,5 @@
 {
-  "slug" : "ShedLock",
+  "slug" : "shedlock",
   "coordinates" : [
     "net.javacrumbs.shedlock:shedlock-testng-test",
     "net.javacrumbs.shedlock:shedlock-provider-redis-spring",

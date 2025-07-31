@@ -1,5 +1,5 @@
 {
-  "slug" : "camel",
+  "slug" : "camel-main",
   "coordinates" : [
     "org.apache.camel:camel-report-maven-plugin",
     "org.apache.camel:camel-microprofile-fault-tolerance",

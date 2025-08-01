@@ -1,0 +1,17 @@
+name: microsoft-authentication-library-for-java
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: ./.github/workflows/reusable-mapping.yml
+    with:
+      mapping-name: microsoft-authentication-library-for-java
+    secrets: inherit

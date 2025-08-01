@@ -8,7 +8,79 @@
   ],
   "repositoryUrl" : "https://github.com/AzureAD/microsoft-authentication-library-for-java",
   "rewrite" : {
+    "0.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.2.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.3.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.4.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.5.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.6.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : "0.7.x",
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "major" : 8,
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
       "recipes" : [ ],
       "nextRewrite" : "1.0.x",
       "requirements" : {
@@ -177,18 +249,6 @@
       }
     },
     "1.13.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : "1.14.x",
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "major" : 8,
-          "minor" : 8
-        },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "1.14.x" : {
       "recipes" : [ ],
       "nextRewrite" : "1.15.x",
       "requirements" : {

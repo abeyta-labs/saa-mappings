@@ -16,6 +16,6 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: azure-sdk-azure-identity
-      github-url: https://github.com/rabeyta/azure-sdk-for-java
+      repo-url: https://github.com/rabeyta/azure-sdk-for-java
       coordinates: com.azure:azure-identity
     secrets: inherit

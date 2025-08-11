@@ -7,8 +7,8 @@ on:
         description: 'Slug identifier for the mapping'
         required: true
         type: string
-      github_url:
-        description: 'GitHub repository URL (e.g., https://github.com/org/repo)'
+      repo_url:
+        description: 'Repo repository URL (e.g., https://github.com/org/repo)'
         required: true
         type: string
       coordinates:
@@ -70,7 +70,7 @@ jobs:
               uses: ./.github/workflows/reusable-mapping.yml
               with:
                 mapping-name: ${{ inputs.slug }}
-                github-url: ${{ inputs.github_url }}
+                repo-url: ${{ inputs.repo_url }}
           EOF
           
           # Conditionally add coordinates if provided
@@ -117,7 +117,7 @@ jobs:
           
           Parameters:
           - Slug: ${{ inputs.slug }}
-          - GitHub URL: ${{ inputs.github_url }}"
+          - Repo URL: ${{ inputs.repo_url }}"
           
           if [ -n "${{ inputs.coordinates }}" ]; then
             COMMIT_MSG="$COMMIT_MSG
@@ -150,7 +150,7 @@ jobs:
           echo "### Generated Workflow" >> $GITHUB_STEP_SUMMARY
           echo "- **File**: \`.github/workflows/${{ inputs.slug }}-mapping.yml\`" >> $GITHUB_STEP_SUMMARY
           echo "- **Mapping Name**: ${{ inputs.slug }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **GitHub URL**: ${{ inputs.github_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Repo URL**: ${{ inputs.repo_url }}" >> $GITHUB_STEP_SUMMARY
           
           if [ -n "${{ inputs.coordinates }}" ]; then
             echo "- **Coordinates**: ${{ inputs.coordinates }}" >> $GITHUB_STEP_SUMMARY

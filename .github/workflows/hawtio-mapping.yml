@@ -16,4 +16,6 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: hawtio
+      repo-url: "https://github.com/hawtio/hawtio"
+      coordinates: "io.hawt:hawtio-springboot"
     secrets: inherit

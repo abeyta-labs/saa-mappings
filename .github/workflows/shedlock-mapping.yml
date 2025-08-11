@@ -16,4 +16,6 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: shedlock
+      repo-url: "https://github.com/lukas-krecan/ShedLock"
+      coordinates: "net.javacrumbs.shedlock:shedlock-spring"
     secrets: inherit

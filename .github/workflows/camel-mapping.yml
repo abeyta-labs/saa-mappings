@@ -15,5 +15,7 @@ jobs:
   call-mapping-workflow:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
-      mapping-name: camel
+      mapping-name: camel-spring-main
+      repo-url: "https://github.com/apache/camel"
+      coordinates: "org.apache.camel:camel-spring-main"
     secrets: inherit

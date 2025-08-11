@@ -11,6 +11,7 @@
     "org.jolokia:jolokia-agent-jvm",
     "org.jolokia:jolokia-service-jsr160",
     "org.jolokia:jolokia-support-jmx",
+    "org.jolokia:jolokia-support-spring",
     "org.jolokia:jolokia-json",
     "org.jolokia:jolokia-server-detector",
     "org.jolokia:jolokia-server-core",

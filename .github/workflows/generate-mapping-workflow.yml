@@ -84,7 +84,7 @@ jobs:
           fi
           
           # Add the secrets inherit line
-          echo "      secrets: inherit" >> .github/workflows/${{ inputs.slug }}-mapping.yml
+          echo "    secrets: inherit" >> .github/workflows/${{ inputs.slug }}-mapping.yml
           
           echo "Generated workflow file: .github/workflows/${{ inputs.slug }}-mapping.yml"
           echo "---"

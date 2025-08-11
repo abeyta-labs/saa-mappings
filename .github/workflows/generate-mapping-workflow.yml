@@ -28,6 +28,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   generate-workflow:
@@ -35,6 +36,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          ref: main
       - name: Generate workflow file
         run: |
           # Create the workflows directory if it doesn't exist

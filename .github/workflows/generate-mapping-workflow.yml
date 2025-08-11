@@ -75,12 +75,12 @@ jobs:
           
           # Conditionally add coordinates if provided
           if [ -n "${{ inputs.coordinates }}" ]; then
-            echo "        coordinates: ${{ inputs.coordinates }}" >> .github/workflows/${{ inputs.slug }}-mapping.yml
+            echo "      coordinates: ${{ inputs.coordinates }}" >> .github/workflows/${{ inputs.slug }}-mapping.yml
           fi
           
           # Conditionally add java_version if provided
           if [ -n "${{ inputs.java_version }}" ]; then
-            echo "        java-version: ${{ inputs.java_version }}" >> .github/workflows/${{ inputs.slug }}-mapping.yml
+            echo "      java-version: ${{ inputs.java_version }}" >> .github/workflows/${{ inputs.slug }}-mapping.yml
           fi
           
           # Add the secrets inherit line

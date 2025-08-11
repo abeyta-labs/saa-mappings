@@ -52,7 +52,7 @@ jobs:
           
           # Start generating the workflow file
           cat > .github/workflows/${{ inputs.slug }}-mapping.yml << EOF
-          name: ${{ inputs.slug }} Mapping Workflow
+          name: ${{ inputs.slug }}-mapping
           
           on:
             # Manual trigger (on-demand)

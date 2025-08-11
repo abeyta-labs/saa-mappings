@@ -1,4 +1,4 @@
-name: azure-sdk-azure-identity Mapping Workflow
+name: azure-sdk-azure-identity-mapping
 
 on:
   # Manual trigger (on-demand)
@@ -16,6 +16,6 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: azure-sdk-azure-identity
-      repo-url: https://github.com/rabeyta/azure-sdk-for-java
+      repo-url: https://github.com/Azure/azure-sdk-for-java
       coordinates: com.azure:azure-identity
     secrets: inherit

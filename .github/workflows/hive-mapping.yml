@@ -16,4 +16,5 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: hive
+      repo-url: "https://github.com/apache/hive"
     secrets: inherit

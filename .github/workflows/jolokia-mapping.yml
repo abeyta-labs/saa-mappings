@@ -16,4 +16,6 @@ jobs:
     uses: ./.github/workflows/reusable-mapping.yml
     with:
       mapping-name: jolokia
+      repo-url: "https://github.com/jolokia/jolokia"
+      coordinates: "org.jolokia:jolokia-support-spring"
     secrets: inherit

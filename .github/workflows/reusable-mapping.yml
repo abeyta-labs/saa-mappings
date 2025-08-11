@@ -7,6 +7,20 @@ on:
         description: 'Name of the mapping (e.g., shedlock, spring-boot, etc.)'
         required: true
         type: string
+      repo-url:
+        description: 'Url of the repository to map'
+        required: true
+        type: string
+      coordinates:
+        description: 'Artifact coordinates you want to map (e.g., net.javacrumbs.shedlock:shedlock-spring)'
+        required: false
+        type: string
+        default: ''
+      java-version:
+        description: 'Version of java to use'
+        required: false
+        type: string
+        default: '17'
       runs-on:
         description: 'Runner type (e.g., ubuntu-latest, self-hosted)'
         required: false
@@ -30,7 +44,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: ${{ inputs.java-version }}
           distribution: 'liberica'
       - name: Configure Maven Settings
         uses: 's4u/maven-settings-action@v3.1.0'
@@ -84,13 +98,22 @@ jobs:
           BROADCOM_SPRING_PASSWORD: ${{ secrets.BROADCOM_SPRING_PASSWORD }}
           BROADCOM_SPRING_REPOSITORY: ${{ vars.BROADCOM_SPRING_REPOSITORY }}
           SCRIPT_TO_RUN: scripts/mapping/${{ inputs.mapping-name }}.sh
+          MAPPING_CONFIG_REPO: ${{ inputs.repo-url }}
+          MAPPING_CONFIG_COORDINATES: ${{ inputs.coordinates }}
+          MAPPING_CONFIG_SLUG: ${{ inputs.mapping-name }}
         run: |
           # download the cli
           curl -L -H "Authorization: Bearer $ARTIFACTORY_TOKEN"  -o /tmp/advisor-linux.tar -X GET $CLI_DOWNLOAD_URL
           tar -xf /tmp/advisor-linux.tar -C /tmp/ --strip-components=1 --exclude=./META-INF
           
-          chmod +x "$SCRIPT_TO_RUN"
-          $SCRIPT_TO_RUN
+          echo "Running advisor with:"
+          echo "  Git Repo: '$MAPPING_CONFIG_REPO'"
+          echo "  Artifact Coordinates: '$MAPPING_CONFIG_COORDINATES'"
+          echo "  Desired Slug: '$MAPPING_CONFIG_SLUG'"
+          
+          /tmp/advisor mapping build -r "$MAPPING_CONFIG_REPO" \
+            ${MAPPING_CONFIG_COORDINATES:+-c "$MAPPING_CONFIG_COORDINATES"} \
+            ${MAPPING_CONFIG_SLUG:+-s "$MAPPING_CONFIG_SLUG"}
           
           # clean up
           rm /tmp/advisor-linux.tar

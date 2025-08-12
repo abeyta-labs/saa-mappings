@@ -67,7 +67,7 @@ jobs:
           
           jobs:
             call-mapping-workflow:
-              uses: ./.github/workflows/reusable-mapping.yml
+              uses: rabeyta/saa-workflows/.github/workflows/build-mapping.yml@main
               with:
                 mapping-name: ${{ inputs.slug }}
                 repo-url: ${{ inputs.repo_url }}

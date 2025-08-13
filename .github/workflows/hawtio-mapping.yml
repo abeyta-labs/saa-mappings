@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   call-mapping-workflow:
-    uses: rabeyta/saa-workflows/.github/workflows/build-mapping.yml@main
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: hawtio
       repo-url: "https://github.com/hawtio/hawtio"

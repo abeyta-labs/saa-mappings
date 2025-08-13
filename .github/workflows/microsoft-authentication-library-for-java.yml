@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   call-mapping-workflow:
-    uses: rabeyta/saa-workflows/.github/workflows/build-mapping.yml@main
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: microsoft-authentication-library-for-java
       repo-url: "https://github.com/AzureAD/microsoft-authentication-library-for-java"

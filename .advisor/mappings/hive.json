@@ -5,16 +5,20 @@
     "org.apache.hive:hive-llap-server",
     "org.apache.hive.shims:hive-shims-common-secure",
     "org.apache.hive:hive-orc",
+    "org.apache.hive:patched-iceberg-api",
     "org.apache.hive:kafka-handler",
     "org.apache.hive:hive-metastore-benchmarks",
+    "org.apache.hive:hive-metastore-packaging",
     "org.apache.hive:hive-vector-code-gen",
     "org.apache.hive:hive-llap-client",
     "org.apache.hive:hive-druid-handler",
     "org.apache.hive:hive-ant",
+    "org.apache.hive:hive-iceberg",
     "org.apache.hive.shims:hive-shims-scheduler",
     "org.apache.hive:hive-shims-aggregator",
     "org.apache.hive:spark-client",
     "org.apache.hive:hive-llap-common",
+    "org.apache.hive:hive-iceberg-handler",
     "org.apache.hive.hcatalog:hive-webhcat-java-client",
     "org.apache.hive:hive-hplsql",
     "org.apache.hive.shims:hive-shims-common",
@@ -22,6 +26,7 @@
     "org.apache.hive:hive-spark-client",
     "org.apache.hive:hive-common",
     "org.apache.hive:hive-odbc",
+    "org.apache.hive:hive-standalone-metastore-rest-catalog",
     "org.apache.hive:hive-hwi",
     "org.apache.hive:hive-kudu-handler",
     "org.apache.hive:hive-metastore",
@@ -30,6 +35,7 @@
     "org.apache.hive:hive-standalone-metastore-common",
     "org.apache.hive:hive-storage-api",
     "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+    "org.apache.hive:hive-iceberg-catalog",
     "org.apache.hive:hive",
     "org.apache.hive:hive-service",
     "org.apache.hive:hive-service-rpc",
@@ -42,6 +48,7 @@
     "org.apache.hive:hive-standalone-metastore-server",
     "org.apache.hive.shims:hive-shims-0.20S",
     "org.apache.hive:hive-standalone-metastore",
+    "org.apache.hive:patched-iceberg-core",
     "org.apache.hive.hcatalog:hive-hcatalog-server-extensions",
     "org.apache.hive:hive-upgrade-acid",
     "org.apache.hive:hive-metastore-tools",
@@ -56,6 +63,7 @@
     "org.apache.hive.hcatalog:hive-hcatalog-streaming",
     "org.apache.hive:hive-shims",
     "org.apache.hive.shims:hive-shims-0.20",
+    "org.apache.hive:hive-iceberg-shading",
     "org.apache.hive:hive-parser",
     "org.apache.hive:hive-serde",
     "org.apache.hive.hcatalog:hive-hcatalog-core",
@@ -67,10 +75,12 @@
   "rewrite" : {
     "0.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.14.x",
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 6,
           "minor" : 6
         },
         "supportedGenerations" : { },
@@ -79,10 +89,12 @@
     },
     "0.14.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.0.x",
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 6,
           "minor" : 6
         },
         "supportedGenerations" : { },
@@ -93,10 +105,12 @@
     },
     "1.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.1.x",
+      "nextRewrite" : {
+        "version" : "1.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 6,
           "minor" : 6
         },
         "supportedGenerations" : { },
@@ -107,10 +121,12 @@
     },
     "1.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.2.x",
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 6,
           "minor" : 6
         },
         "supportedGenerations" : { },
@@ -123,10 +139,12 @@
     },
     "1.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.0.x",
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 7,
           "minor" : 7
         },
         "supportedGenerations" : { },
@@ -139,10 +157,12 @@
     },
     "2.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.1.x",
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 7,
           "minor" : 7
         },
         "supportedGenerations" : { },
@@ -156,10 +176,12 @@
     },
     "2.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.2.x",
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 7,
           "minor" : 7
         },
         "supportedGenerations" : { },
@@ -174,10 +196,12 @@
     },
     "2.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.3.x",
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 7,
           "minor" : 7
         },
         "supportedGenerations" : { },
@@ -193,10 +217,12 @@
     },
     "2.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "3.0.x",
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 7,
           "minor" : 7
         },
         "supportedGenerations" : { },
@@ -215,10 +241,12 @@
     },
     "3.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "3.1.x",
+      "nextRewrite" : {
+        "version" : "3.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -238,10 +266,12 @@
     },
     "3.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.0.x",
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -261,13 +291,44 @@
     },
     "4.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.hcatalog:hive-hcatalog-streaming",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive.shims:hive-shims-scheduler",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-kryo-registrator",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-spark-client",
+          "org.apache.hive:hive-upgrade-acid",
+          "org.apache.hive:spark-client"
+        ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-ldap" : "2.4.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [

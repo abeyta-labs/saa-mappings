@@ -10,10 +10,12 @@
   "rewrite" : {
     "0.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.2.x",
+      "nextRewrite" : {
+        "version" : "0.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -22,10 +24,12 @@
     },
     "0.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.3.x",
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -34,10 +38,12 @@
     },
     "0.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.4.x",
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -46,10 +52,12 @@
     },
     "0.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.5.x",
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -58,10 +66,12 @@
     },
     "0.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.6.x",
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -70,10 +80,12 @@
     },
     "0.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.7.x",
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -82,10 +94,12 @@
     },
     "0.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.0.x",
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -94,10 +108,12 @@
     },
     "1.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.1.x",
+      "nextRewrite" : {
+        "version" : "1.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -106,10 +122,12 @@
     },
     "1.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.2.x",
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -118,10 +136,12 @@
     },
     "1.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.3.x",
+      "nextRewrite" : {
+        "version" : "1.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -130,10 +150,12 @@
     },
     "1.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.4.x",
+      "nextRewrite" : {
+        "version" : "1.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -142,10 +164,12 @@
     },
     "1.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.5.x",
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -154,10 +178,12 @@
     },
     "1.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.6.x",
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -166,10 +192,12 @@
     },
     "1.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.7.x",
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -178,10 +206,12 @@
     },
     "1.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.8.x",
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -190,10 +220,12 @@
     },
     "1.8.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.9.x",
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -202,10 +234,12 @@
     },
     "1.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.10.x",
+      "nextRewrite" : {
+        "version" : "1.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -214,10 +248,12 @@
     },
     "1.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.11.x",
+      "nextRewrite" : {
+        "version" : "1.11.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -226,10 +262,12 @@
     },
     "1.11.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.12.x",
+      "nextRewrite" : {
+        "version" : "1.12.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -238,10 +276,12 @@
     },
     "1.12.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.13.x",
+      "nextRewrite" : {
+        "version" : "1.13.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -250,10 +290,12 @@
     },
     "1.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.15.x",
+      "nextRewrite" : {
+        "version" : "1.15.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -262,10 +304,12 @@
     },
     "1.15.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.16.x",
+      "nextRewrite" : {
+        "version" : "1.16.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -274,10 +318,12 @@
     },
     "1.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.17.x",
+      "nextRewrite" : {
+        "version" : "1.17.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -286,10 +332,12 @@
     },
     "1.17.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.18.x",
+      "nextRewrite" : {
+        "version" : "1.18.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -298,10 +346,12 @@
     },
     "1.18.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.19.x",
+      "nextRewrite" : {
+        "version" : "1.19.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -310,10 +360,12 @@
     },
     "1.19.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.20.x",
+      "nextRewrite" : {
+        "version" : "1.20.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -322,10 +374,12 @@
     },
     "1.20.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.21.x",
+      "nextRewrite" : {
+        "version" : "1.21.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },
@@ -334,10 +388,23 @@
     },
     "1.21.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.22.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : { },

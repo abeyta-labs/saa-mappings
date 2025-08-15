@@ -17,6 +17,7 @@
     "net.javacrumbs.shedlock:shedlock-micronaut",
     "net.javacrumbs.shedlock:shedlock-springboot-sleuth-test",
     "net.javacrumbs.shedlock:shedlock-springboot-future-test",
+    "net.javacrumbs.shedlock:shedlock-support-redis",
     "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
     "net.javacrumbs.shedlock:shedlock-provider-redis-jedis4",
     "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
@@ -45,11 +46,14 @@
     "net.javacrumbs.shedlock:shedlock-provider-cassandra",
     "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
     "net.javacrumbs.shedlock:micronaut4-jdbc",
+    "net.javacrumbs.shedlock:shedlock-provider-redis-lettuce",
+    "net.javacrumbs.shedlock:shedlock-provider-exposed",
     "net.javacrumbs.shedlock:shedlock-provider-elasticsearch9",
     "net.javacrumbs.shedlock:shedlock-provider-neo4j",
     "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
     "net.javacrumbs.shedlock:shedlock-provider-dynamodb2",
     "net.javacrumbs.shedlock:shedlock-bom",
+    "net.javacrumbs.shedlock:shedlock-test-support-redis",
     "net.javacrumbs.shedlock:shedlock-provider-memcached-spy",
     "net.javacrumbs.shedlock:shedlock-provider-s3v2",
     "net.javacrumbs.shedlock:shedlock-provider-r2dbc",
@@ -71,296 +75,353 @@
   "rewrite" : {
     "0.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.2.x",
+      "nextRewrite" : {
+        "version" : "0.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.3.x",
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.4.x",
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.5.x",
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.6.x",
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.7.x",
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.4.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.8.x",
+      "nextRewrite" : {
+        "version" : "0.8.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.8.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.9.x",
+      "nextRewrite" : {
+        "version" : "0.9.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.10.x",
+      "nextRewrite" : {
+        "version" : "0.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.11.x",
+      "nextRewrite" : {
+        "version" : "0.11.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.11.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.12.x",
+      "nextRewrite" : {
+        "version" : "0.12.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.12.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.13.x",
+      "nextRewrite" : {
+        "version" : "0.13.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.14.x",
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.14.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.15.x",
+      "nextRewrite" : {
+        "version" : "0.15.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.15.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.16.x",
+      "nextRewrite" : {
+        "version" : "0.16.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.17.x",
+      "nextRewrite" : {
+        "version" : "0.17.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.17.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "0.18.x",
+      "nextRewrite" : {
+        "version" : "0.18.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "0.18.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.0.x",
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "1.8.x",
           "mongo-java-driver" : "3.4.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x"
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "1.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.1.x",
+      "nextRewrite" : {
+        "version" : "1.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -369,17 +430,20 @@
     },
     "1.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.2.x",
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -388,17 +452,20 @@
     },
     "1.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.3.x",
+      "nextRewrite" : {
+        "version" : "1.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -407,17 +474,20 @@
     },
     "1.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.0.x",
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -426,17 +496,20 @@
     },
     "2.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.1.x",
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -445,17 +518,20 @@
     },
     "2.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.2.x",
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -464,17 +540,20 @@
     },
     "2.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.3.x",
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -483,17 +562,20 @@
     },
     "2.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.4.x",
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -502,17 +584,20 @@
     },
     "2.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.5.x",
+      "nextRewrite" : {
+        "version" : "2.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -521,17 +606,20 @@
     },
     "2.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "2.6.x",
+      "nextRewrite" : {
+        "version" : "2.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x"
+          "spring-framework" : "5.0.x",
+          "spring-boot" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -540,17 +628,20 @@
     },
     "2.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "3.0.x",
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -559,17 +650,20 @@
     },
     "3.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.0.x",
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.5.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -578,17 +672,21 @@
     },
     "4.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.1.x",
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.6.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -597,17 +695,21 @@
     },
     "4.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.2.x",
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
           "spring-data-redis" : "2.0.x",
           "mongo-java-driver" : "3.6.x",
           "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -616,10 +718,12 @@
     },
     "4.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.3.x",
+      "nextRewrite" : {
+        "version" : "4.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -627,7 +731,9 @@
           "mongo-java-driver" : "3.6.x",
           "jedis" : "2.9.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -636,10 +742,12 @@
     },
     "4.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.4.x",
+      "nextRewrite" : {
+        "version" : "4.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -647,7 +755,9 @@
           "mongo-java-driver" : "3.6.x",
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -656,10 +766,12 @@
     },
     "4.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.5.x",
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -667,7 +779,9 @@
           "mongo-java-driver" : "3.6.x",
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -676,10 +790,12 @@
     },
     "4.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.6.x",
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -687,7 +803,9 @@
           "mongo-java-driver" : "3.8.x",
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -696,10 +814,12 @@
     },
     "4.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.7.x",
+      "nextRewrite" : {
+        "version" : "4.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -707,7 +827,9 @@
           "mongo-java-driver" : "3.8.x",
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -716,10 +838,12 @@
     },
     "4.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.8.x",
+      "nextRewrite" : {
+        "version" : "4.8.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -727,7 +851,9 @@
           "mongo-java-driver" : "3.8.x",
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x"
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -736,10 +862,12 @@
     },
     "4.8.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.9.x",
+      "nextRewrite" : {
+        "version" : "4.9.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -748,7 +876,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x"
+          "spring-boot" : "2.2.x",
+          "aws-sdk-java" : "2.11.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis"
@@ -757,10 +887,12 @@
     },
     "4.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.10.x",
+      "nextRewrite" : {
+        "version" : "4.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -769,7 +901,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x"
+          "aws-sdk-java" : "2.11.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -779,10 +913,12 @@
     },
     "4.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.11.x",
+      "nextRewrite" : {
+        "version" : "4.11.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -791,7 +927,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x"
+          "aws-sdk-java" : "2.11.x",
+          "spring-boot" : "2.2.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -801,10 +939,12 @@
     },
     "4.11.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.12.x",
+      "nextRewrite" : {
+        "version" : "4.12.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -813,7 +953,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x"
+          "spring-boot" : "2.3.x",
+          "aws-sdk-java" : "2.11.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -823,10 +965,12 @@
     },
     "4.12.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.13.x",
+      "nextRewrite" : {
+        "version" : "4.13.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -835,7 +979,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x"
+          "spring-boot" : "2.3.x",
+          "aws-sdk-java" : "2.11.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -845,10 +991,12 @@
     },
     "4.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.14.x",
+      "nextRewrite" : {
+        "version" : "4.14.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -857,7 +1005,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "spring-boot" : "2.3.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -867,10 +1017,12 @@
     },
     "4.14.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.15.x",
+      "nextRewrite" : {
+        "version" : "4.15.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -879,7 +1031,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "spring-boot" : "2.3.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -889,10 +1043,12 @@
     },
     "4.15.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.16.x",
+      "nextRewrite" : {
+        "version" : "4.16.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -901,7 +1057,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -912,10 +1070,12 @@
     },
     "4.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.17.x",
+      "nextRewrite" : {
+        "version" : "4.17.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -924,7 +1084,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -935,10 +1097,12 @@
     },
     "4.17.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.18.x",
+      "nextRewrite" : {
+        "version" : "4.18.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -947,7 +1111,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -958,10 +1124,12 @@
     },
     "4.18.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.19.x",
+      "nextRewrite" : {
+        "version" : "4.19.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -970,7 +1138,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -981,10 +1151,12 @@
     },
     "4.19.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.20.x",
+      "nextRewrite" : {
+        "version" : "4.20.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -993,7 +1165,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -1004,10 +1178,12 @@
     },
     "4.20.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.21.x",
+      "nextRewrite" : {
+        "version" : "4.21.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1016,7 +1192,9 @@
           "jedis" : "3.2.x",
           "cassandra-java-driver" : "4.3.x",
           "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x"
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "2.2.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -1027,10 +1205,12 @@
     },
     "4.21.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.22.x",
+      "nextRewrite" : {
+        "version" : "4.22.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1039,7 +1219,9 @@
           "jedis" : "3.5.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.10.x",
-          "aws-sdk-java" : "2.16.x"
+          "aws-sdk-java" : "2.16.x",
+          "spring-boot" : "2.4.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -1051,10 +1233,12 @@
     },
     "4.22.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.23.x",
+      "nextRewrite" : {
+        "version" : "4.23.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1063,7 +1247,9 @@
           "jedis" : "3.5.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.10.x",
-          "aws-sdk-java" : "2.16.x"
+          "spring-boot" : "2.5.x",
+          "aws-sdk-java" : "2.16.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
@@ -1077,10 +1263,12 @@
     },
     "4.23.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.24.x",
+      "nextRewrite" : {
+        "version" : "4.24.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1089,7 +1277,9 @@
           "jedis" : "3.5.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.11.x",
-          "aws-sdk-java" : "2.16.x"
+          "spring-boot" : "2.5.x",
+          "aws-sdk-java" : "2.16.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:shedlock-provider-jedis",
@@ -1102,10 +1292,12 @@
     },
     "4.24.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.25.x",
+      "nextRewrite" : {
+        "version" : "4.25.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1114,7 +1306,9 @@
           "jedis" : "3.6.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.11.x",
-          "aws-sdk-java" : "2.16.x"
+          "spring-boot" : "2.5.x",
+          "aws-sdk-java" : "2.16.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1128,10 +1322,12 @@
     },
     "4.25.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.26.x",
+      "nextRewrite" : {
+        "version" : "4.26.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1140,7 +1336,9 @@
           "jedis" : "3.6.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.12.x",
-          "aws-sdk-java" : "2.16.x"
+          "aws-sdk-java" : "2.16.x",
+          "spring-boot" : "2.5.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1154,10 +1352,12 @@
     },
     "4.26.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.27.x",
+      "nextRewrite" : {
+        "version" : "4.27.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1166,7 +1366,9 @@
           "jedis" : "3.6.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1180,10 +1382,12 @@
     },
     "4.27.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.28.x",
+      "nextRewrite" : {
+        "version" : "4.28.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1192,7 +1396,9 @@
           "jedis" : "3.7.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1206,10 +1412,12 @@
     },
     "4.28.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.29.x",
+      "nextRewrite" : {
+        "version" : "4.29.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1218,7 +1426,9 @@
           "jedis" : "3.7.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1232,10 +1442,12 @@
     },
     "4.29.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.30.x",
+      "nextRewrite" : {
+        "version" : "4.30.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1246,7 +1458,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.0.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1260,10 +1474,12 @@
     },
     "4.30.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.31.x",
+      "nextRewrite" : {
+        "version" : "4.31.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1274,7 +1490,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1288,10 +1506,12 @@
     },
     "4.31.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.36.x",
+      "nextRewrite" : {
+        "version" : "4.36.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1302,7 +1522,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.13.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "2.6.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1316,10 +1538,12 @@
     },
     "4.36.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.37.x",
+      "nextRewrite" : {
+        "version" : "4.37.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1330,7 +1554,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1346,10 +1572,12 @@
     },
     "4.37.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.38.x",
+      "nextRewrite" : {
+        "version" : "4.38.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1360,7 +1588,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1376,10 +1606,12 @@
     },
     "4.38.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.39.x",
+      "nextRewrite" : {
+        "version" : "4.39.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1390,7 +1622,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1406,10 +1640,12 @@
     },
     "4.39.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.40.x",
+      "nextRewrite" : {
+        "version" : "4.40.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1420,7 +1656,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1436,10 +1674,12 @@
     },
     "4.40.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.41.x",
+      "nextRewrite" : {
+        "version" : "4.41.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1450,7 +1690,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1466,10 +1708,12 @@
     },
     "4.41.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.42.x",
+      "nextRewrite" : {
+        "version" : "4.42.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1480,7 +1724,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1496,10 +1742,12 @@
     },
     "4.42.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.43.x",
+      "nextRewrite" : {
+        "version" : "4.43.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1510,7 +1758,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1526,10 +1776,12 @@
     },
     "4.43.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.44.x",
+      "nextRewrite" : {
+        "version" : "4.44.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1540,7 +1792,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1556,10 +1810,12 @@
     },
     "4.44.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.45.x",
+      "nextRewrite" : {
+        "version" : "4.45.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1570,7 +1826,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1586,10 +1844,12 @@
     },
     "4.45.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.46.x",
+      "nextRewrite" : {
+        "version" : "4.46.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1600,7 +1860,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1616,10 +1878,12 @@
     },
     "4.46.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.47.x",
+      "nextRewrite" : {
+        "version" : "4.47.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1630,7 +1894,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1646,10 +1912,12 @@
     },
     "4.47.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "4.48.x",
+      "nextRewrite" : {
+        "version" : "4.48.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1660,7 +1928,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1676,10 +1946,12 @@
     },
     "4.48.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.0.x",
+      "nextRewrite" : {
+        "version" : "5.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 8,
           "minor" : 8
         },
         "supportedGenerations" : {
@@ -1690,7 +1962,9 @@
           "reactor" : "3.4.x",
           "spring-framework" : "5.3.x",
           "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x"
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-test",
@@ -1706,10 +1980,12 @@
     },
     "5.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.1.x",
+      "nextRewrite" : {
+        "version" : "5.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1720,7 +1996,9 @@
           "reactor" : "3.5.x",
           "cassandra-java-driver" : "4.15.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.17.x"
+          "spring-boot" : "3.0.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1741,10 +2019,12 @@
     },
     "5.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.2.x",
+      "nextRewrite" : {
+        "version" : "5.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1755,7 +2035,9 @@
           "reactor" : "3.5.x",
           "cassandra-java-driver" : "4.15.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x"
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1776,10 +2058,12 @@
     },
     "5.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.3.x",
+      "nextRewrite" : {
+        "version" : "5.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1790,7 +2074,9 @@
           "reactor" : "3.5.x",
           "spring-framework" : "6.0.x",
           "cassandra-java-driver" : "4.15.x",
-          "aws-sdk-java" : "2.18.x"
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1811,10 +2097,12 @@
     },
     "5.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.4.x",
+      "nextRewrite" : {
+        "version" : "5.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1825,7 +2113,9 @@
           "reactor" : "3.5.x",
           "spring-framework" : "6.0.x",
           "cassandra-java-driver" : "4.15.x",
-          "aws-sdk-java" : "2.18.x"
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1846,10 +2136,12 @@
     },
     "5.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.5.x",
+      "nextRewrite" : {
+        "version" : "5.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1860,7 +2152,9 @@
           "reactor" : "3.5.x",
           "spring-framework" : "6.0.x",
           "cassandra-java-driver" : "4.16.x",
-          "aws-sdk-java" : "2.18.x"
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1881,10 +2175,12 @@
     },
     "5.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.6.x",
+      "nextRewrite" : {
+        "version" : "5.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1893,9 +2189,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "4.3.x",
           "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.16.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x"
+          "cassandra-java-driver" : "4.16.x",
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1916,10 +2214,12 @@
     },
     "5.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.7.x",
+      "nextRewrite" : {
+        "version" : "5.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1928,9 +2228,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "4.3.x",
           "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1951,10 +2253,12 @@
     },
     "5.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.8.x",
+      "nextRewrite" : {
+        "version" : "5.8.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1963,9 +2267,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "4.3.x",
           "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.2.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -1986,10 +2292,12 @@
     },
     "5.8.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.9.x",
+      "nextRewrite" : {
+        "version" : "5.9.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1998,9 +2306,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "4.3.x",
           "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.2.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2021,10 +2331,12 @@
     },
     "5.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.10.x",
+      "nextRewrite" : {
+        "version" : "5.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2035,7 +2347,9 @@
           "reactor" : "3.5.x",
           "spring-framework" : "6.0.x",
           "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.18.x"
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "3.2.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2056,10 +2370,12 @@
     },
     "5.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.11.x",
+      "nextRewrite" : {
+        "version" : "5.11.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2070,7 +2386,9 @@
           "reactor" : "3.6.x",
           "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.1.x",
-          "aws-sdk-java" : "2.21.x"
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.2.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2091,10 +2409,12 @@
     },
     "5.11.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.12.x",
+      "nextRewrite" : {
+        "version" : "5.12.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2105,7 +2425,9 @@
           "reactor" : "3.6.x",
           "spring-framework" : "6.1.x",
           "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x"
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.3.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2126,10 +2448,12 @@
     },
     "5.12.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.13.x",
+      "nextRewrite" : {
+        "version" : "5.13.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2140,7 +2464,9 @@
           "reactor" : "3.6.x",
           "spring-framework" : "6.1.x",
           "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x"
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.3.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2161,10 +2487,12 @@
     },
     "5.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.14.x",
+      "nextRewrite" : {
+        "version" : "5.14.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2175,7 +2503,9 @@
           "reactor" : "3.6.x",
           "spring-framework" : "6.1.x",
           "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x"
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.3.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2196,10 +2526,12 @@
     },
     "5.14.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.15.x",
+      "nextRewrite" : {
+        "version" : "5.15.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2208,9 +2540,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "5.1.x",
           "reactor" : "3.6.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.1.x",
-          "aws-sdk-java" : "2.21.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2231,10 +2565,12 @@
     },
     "5.15.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "5.16.x",
+      "nextRewrite" : {
+        "version" : "5.16.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2243,9 +2579,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "5.1.x",
           "reactor" : "3.6.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.1.x",
-          "aws-sdk-java" : "2.21.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2266,10 +2604,12 @@
     },
     "5.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.0.x",
+      "nextRewrite" : {
+        "version" : "6.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2278,9 +2618,11 @@
           "r2dbc-spi" : "1.0.x",
           "jedis" : "5.1.x",
           "reactor" : "3.6.x",
-          "cassandra-java-driver" : "4.17.x",
           "spring-framework" : "6.1.x",
-          "aws-sdk-java" : "2.21.x"
+          "cassandra-java-driver" : "4.17.x",
+          "aws-sdk-java" : "2.21.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc-new",
@@ -2301,10 +2643,12 @@
     },
     "6.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.1.x",
+      "nextRewrite" : {
+        "version" : "6.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2314,7 +2658,9 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x"
+          "aws-sdk-java" : "2.29.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",
@@ -2340,10 +2686,12 @@
     },
     "6.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.2.x",
+      "nextRewrite" : {
+        "version" : "6.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2353,7 +2701,9 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x"
+          "aws-sdk-java" : "2.29.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",
@@ -2379,10 +2729,12 @@
     },
     "6.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.3.x",
+      "nextRewrite" : {
+        "version" : "6.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2392,7 +2744,9 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x"
+          "aws-sdk-java" : "2.29.x",
+          "spring-boot" : "3.4.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",
@@ -2418,10 +2772,12 @@
     },
     "6.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.4.x",
+      "nextRewrite" : {
+        "version" : "6.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2431,7 +2787,9 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x"
+          "spring-boot" : "3.5.x",
+          "aws-sdk-java" : "2.31.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",
@@ -2457,10 +2815,12 @@
     },
     "6.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "6.5.x",
+      "nextRewrite" : {
+        "version" : "6.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2470,7 +2830,9 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x"
+          "aws-sdk-java" : "2.31.x",
+          "spring-boot" : "3.5.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",
@@ -2496,10 +2858,12 @@
     },
     "6.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "6.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -2509,7 +2873,138 @@
           "jedis" : "5.2.x",
           "reactor" : "3.7.x",
           "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x"
+          "spring-boot" : "3.5.x",
+          "aws-sdk-java" : "2.31.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "6.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "3.4.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "5.2.x",
+          "reactor" : "3.7.x",
+          "spring-framework" : "6.2.x",
+          "aws-sdk-java" : "2.31.x",
+          "spring-boot" : "3.5.x",
+          "lettuce" : "6.6.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "6.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "3.5.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "5.2.x",
+          "reactor" : "3.7.x",
+          "spring-framework" : "6.2.x",
+          "spring-boot" : "3.5.x",
+          "aws-sdk-java" : "2.31.x",
+          "lettuce" : "6.6.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "6.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "3.5.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "5.2.x",
+          "reactor" : "3.7.x",
+          "spring-framework" : "6.2.x",
+          "aws-sdk-java" : "2.31.x",
+          "spring-boot" : "3.5.x",
+          "lettuce" : "6.7.x",
+          "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [
           "net.javacrumbs.shedlock:micronaut-jdbc",

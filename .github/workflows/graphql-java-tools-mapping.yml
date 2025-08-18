@@ -1,0 +1,21 @@
+name: graphql-java-tools-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    with:
+      mapping-name: graphql-java-tools
+      repo-url: https://github.com/graphql-java-kickstart/graphql-java-tools.git
+      coordinates: com.graphql-java-kickstart:graphql-java-tools
+    secrets: inherit

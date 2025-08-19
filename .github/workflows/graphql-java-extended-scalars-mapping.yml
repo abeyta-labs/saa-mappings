@@ -3,6 +3,8 @@ name: graphql-java-extended-scalars-mapping
 on:
   # Manual trigger (on-demand)
   workflow_dispatch:
+  repository_dispatch:
+    types: [graphql-java-extended-scalars]
   schedule:
     # Runs based on the configured schedule
     - cron: '0 9 1,15 * *'

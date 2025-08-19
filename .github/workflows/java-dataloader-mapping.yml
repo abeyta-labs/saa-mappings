@@ -1,0 +1,21 @@
+name: java-dataloader-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    with:
+      mapping-name: java-dataloader
+      repo-url: https://github.com/graphql-java/java-dataloader
+      coordinates: com.graphql-java:java-dataloader
+    secrets: inherit

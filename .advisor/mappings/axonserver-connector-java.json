@@ -1,0 +1,118 @@
+{
+  "slug" : "axonserver-connector-java",
+  "coordinates" : [
+    "io.axoniq:axonserver-connector-java"
+  ],
+  "repositoryUrl" : "https://github.com/AxonIQ/axonserver-connector-java",
+  "rewrite" : {
+    "2023.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2023.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2023.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2023.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2023.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2024.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2024.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2024.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2024.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2025.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2025.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2025.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2025.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

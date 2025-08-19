@@ -16,6 +16,6 @@ jobs:
     uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: togglz-spring-boot-starter
-      repo-url: https://github.com/php-coder/togglz-spring-boot
+      repo-url: https://github.com/togglz/togglz
       coordinates: org.togglz:togglz-spring-boot-starter
     secrets: inherit

@@ -57,6 +57,8 @@ jobs:
           on:
             # Manual trigger (on-demand)
             workflow_dispatch:
+            repository_dispatch:
+              types: [${{ inputs.slug }}]
             schedule:
               # Runs based on the configured schedule
               - cron: '$CRON_SCHEDULE'
@@ -142,6 +144,12 @@ jobs:
           else
             echo "ℹ️ No changes to commit - workflow file already up to date"
           fi
+
+      - name: Trigger generated workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          event-type: ${{ inputs.slug }}
 
       - name: Summary
         run: |

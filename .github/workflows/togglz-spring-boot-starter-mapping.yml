@@ -16,6 +16,6 @@ jobs:
     uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: togglz-spring-boot-starter
-      repo-url: https://github.com/togglz/togglz
+      repo-url: svn:https://svn.sonatype.org/spice/tags/oss-parent-7
       coordinates: org.togglz:togglz-spring-boot-starter
     secrets: inherit

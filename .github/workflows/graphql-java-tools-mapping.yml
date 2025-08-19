@@ -16,6 +16,6 @@ jobs:
     uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: graphql-java-tools
-      repo-url: git:https://github.com/graphql-java-kickstart/graphql-java-tools.git
+      repo-url: https://github.com/graphql-java-kickstart/graphql-java-tools
       coordinates: com.graphql-java-kickstart:graphql-java-tools
     secrets: inherit

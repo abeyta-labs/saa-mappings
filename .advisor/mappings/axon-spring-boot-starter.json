@@ -1,0 +1,339 @@
+{
+  "slug" : "axon-spring-boot-starter",
+  "coordinates" : [
+    "org.axonframework:axon-reactorless-test",
+    "org.axonframework:axon-distributed-commandbus-jgroups",
+    "org.axonframework:axon-kafka",
+    "org.axonframework:axon-distributed-commandbus-springcloud",
+    "org.axonframework:axon-disruptor",
+    "org.axonframework:axon-spring-boot-autoconfigure",
+    "org.axonframework:axon-amqp",
+    "org.axonframework:axon-eventsourcing-jakarta",
+    "org.axonframework:axon-legacy",
+    "org.axonframework:axon-modelling",
+    "org.axonframework:axon-core",
+    "org.axonframework:axon-modelling-jakarta",
+    "org.axonframework:axon-eventsourcing",
+    "org.axonframework:axon-integrationtests",
+    "org.axonframework:axon-test",
+    "org.axonframework:axon-micrometer",
+    "org.axonframework:axon-integrationtests-jakarta",
+    "org.axonframework:axon-spring-boot-starter-jgroups",
+    "org.axonframework:axon",
+    "org.axonframework:axon-messaging-jakarta",
+    "org.axonframework:axon-configuration",
+    "org.axonframework:axon-spring-boot-starter",
+    "org.axonframework:axon-configuration-jakarta",
+    "org.axonframework:axon-messaging",
+    "org.axonframework:axon-tracing-opentelemetry",
+    "org.axonframework:axon-mongo",
+    "org.axonframework:axon-metrics",
+    "org.axonframework:axon-spring",
+    "org.axonframework:axon-server-connector"
+  ],
+  "repositoryUrl" : "https://github.com/AxonFramework/AxonFramework",
+  "rewrite" : {
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.1.x",
+          "spring-amqp" : "1.6.x",
+          "mongo-java-driver" : "3.3.x",
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.1.x",
+          "spring-amqp" : "1.7.x",
+          "mongo-java-driver" : "3.3.x",
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.3.x",
+          "spring-amqp" : "1.7.x",
+          "mongo-java-driver" : "3.3.x",
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "spring-cloud-commons" : "1.3.x",
+          "spring-amqp" : "1.7.x",
+          "mongo-java-driver" : "3.3.x",
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x",
+          "reactor" : "3.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x",
+          "micrometer" : "1.9.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.1.x",
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.0.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-micrometer",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.2.x",
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.1.x",
+          "micrometer" : "1.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.2.x",
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.1.x",
+          "micrometer" : "1.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.2.x",
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.1.x",
+          "micrometer" : "1.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.3.x",
+          "spring-framework" : "5.1.x",
+          "spring-boot" : "2.1.x",
+          "micrometer" : "1.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "reactor" : "3.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.4.x",
+          "micrometer" : "1.6.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-reactorless-test",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    },
+    "4.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.6.x",
+          "reactive-streams" : "1.0.x",
+          "reactor" : "3.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x",
+          "micrometer" : "1.9.x"
+        },
+        "excludedArtifacts" : [
+          "org.axonframework:axon-amqp",
+          "org.axonframework:axon-core",
+          "org.axonframework:axon-distributed-commandbus-jgroups",
+          "org.axonframework:axon-distributed-commandbus-springcloud",
+          "org.axonframework:axon-kafka",
+          "org.axonframework:axon-mongo",
+          "org.axonframework:axon-spring-boot-starter-jgroups"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "slug" : "togglz-spring-boot-starter",
+  "coordinates" : [
+    "org.togglz:togglz-cdi",
+    "org.togglz:togglz-sample-spring-boot-security",
+    "org.togglz:togglz-distribution",
+    "org.togglz:togglz-cloud-spanner",
+    "org.togglz:togglz-spring-boot",
+    "org.togglz:togglz-spring-web",
+    "org.togglz:togglz-shiro",
+    "org.togglz:togglz-junit",
+    "org.togglz:togglz-project",
+    "org.togglz:togglz-thymeleaf-spring-boot-starter",
+    "org.togglz:togglz-spring-security",
+    "org.togglz:togglz-redis",
+    "org.togglz:togglz-actuator-spring-boot-starter",
+    "org.togglz:togglz-security-spring-boot-starter",
+    "org.togglz:togglz-hazelcast",
+    "org.togglz:togglz-amazon-s3",
+    "org.togglz:togglz-sample-spring-boot-hello-world",
+    "org.togglz:togglz-legacy-spring-boot-starter",
+    "org.togglz:togglz-testing",
+    "org.togglz:togglz-slf4j",
+    "org.togglz:togglz-spring-boot-autoconfigure",
+    "org.togglz:togglz-core-spring-boot-starter",
+    "org.togglz:togglz-appengine",
+    "org.togglz:togglz-spring-boot-starter",
+    "org.togglz:togglz-console-spring-boot-starter",
+    "org.togglz:samples",
+    "org.togglz:togglz-mongodb",
+    "org.togglz:togglz-webmvc-spring-boot-starter",
+    "org.togglz:togglz-spring-core",
+    "org.togglz.benchmark:togglz-benchmarks",
+    "org.togglz:togglz-sample-spring-boot-thymeleaf",
+    "org.togglz:togglz-archaius",
+    "org.togglz:togglz-zookeeper",
+    "org.togglz:togglz-core",
+    "org.togglz:togglz-guice",
+    "org.togglz:togglz-jsp",
+    "org.togglz:togglz-sample-spring-boot-war",
+    "org.togglz:togglz-cassandra",
+    "org.togglz:togglz-test-harness",
+    "org.togglz:togglz-sample-spring-boot-no-feature-provider-or-feature-enums",
+    "org.togglz:togglz-spring-mobile",
+    "org.togglz:togglz-jsf",
+    "org.togglz:togglz-cloud-datastore",
+    "org.togglz:togglz-cloud-storage",
+    "org.togglz:togglz-kotlin",
+    "org.togglz:togglz-servlet",
+    "org.togglz:togglz-console",
+    "org.togglz:togglz-deltaspike",
+    "org.togglz:togglz-slack",
+    "org.togglz:togglz-spock",
+    "org.togglz:togglz-dynamodb",
+    "org.togglz:togglz-sample-spring-boot-hello-world-feature-enum"
+  ],
+  "repositoryUrl" : "https://github.com/togglz/togglz",
+  "rewrite" : {
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 7
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "2.11.x",
+          "spring-framework" : "3.0.x",
+          "spring-security" : "4.0.x",
+          "spring-boot" : "1.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 7
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "3.4.x",
+          "spring-framework" : "4.3.x",
+          "spring-security" : "4.2.x",
+          "spring-boot" : "1.5.x",
+          "spring-mobile" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "3.4.x",
+          "jedis" : "2.9.x",
+          "spring-framework" : "4.3.x",
+          "spring-security" : "4.2.x",
+          "spring-boot" : "1.5.x",
+          "spring-mobile" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "3.4.x",
+          "jedis" : "2.9.x",
+          "spring-framework" : "4.3.x",
+          "spring-security" : "4.2.x",
+          "spring-boot" : "2.0.x",
+          "spring-mobile" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "3.4.x",
+          "jedis" : "2.9.x",
+          "spring-framework" : "5.2.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-security" : "5.3.x",
+          "spring-boot" : "2.3.x",
+          "spring-mobile" : "1.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-spring-boot-autoconfigure"
+        ]
+      }
+    },
+    "2.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.1.x",
+          "jedis" : "2.9.x",
+          "spring-framework" : "5.2.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-security" : "5.3.x",
+          "spring-boot" : "2.3.x",
+          "spring-mobile" : "1.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-spring-boot-autoconfigure"
+        ]
+      }
+    },
+    "2.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.1.x",
+          "jedis" : "3.6.x",
+          "spring-framework" : "5.3.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-security" : "5.4.x",
+          "lettuce" : "6.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-spring-boot-autoconfigure",
+          "org.togglz:togglz-spring-mobile"
+        ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.1.x",
+          "jedis" : "3.6.x",
+          "spring-framework" : "5.3.x",
+          "aws-sdk-java" : "2.13.x",
+          "spring-boot" : "2.4.x",
+          "spring-security" : "5.4.x",
+          "lettuce" : "6.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-spring-boot-autoconfigure",
+          "org.togglz:togglz-spring-mobile"
+        ]
+      }
+    },
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.5.x",
+          "jedis" : "4.2.x",
+          "spring-framework" : "5.3.x",
+          "aws-sdk-java" : "2.17.x",
+          "spring-boot" : "2.6.x",
+          "spring-security" : "5.6.x",
+          "lettuce" : "6.1.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-boot-autoconfigure",
+          "org.togglz:togglz-spring-mobile"
+        ]
+      }
+    },
+    "3.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.7.x",
+          "jedis" : "4.2.x",
+          "spring-framework" : "5.3.x",
+          "aws-sdk-java" : "2.18.x",
+          "spring-boot" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-hazelcast",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-boot-autoconfigure",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.9.x",
+          "jedis" : "4.4.x",
+          "spring-framework" : "6.0.x",
+          "spring-security" : "6.1.x",
+          "spring-boot" : "3.1.x",
+          "aws-sdk-java" : "2.20.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-cassandra",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.10.x",
+          "jedis" : "4.4.x",
+          "spring-framework" : "6.0.x",
+          "aws-sdk-java" : "2.20.x",
+          "spring-security" : "6.1.x",
+          "spring-boot" : "3.1.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-cassandra",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.10.x",
+          "jedis" : "4.4.x",
+          "spring-framework" : "6.0.x",
+          "aws-sdk-java" : "2.20.x",
+          "spring-security" : "6.1.x",
+          "spring-boot" : "3.1.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-cassandra",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    },
+    "4.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.10.x",
+          "jedis" : "4.4.x",
+          "spring-framework" : "6.0.x",
+          "aws-sdk-java" : "2.20.x",
+          "spring-security" : "6.1.x",
+          "spring-boot" : "3.1.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-cassandra",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    },
+    "4.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "mongo-java-driver" : "4.10.x",
+          "jedis" : "5.0.x",
+          "spring-framework" : "6.0.x",
+          "aws-sdk-java" : "2.20.x",
+          "spring-security" : "6.1.x",
+          "spring-boot" : "3.1.x",
+          "lettuce" : "6.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.togglz:togglz-archaius",
+          "org.togglz:togglz-cassandra",
+          "org.togglz:togglz-deltaspike",
+          "org.togglz:togglz-distribution",
+          "org.togglz:togglz-guice",
+          "org.togglz:togglz-jsf",
+          "org.togglz:togglz-jsp",
+          "org.togglz:togglz-legacy-spring-boot-starter",
+          "org.togglz:togglz-slf4j",
+          "org.togglz:togglz-spring-mobile",
+          "org.togglz:togglz-zookeeper"
+        ]
+      }
+    }
+  }
+}

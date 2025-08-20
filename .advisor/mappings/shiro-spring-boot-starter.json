@@ -1,0 +1,293 @@
+{
+  "slug" : "shiro-spring-boot-starter",
+  "coordinates" : [
+    "org.apache.shiro:shiro-spring-boot-starter",
+    "org.apache.shiro:shiro-bom",
+    "org.apache.shiro.integrationtests:shiro-its-jakarta-ee",
+    "org.apache.shiro.tools:shiro-tools",
+    "org.apache.shiro:shiro-event",
+    "org.apache.shiro.integrationtests:shiro-its-meecrowave-support",
+    "org.apache.shiro.integrationtests.jaxrs:shiro-its-jaxrs-meecrowave",
+    "org.apache.shiro:shiro-config",
+    "org.apache.shiro:shiro-servlet-plugin",
+    "org.apache.shiro:shiro-crypto-core",
+    "org.apache.shiro.samples:samples-spring",
+    "org.apache.shiro.samples:samples-spring-boot-web",
+    "org.apache.shiro.integrationtests.jaxrs:shiro-its-jaxrs-openliberty",
+    "org.apache.shiro.samples:samples-quickstart-guice",
+    "org.apache.shiro:shiro-spring",
+    "org.apache.shiro.samples:samples-spring-mvc",
+    "org.apache.shiro:shiro-aspectj",
+    "org.apache.shiro:shiro-web",
+    "org.apache.shiro:shiro-cas",
+    "org.apache.shiro.integrationtests.jaxrs:shiro-its-jaxrs-app",
+    "org.apache.shiro:shiro-root",
+    "org.apache.shiro.samples:samples-servlet-plugin",
+    "org.apache.shiro:shiro-test-coverage",
+    "org.apache.shiro.samples:samples-sprhib",
+    "org.apache.shiro:shiro-config-ogdl",
+    "org.apache.shiro:shiro-quartz",
+    "org.apache.shiro:shiro-spring-boot-web-starter",
+    "org.apache.shiro:shiro-hazelcast",
+    "org.apache.shiro.samples:samples-jaxrs",
+    "org.apache.shiro.crypto:shiro-hashes-argon2",
+    "org.apache.shiro.samples:samples-web-jakarta",
+    "org.apache.shiro:shiro-jakarta-ee",
+    "org.apache.shiro.samples:samples-spring-client",
+    "org.apache.shiro.crypto:shiro-crypto-support",
+    "org.apache.shiro.samples:samples-quickstart",
+    "org.apache.shiro.integrationtests:jakarta-ee-support",
+    "org.apache.shiro:shiro-features",
+    "org.apache.shiro:shiro-guice",
+    "org.apache.shiro:shiro-config-core",
+    "org.apache.shiro:shiro-spring-boot",
+    "org.apache.shiro:shiro-lang",
+    "org.apache.shiro.crypto:shiro-hashes-bcrypt",
+    "org.apache.shiro:shiro-crypto-hash",
+    "org.apache.shiro.samples:samples-guice",
+    "org.apache.shiro:shiro-crypto",
+    "org.apache.shiro.integrationtests:shiro-its-guice3",
+    "org.apache.shiro:shiro-core",
+    "org.apache.shiro:shiro-all",
+    "org.apache.shiro.integrationtests.jaxrs:shiro-its-jaxrs",
+    "org.apache.shiro:shiro-ehcache",
+    "org.apache.shiro.integrationtests:shiro-its-guice4",
+    "org.apache.shiro:shiro-jcache",
+    "org.apache.shiro:shiro-cache",
+    "org.apache.shiro.samples:shiro-samples",
+    "org.apache.shiro:shiro-cdi",
+    "org.apache.shiro.integrationtests:shiro-integration-tests",
+    "org.apache.shiro.integrationtests.jaxrs:shiro-its-jaxrs-tests",
+    "org.apache.shiro.samples:samples-aspectj",
+    "org.apache.shiro:shiro-crypto-cipher",
+    "org.apache.shiro.samples:samples-web",
+    "org.apache.shiro:shiro-jaxrs",
+    "org.apache.shiro.integrationtests:shiro-its-support",
+    "org.apache.shiro:shiro-support",
+    "org.apache.shiro.samples:samples-spring-boot",
+    "org.apache.shiro.tools:shiro-tools-hasher"
+  ],
+  "repositoryUrl" : "https://gitbox.apache.org/repos/asf/shiro",
+  "rewrite" : {
+    "1.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 6
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "4.2.x",
+          "spring-framework" : "4.3.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.4.x",
+          "spring-framework" : "5.2.x",
+          "spring-boot" : "2.2.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.4.x",
+          "spring-framework" : "5.2.x",
+          "spring-boot" : "2.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.4.x",
+          "spring-framework" : "5.2.x",
+          "spring-boot" : "2.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.4.x",
+          "spring-framework" : "5.2.x",
+          "spring-boot" : "2.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "1.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : {
+          "hibernate-orm" : "5.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "2.7.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-spring-client"
+        ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "cxf" : "3.6.x",
+          "hibernate-orm" : "5.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.shiro.samples:samples-jaxrs",
+          "org.apache.shiro.samples:samples-spring-client",
+          "org.apache.shiro:shiro-all",
+          "org.apache.shiro:shiro-cas",
+          "org.apache.shiro:shiro-test-coverage"
+        ]
+      }
+    }
+  }
+}

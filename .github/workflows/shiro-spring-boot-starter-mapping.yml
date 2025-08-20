@@ -1,0 +1,23 @@
+name: shiro-spring-boot-starter-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [shiro-spring-boot-starter]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    with:
+      mapping-name: shiro-spring-boot-starter
+      repo-url: https://gitbox.apache.org/repos/asf/shiro
+      coordinates: org.apache.shiro:shiro-spring-boot-starter
+    secrets: inherit

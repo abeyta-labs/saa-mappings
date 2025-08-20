@@ -1,11 +1,11 @@
 {
   "slug" : "azure-identity",
   "coordinates" : [
-    "com.azure.azure-identity",
-    "com.azure.azure-identity-perf",
-    "com.azure.azure-identity-extensions",
-    "com.azure.azure-identity-broker",
-    "com.azure.azure-identity-broker-samples"
+    "com.azure:azure-identity",
+    "com.azure:azure-identity-perf",
+    "com.azure:azure-identity-extensions",
+    "com.azure:azure-identity-broker",
+    "com.azure:azure-identity-broker-samples"
   ],
   "repositoryUrl" : "https://github.com/Azure/azure-sdk-for-java",
   "rewrite" : {

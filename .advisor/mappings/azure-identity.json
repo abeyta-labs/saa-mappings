@@ -7,14 +7,16 @@
     "com.azure:azure-identity-broker",
     "com.azure:azure-identity-broker-samples"
   ],
-  "repositoryUrl" : "https://github.com/Azure/azure-sdk-for-java",
+  "repositoryUrl" : "https://github.com/rabeyta/azure-sdk-for-java",
   "rewrite" : {
     "1.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.2.x",
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 11,
           "minor" : 11
         },
         "supportedGenerations" : {
@@ -22,6 +24,7 @@
           "spring-kafka" : "2.5.x",
           "reactor-netty" : "0.9.x",
           "reactor" : "3.3.x",
+          "azure-sdk-for-java" : "11.2.x",
           "spring-framework" : "5.2.x",
           "spring-data-mongodb" : "3.0.x",
           "spring-cloud-stream" : "3.0.x",
@@ -38,10 +41,12 @@
     },
     "1.2.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.3.x",
+      "nextRewrite" : {
+        "version" : "1.3.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 11,
           "minor" : 11
         },
         "supportedGenerations" : { },
@@ -277,11 +282,13 @@
     },
     "1.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.4.x",
+      "nextRewrite" : {
+        "version" : "1.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 11,
-          "minor" : 11
+          "minor" : 17
         },
         "supportedGenerations" : { },
         "excludedArtifacts" : [
@@ -516,10 +523,12 @@
     },
     "1.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.5.x",
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : { },
@@ -755,10 +764,12 @@
     },
     "1.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.6.x",
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -767,6 +778,7 @@
           "jedis" : "4.2.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.5.x",
           "spring-framework" : "5.3.x",
           "spring-cloud-bus" : "3.1.x",
           "spring-boot" : "2.7.x",
@@ -867,10 +879,12 @@
     },
     "1.6.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.7.x",
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -879,6 +893,7 @@
           "jedis" : "4.2.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.5.x",
           "spring-framework" : "5.3.x",
           "spring-cloud-bus" : "3.1.x",
           "spring-boot" : "2.7.x",
@@ -886,14 +901,22 @@
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
-          "com.azure.resourcemanager:azure-resourcemanager-maps",
+          "com.azure.resourcemanager:azure-resourcemanager-alertsmanagement",
+          "com.azure.resourcemanager:azure-resourcemanager-connectedvmware",
+          "com.azure.resourcemanager:azure-resourcemanager-devcenter",
+          "com.azure.resourcemanager:azure-resourcemanager-nginx",
+          "com.azure:azure-alertsmanagement-service",
           "com.azure:azure-authorization-service",
           "com.azure:azure-cloud-foundry-service-sample",
           "com.azure:azure-communication-administration",
-          "com.azure:azure-core-jackson-tests",
+          "com.azure:azure-communication-callautomation",
+          "com.azure:azure-communication-jobrouter",
+          "com.azure:azure-connectedvmware-service",
           "com.azure:azure-cosomos-service",
           "com.azure:azure-data-schemaregistry-avro",
+          "com.azure:azure-devcenter-service",
           "com.azure:azure-messaging-eventgrid",
+          "com.azure:azure-nginx-service",
           "com.azure:azure-spring-boot",
           "com.azure:azure-spring-boot-bom",
           "com.azure:azure-spring-boot-sample-active-directory",
@@ -928,6 +951,7 @@
           "com.azure:azure-spring-data-gremlin",
           "com.azure:azure-spring-data-sample-gremlin",
           "com.azure:azure-spring-data-sample-gremlin-web-service",
+          "com.azure:azure-xml",
           "com.microsoft.azure.msi_auth_token_provider:azure-authentication-msi-token-provider",
           "com.microsoft.azure:azure-appconfiguration-convert-sample-initial",
           "com.microsoft.azure:azure-appconfiguration-sample",
@@ -981,10 +1005,12 @@
     },
     "1.7.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.8.x",
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -993,6 +1019,7 @@
           "jedis" : "4.3.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.6.x",
           "spring-framework" : "5.3.x",
           "spring-cloud-bus" : "3.1.x",
           "spring-boot" : "2.7.x",
@@ -1096,26 +1123,33 @@
     },
     "1.8.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.9.x",
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
-          "spring-cloud-azure" : "4.6.x",
-          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-azure" : "4.8.x",
           "jedis" : "4.3.x",
-          "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
+          "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.6.x",
           "spring-framework" : "5.3.x",
-          "spring-cloud-bus" : "3.1.x",
           "spring-boot" : "2.7.x",
           "spring-data-commons" : "2.7.x",
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
           "com.azure.resourcemanager:azure-resourcemanager-loadtestservice",
+          "com.azure.spring:azure-spring-cloud-appconfiguration-config",
+          "com.azure.spring:azure-spring-cloud-appconfiguration-config-web",
+          "com.azure.spring:azure-spring-cloud-feature-management",
+          "com.azure.spring:azure-spring-cloud-feature-management-web",
+          "com.azure.spring:azure-spring-cloud-starter-appconfiguration-config",
+          "com.azure.spring:azure-spring-cloud-test-appconfiguration-config",
           "com.azure:azure-authorization-service",
           "com.azure:azure-cloud-foundry-service-sample",
           "com.azure:azure-communication-administration",
@@ -1211,10 +1245,12 @@
     },
     "1.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.10.x",
+      "nextRewrite" : {
+        "version" : "1.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
@@ -1222,6 +1258,7 @@
           "jedis" : "4.3.x",
           "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
+          "azure-sdk-for-java" : "11.6.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1328,16 +1365,19 @@
     },
     "1.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.11.x",
+      "nextRewrite" : {
+        "version" : "1.11.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "4.3.x",
-          "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
+          "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.6.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1447,16 +1487,19 @@
     },
     "1.11.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.12.x",
+      "nextRewrite" : {
+        "version" : "1.12.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
-          "jedis" : "4.3.x",
-          "reactor" : "3.4.x",
+          "jedis" : "5.1.x",
           "reactor-netty" : "1.0.x",
+          "reactor" : "3.4.x",
+          "azure-sdk-for-java" : "11.7.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1517,6 +1560,7 @@
           "com.microsoft.azure.msi_auth_token_provider:azure-authentication-msi-token-provider",
           "com.microsoft.azure:azure-appconfiguration-convert-sample-initial",
           "com.microsoft.azure:azure-appconfiguration-sample",
+          "com.microsoft.azure:azure-applicationinsights-query",
           "com.microsoft.azure:azure-messaging-sample",
           "com.microsoft.azure:cache-sample",
           "com.microsoft.azure:eventhubs-binder-sample",
@@ -1566,16 +1610,19 @@
     },
     "1.12.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.13.x",
+      "nextRewrite" : {
+        "version" : "1.13.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.1.x",
           "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
+          "azure-sdk-for-java" : "11.7.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1687,16 +1734,19 @@
     },
     "1.13.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.14.x",
+      "nextRewrite" : {
+        "version" : "1.14.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.1.x",
           "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
+          "azure-sdk-for-java" : "11.8.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1816,16 +1866,19 @@
     },
     "1.14.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.15.x",
+      "nextRewrite" : {
+        "version" : "1.15.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
-          "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "reactor" : "3.4.x",
+          "azure-sdk-for-java" : "11.8.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -1949,16 +2002,19 @@
     },
     "1.15.x" : {
       "recipes" : [ ],
-      "nextRewrite" : "1.16.x",
+      "nextRewrite" : {
+        "version" : "1.16.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.8.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -2105,16 +2161,19 @@
     },
     "1.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "1.17.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
-          "major" : 17,
           "minor" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
+          "azure-sdk-for-java" : "11.8.x",
           "spring-boot" : "2.7.x",
           "micrometer" : "1.9.x"
         },
@@ -2223,6 +2282,189 @@
           "com.microsoft.azure:azure-appconfiguration-sample",
           "com.microsoft.azure:azure-applicationinsights-query",
           "com.microsoft.azure:azure-eventgrid",
+          "com.microsoft.azure:azure-eventhubs-extensions",
+          "com.microsoft.azure:azure-keyvault",
+          "com.microsoft.azure:azure-keyvault-complete",
+          "com.microsoft.azure:azure-keyvault-core",
+          "com.microsoft.azure:azure-keyvault-cryptography",
+          "com.microsoft.azure:azure-keyvault-extensions",
+          "com.microsoft.azure:azure-keyvault-test",
+          "com.microsoft.azure:azure-keyvault-webkey",
+          "com.microsoft.azure:azure-loganalytics",
+          "com.microsoft.azure:azure-messaging-sample",
+          "com.microsoft.azure:azure-storage-blob",
+          "com.microsoft.azure:cache-sample",
+          "com.microsoft.azure:eventhubs-binder-sample",
+          "com.microsoft.azure:eventhubs-integration-sample",
+          "com.microsoft.azure:eventhubs-kafka-sample",
+          "com.microsoft.azure:eventhubs-multibinders-sample",
+          "com.microsoft.azure:eventhubs-operation-sample",
+          "com.microsoft.azure:feature-management-sample",
+          "com.microsoft.azure:feature-management-web-sample",
+          "com.microsoft.azure:microsoft-azure-storage-perf",
+          "com.microsoft.azure:servicebus-integration-sample",
+          "com.microsoft.azure:servicebus-operation-sample",
+          "com.microsoft.azure:servicebus-queue-binder-sample",
+          "com.microsoft.azure:servicebus-queue-multibinders-sample",
+          "com.microsoft.azure:servicebus-topic-binder-sample",
+          "com.microsoft.azure:spring-cloud-azure-appconfiguration-config",
+          "com.microsoft.azure:spring-cloud-azure-appconfiguration-config-web",
+          "com.microsoft.azure:spring-cloud-azure-appconfiguration-convert-sample-complete",
+          "com.microsoft.azure:spring-cloud-azure-autoconfigure",
+          "com.microsoft.azure:spring-cloud-azure-context",
+          "com.microsoft.azure:spring-cloud-azure-eventhubs-stream-binder",
+          "com.microsoft.azure:spring-cloud-azure-feature-management",
+          "com.microsoft.azure:spring-cloud-azure-feature-management-web",
+          "com.microsoft.azure:spring-cloud-azure-messaging",
+          "com.microsoft.azure:spring-cloud-azure-servicebus-queue-stream-binder",
+          "com.microsoft.azure:spring-cloud-azure-servicebus-stream-binder-core",
+          "com.microsoft.azure:spring-cloud-azure-servicebus-topic-stream-binder",
+          "com.microsoft.azure:spring-cloud-azure-storage",
+          "com.microsoft.azure:spring-cloud-azure-stream-binder-test",
+          "com.microsoft.azure:spring-cloud-azure-telemetry",
+          "com.microsoft.azure:spring-cloud-starter-azure-appconfiguration-config",
+          "com.microsoft.azure:spring-cloud-starter-azure-eventhubs",
+          "com.microsoft.azure:spring-cloud-starter-azure-eventhubs-kafka",
+          "com.microsoft.azure:spring-cloud-starter-azure-servicebus",
+          "com.microsoft.azure:spring-cloud-starter-azure-storage-queue",
+          "com.microsoft.azure:spring-integration-azure-core",
+          "com.microsoft.azure:spring-integration-azure-test",
+          "com.microsoft.azure:spring-integration-eventhubs",
+          "com.microsoft.azure:spring-integration-servicebus",
+          "com.microsoft.azure:spring-integration-storage-queue",
+          "com.microsoft.azure:spring-starter-azure-cache",
+          "com.microsoft.azure:spring-starter-azure-storage",
+          "com.microsoft.azure:storage-queue-integration-sample",
+          "com.microsoft.azure:storage-queue-operation-sample",
+          "com.microsoft.azure:storage-resource-sample",
+          "io.clientcore:core-json",
+          "io.clientcore:http-jdk-httpclient"
+        ]
+      }
+    },
+    "1.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "jedis" : "5.2.x",
+          "reactor" : "3.7.x",
+          "reactor-netty" : "1.2.x",
+          "azure-sdk-for-java" : "11.8.x",
+          "spring-boot" : "2.7.x",
+          "micrometer" : "1.15.x"
+        },
+        "excludedArtifacts" : [
+          "com.azure.cosmos.spark:azure-cosmos-spark_3-1_2-12",
+          "com.azure.cosmos.spark:azure-cosmos-spark_3-2_2-12",
+          "com.azure.resourcemanager:azure-resourcemanager-batchai",
+          "com.azure.resourcemanager:azure-resourcemanager-loadtestservice",
+          "com.azure.resourcemanager:azure-resourcemanager-machinelearningservices",
+          "com.azure.resourcemanager:azure-resourcemanager-storageimportexport",
+          "com.azure.resourcemanager:azure-resourcemanager-videoanalyzer",
+          "com.azure.spring:azure-monitor-spring-native",
+          "com.azure.spring:azure-monitor-spring-native-test",
+          "com.azure.spring:azure-spring-cloud-appconfiguration-config",
+          "com.azure.spring:azure-spring-cloud-appconfiguration-config-web",
+          "com.azure.spring:azure-spring-cloud-feature-management",
+          "com.azure.spring:azure-spring-cloud-feature-management-web",
+          "com.azure.spring:azure-spring-cloud-starter-appconfiguration-config",
+          "com.azure.spring:azure-spring-cloud-test-appconfiguration-config",
+          "com.azure:azure-analytics-purview-catalog",
+          "com.azure:azure-aot-graalvm-perf",
+          "com.azure:azure-aot-graalvm-samples",
+          "com.azure:azure-aot-graalvm-support",
+          "com.azure:azure-aot-graalvm-support-netty",
+          "com.azure:azure-aot-service",
+          "com.azure:azure-authorization-service",
+          "com.azure:azure-batchai-service",
+          "com.azure:azure-cloud-foundry-service-sample",
+          "com.azure:azure-communication-administration",
+          "com.azure:azure-communication-networktraversal",
+          "com.azure:azure-core-amqp-experimental",
+          "com.azure:azure-core-jackson-tests",
+          "com.azure:azure-core-test-v2",
+          "com.azure:azure-core-v2",
+          "com.azure:azure-cosmos-dotnet-benchmark",
+          "com.azure:azure-cosomos-service",
+          "com.azure:azure-data-schemaregistry-avro",
+          "com.azure:azure-identity-v2",
+          "com.azure:azure-json-gson",
+          "com.azure:azure-json-reflect",
+          "com.azure:azure-loadtestservice-service",
+          "com.azure:azure-machinelearningservices-service",
+          "com.azure:azure-maps-elevation",
+          "com.azure:azure-media-videoanalyzer-edge",
+          "com.azure:azure-messaging-eventhubs-track1-perf",
+          "com.azure:azure-messaging-servicebus-track1-perf",
+          "com.azure:azure-spring-boot",
+          "com.azure:azure-spring-boot-bom",
+          "com.azure:azure-spring-boot-sample-active-directory",
+          "com.azure:azure-spring-boot-sample-active-directory-b2c-oidc",
+          "com.azure:azure-spring-boot-sample-active-directory-backend",
+          "com.azure:azure-spring-boot-sample-active-directory-backend-v2",
+          "com.azure:azure-spring-boot-sample-active-directory-stateless",
+          "com.azure:azure-spring-boot-sample-cosmos",
+          "com.azure:azure-spring-boot-sample-data-gremlin",
+          "com.azure:azure-spring-boot-sample-keyvault-secrets",
+          "com.azure:azure-spring-boot-sample-mediaservices",
+          "com.azure:azure-spring-boot-sample-servicebus",
+          "com.azure:azure-spring-boot-sample-servicebus-jms-queue",
+          "com.azure:azure-spring-boot-sample-servicebus-jms-topic",
+          "com.azure:azure-spring-boot-sample-storage-blob",
+          "com.azure:azure-spring-boot-service",
+          "com.azure:azure-spring-boot-starter",
+          "com.azure:azure-spring-boot-starter-active-directory",
+          "com.azure:azure-spring-boot-starter-active-directory-b2c",
+          "com.azure:azure-spring-boot-starter-cosmos",
+          "com.azure:azure-spring-boot-starter-data-gremlin",
+          "com.azure:azure-spring-boot-starter-keyvault-secrets",
+          "com.azure:azure-spring-boot-starter-metrics",
+          "com.azure:azure-spring-boot-starter-servicebus-jms",
+          "com.azure:azure-spring-boot-test-aad",
+          "com.azure:azure-spring-boot-test-application",
+          "com.azure:azure-spring-boot-test-core",
+          "com.azure:azure-spring-boot-test-cosmos",
+          "com.azure:azure-spring-boot-test-keyvault",
+          "com.azure:azure-spring-boot-test-servicebus-jms",
+          "com.azure:azure-spring-cloud-test-eventhubs",
+          "com.azure:azure-spring-data-cosmos",
+          "com.azure:azure-spring-data-cosmos-test",
+          "com.azure:azure-spring-data-gremlin",
+          "com.azure:azure-spring-data-sample-gremlin",
+          "com.azure:azure-spring-data-sample-gremlin-web-service",
+          "com.azure:azure-storageimportexport-service",
+          "com.azure:azure-videoanalyzer-service",
+          "com.azure:jacoco-test-coverage",
+          "com.azure:sdk-build-tools",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-autosuggest",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-computervision",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-contentmoderator",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customimagesearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customsearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-prediction",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-customvision-training",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-entitysearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-faceapi",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-imagesearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-authoring",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-luis-runtime",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-newssearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-qnamaker",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-spellcheck",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-textanalytics",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-videosearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-visualsearch",
+          "com.microsoft.azure.cognitiveservices:azure-cognitiveservices-websearch",
+          "com.microsoft.azure.msi_auth_token_provider:azure-authentication-msi-token-provider",
+          "com.microsoft.azure:azure-appconfiguration-convert-sample-initial",
+          "com.microsoft.azure:azure-appconfiguration-sample",
+          "com.microsoft.azure:azure-applicationinsights-query",
+          "com.microsoft.azure:azure-eventgrid",
+          "com.microsoft.azure:azure-eventhubs-eph",
           "com.microsoft.azure:azure-eventhubs-extensions",
           "com.microsoft.azure:azure-keyvault",
           "com.microsoft.azure:azure-keyvault-complete",

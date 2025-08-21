@@ -49,7 +49,9 @@
         "supportedJavaVersions" : {
           "minor" : 11
         },
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "spring-boot" : "2.4.x"
+        },
         "excludedArtifacts" : [
           "com.azure.resourcemanager:azure-resourcemanager",
           "com.azure.resourcemanager:azure-resourcemanager-appplatform",
@@ -290,7 +292,9 @@
         "supportedJavaVersions" : {
           "minor" : 17
         },
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "spring-boot" : "2.5.x"
+        },
         "excludedArtifacts" : [
           "com.azure.resourcemanager:azure-resourcemanager",
           "com.azure.resourcemanager:azure-resourcemanager-appplatform",
@@ -531,7 +535,9 @@
         "supportedJavaVersions" : {
           "minor" : 17
         },
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "spring-boot" : "2.6.x"
+        },
         "excludedArtifacts" : [
           "com.azure.resourcemanager:azure-resourcemanager",
           "com.azure.resourcemanager:azure-resourcemanager-appplatform",
@@ -1747,7 +1753,7 @@
           "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "11.8.x",
-          "spring-boot" : "2.7.x",
+          "spring-boot" : "3.3.x",
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
@@ -1879,7 +1885,7 @@
           "reactor-netty" : "1.0.x",
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "11.8.x",
-          "spring-boot" : "2.7.x",
+          "spring-boot" : "3.3.x",
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
@@ -2015,7 +2021,7 @@
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "azure-sdk-for-java" : "11.8.x",
-          "spring-boot" : "2.7.x",
+          "spring-boot" : "3.4.x",
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
@@ -2174,7 +2180,7 @@
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "azure-sdk-for-java" : "11.8.x",
-          "spring-boot" : "2.7.x",
+          "spring-boot" : "3.4.x",
           "micrometer" : "1.9.x"
         },
         "excludedArtifacts" : [
@@ -2354,7 +2360,7 @@
           "reactor" : "3.7.x",
           "reactor-netty" : "1.2.x",
           "azure-sdk-for-java" : "11.8.x",
-          "spring-boot" : "2.7.x",
+          "spring-boot" : "3.5.x",
           "micrometer" : "1.15.x"
         },
         "excludedArtifacts" : [

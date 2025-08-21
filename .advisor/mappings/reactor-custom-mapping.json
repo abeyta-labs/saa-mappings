@@ -1,0 +1,103 @@
+{
+  "slug": "reactor-custom",
+  "repositoryUrl": "https://github.com/reactor/reactor-core",
+  "coordinates": [
+    "io.projectreactor:reactor-core",
+    "io.projectreactor:reactor-test"
+  ],
+  "rewrite": {
+    "3.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.3.x"
+      },
+      "requirements": {
+        "notes": [
+          "no supported generations found until 3.4.x which introduces micrometer"
+        ],
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
+        },
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "3.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.4.x"
+      },
+      "requirements": {
+        "notes": [
+          "no supported generations found until 3.4.x which introduces micrometer"
+        ],
+        "supportedJavaVersions": {
+          "minor": 8,
+          "major": 8
+        },
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "3.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.5.x"
+      },
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8,
+          "major": 8
+        },
+        "supportedGenerations": {
+          "micrometer": "1.10.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "3.5.x": {
+      "recipes": [],
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8,
+          "major": 8
+        },
+        "supportedGenerations": {
+          "micrometer": "1.10.x"
+        }
+      },
+      "nextRewrite": {
+        "version": "3.6.x"
+      }
+    },
+    "3.6.x": {
+      "recipes": [],
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8,
+          "major": 8
+        },
+        "supportedGenerations": {
+          "micrometer": "1.12.x"
+        }
+      },
+      "nextRewrite": {
+        "version": "3.7.x"
+      }
+    },
+    "3.7.x": {
+      "recipes": [],
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8,
+          "major": 8
+        },
+        "supportedGenerations": {
+          "micrometer": "1.16.x"
+        }
+      },
+      "nextRewrite": null
+    }
+  }
+}

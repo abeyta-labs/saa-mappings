@@ -1,0 +1,230 @@
+{
+  "slug" : "azure-core-http-netty",
+  "coordinates" : [
+    "com.azure:azure-core-http-netty"
+  ],
+  "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
+  "rewrite" : {
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "reactor": "3.3.x",
+          "azure-sdk-for-java": "1.7.x",
+          "reactor-netty": "0.9.x",
+          "micrometer": "1.5.x",
+          "spring-boot": "2.3.x",
+          "spring-framework": "5.2.x",
+          "spring-data-commons": "2.3.x",
+          "jedis": "3.3.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.10.x",
+          "reactor": "3.3.x",
+          "reactor-netty": "0.9.x",
+          "micrometer": "1.5.x",
+          "spring-boot": "2.3.x",
+          "spring-framework": "5.2.x",
+          "spring-cloud-azure": "3.0.x",
+          "spring-data-commons": "2.3.x",
+          "jedis": "3.3.x",
+          "spring-cloud-commons": "2.2.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.12.x",
+          "reactor": "3.3.x",
+          "reactor-netty": "0.9.x",
+          "micrometer": "1.5.x",
+          "spring-framework": "5.2.x",
+          "spring-boot": "2.3.x",
+          "spring-cloud-azure": "3.2.x",
+          "spring-data-commons": "2.3.x",
+          "jedis": "3.3.x",
+          "spring-cloud-commons": "2.2.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.13.x",
+          "reactor": "3.3.x",
+          "reactor-netty": "0.9.x",
+          "micrometer": "1.5.x",
+          "spring-framework": "5.2.x",
+          "spring-boot": "2.3.x",
+          "spring-cloud-azure": "3.2.x",
+          "spring-data-commons": "2.3.x",
+          "jedis": "3.3.x",
+          "spring-cloud-commons": "2.2.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.19.x",
+          "reactor": "3.4.x",
+          "reactor-netty": "1.0.x",
+          "micrometer": "1.7.x",
+          "spring-framework": "5.3.x",
+          "spring-boot": "2.5.x",
+          "spring-cloud-azure": "3.8.x",
+          "spring-data-commons": "2.5.x",
+          "jedis": "3.6.x",
+          "spring-cloud-commons": "3.0.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.19.x",
+          "reactor": "3.4.x",
+          "reactor-netty": "1.0.x",
+          "micrometer": "1.7.x",
+          "spring-framework": "5.3.x",
+          "spring-boot": "2.5.x",
+          "spring-cloud-azure": "3.8.x",
+          "spring-data-commons": "2.5.x",
+          "jedis": "3.6.x",
+          "spring-cloud-commons": "3.0.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.27.x",
+          "reactor": "3.4.x",
+          "reactor-netty": "1.0.x",
+          "micrometer": "1.8.x",
+          "spring-framework": "5.3.x",
+          "spring-boot": "2.6.x",
+          "spring-cloud-azure": "3.15.x",
+          "spring-data-commons": "2.6.x",
+          "jedis": "3.7.x",
+          "spring-cloud-commons": "3.1.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.48.x",
+          "spring-cloud-azure": "4.18.x",
+          "reactor": "3.4.x",
+          "reactor-netty": "1.0.x",
+          "micrometer": "1.9.x",
+          "jedis": "5.1.x",
+          "spring-boot": "2.7.x",
+          "spring-framework": "5.3.x",
+          "spring-data-commons": "2.7.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java": "1.55.x",
+          "reactor": "3.7.x",
+          "reactor-netty": "1.2.x",
+          "spring-cloud-azure": "5.23.x",
+          "micrometer": "1.14.x",
+          "jedis": "5.2.x",
+          "spring-boot": "3.4.x",
+          "spring-framework": "6.2.x",
+          "spring-data-commons": "3.4.x"
+        },
+        "excludedArtifacts" : []
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+name: azure-identity-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: ./.github/workflows/update-azure-sdk-mapping.yml
+    with:
+      mapping-name: azure-identity
+      skip-on-error: true
+      min-version: 1.1
+    secrets: inherit

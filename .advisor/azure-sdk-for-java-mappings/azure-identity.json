@@ -7,7 +7,7 @@
     "com.azure:azure-identity-broker",
     "com.azure:azure-identity-broker-samples"
   ],
-  "repositoryUrl" : "https://github.com/rabeyta/azure-sdk-for-java",
+  "repositoryUrl" : "https://github.com/Azure/azure-sdk-for-java",
   "rewrite" : {
     "1.1.x" : {
       "recipes" : [ ],
@@ -352,10 +352,7 @@
     },
     "1.16.x" : {
       "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.17.x",
-        "project" : null
-      },
+      "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -369,26 +366,6 @@
           "azure-sdk-for-java": "1.55.x",
           "spring-boot" : "3.4.x",
           "micrometer" : "1.9.x"
-        },
-        "excludedArtifacts" : []
-      }
-    },
-    "1.17.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
-        "supportedGenerations" : {
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "reactor-netty" : "1.2.x",
-          "spring-framework" : "6.2.x",
-          "spring-data-commons" : "3.5.x",
-          "spring-boot" : "3.5.x",
-          "micrometer" : "1.15.x",
-          "azure-sdk-for-java" : "1.56.x"
         },
         "excludedArtifacts" : []
       }

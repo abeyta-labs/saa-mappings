@@ -1,0 +1,118 @@
+name: Build Mapping Workflow
+
+on:
+  workflow_call:
+    inputs:
+      mapping-name:
+        description: 'Name of the mapping (e.g., shedlock, spring-boot, etc.)'
+        required: true
+        type: string
+      java-version:
+        description: 'Version of java to use'
+        required: false
+        type: string
+        default: '17'
+      runs-on:
+        description: 'Runner type (e.g., ubuntu-latest, self-hosted)'
+        required: false
+        type: string
+        default: 'ubuntu-latest'
+      skip-on-error:
+        description: 'Continue processing even if some versions fail'
+        required: false
+        type: boolean
+        default: false
+      min-version:
+        description: 'Minimum version to process (e.g., 1.12 to skip older versions)'
+        required: false
+        type: string
+        default: ''
+
+    secrets:
+      GH_PULL_REQUEST_TOKEN:
+        required: true
+      BROADCOM_SPRING_USERNAME:
+        required: true
+      BROADCOM_SPRING_PASSWORD:
+        required: true
+jobs:
+  mapping:
+    timeout-minutes: 900
+    runs-on: ${{ inputs.runs-on }}
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: abeyta-labs/azure-sdk-for-java
+          path: .github/repos/azure-sdk-for-java
+          token: '${{ secrets.GH_PULL_REQUEST_TOKEN }}'
+          fetch-depth: 0  # Fetch all history for all branches and tags
+          fetch-tags: true  # Explicitly fetch tags
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ inputs.java-version }}
+          distribution: 'liberica'
+      - name: Cache Maven
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: org-maven-${{ runner.os }}-v1
+          restore-keys: org-maven-${{ runner.os }}-
+      - name: Build mapping
+        continue-on-error: false
+        env:
+          MAPPING_NAME: ${{ inputs.mapping-name }}
+        run: |
+          echo "Updating mapping for: ${{ inputs.mapping-name }}"
+          
+          # Ensure the script is executable
+          chmod +x ./scripts/update_azure_sdk_mappings.py
+          
+          # Build the command with optional parameters
+          COMMAND="python3 ./scripts/update_azure_sdk_mappings.py ${{ inputs.mapping-name }}"
+          
+          # Add --skip-on-error if enabled
+          if [[ "${{ inputs.skip-on-error }}" == "true" ]]; then
+            echo "Skip on error: enabled"
+            COMMAND="$COMMAND --skip-on-error"
+          fi
+          
+          # Add --min-version if provided
+          if [[ -n "${{ inputs.min-version }}" ]]; then
+            echo "Minimum version filter: ${{ inputs.min-version }}"
+            COMMAND="$COMMAND --min-version ${{ inputs.min-version }}"
+          fi
+          
+          echo "Running command: $COMMAND"
+          echo "----------------------------------------"
+          
+          # Run the mapping update script
+          eval $COMMAND
+          
+          # Show what changed
+          echo ""
+          echo "----------------------------------------"
+          echo "Changes made to mapping file:"
+          git diff --stat .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json || true
+          
+          # cleanup before committing
+          rm -rf .github/repos/azure-sdk-for-java
+          rm -rf .github/effective-poms
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          commit-message: "${{ inputs.mapping-name }} mapping update"
+          title: "${{ inputs.mapping-name }} mapping update"
+          body: "Automatic ${{ inputs.mapping-name }} mapping update"
+          branch: "${{ inputs.mapping-name }}-mapping-update"
+          add-paths: ".advisor/azure-sdk-for-java-mappings"

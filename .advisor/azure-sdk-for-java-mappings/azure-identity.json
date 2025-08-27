@@ -10,7 +10,7 @@
   "repositoryUrl" : "https://github.com/Azure/azure-sdk-for-java",
   "rewrite" : {
     "1.1.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.2.x",
         "project" : null
@@ -35,11 +35,11 @@
           "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x"
         },
-        "excludedArtifacts" : [ ]
+        "excludedArtifacts" : []
       }
     },
     "1.2.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.3.x",
         "project" : null
@@ -55,7 +55,7 @@
       }
     },
     "1.3.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.4.x",
         "project" : null
@@ -71,7 +71,7 @@
       }
     },
     "1.4.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.5.x",
         "project" : null
@@ -87,7 +87,7 @@
       }
     },
     "1.5.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.6.x",
         "project" : null
@@ -113,7 +113,7 @@
       }
     },
     "1.6.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.7.x",
         "project" : null
@@ -139,7 +139,7 @@
       }
     },
     "1.7.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.8.x",
         "project" : null
@@ -165,7 +165,7 @@
       }
     },
     "1.8.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.9.x",
         "project" : null
@@ -189,7 +189,7 @@
       }
     },
     "1.9.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.10.x",
         "project" : null
@@ -213,7 +213,7 @@
       }
     },
     "1.10.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.11.x",
         "project" : null
@@ -236,7 +236,7 @@
       }
     },
     "1.11.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.12.x",
         "project" : null
@@ -259,7 +259,7 @@
       }
     },
     "1.12.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.13.x",
         "project" : null
@@ -282,7 +282,7 @@
       }
     },
     "1.13.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.14.x",
         "project" : null
@@ -305,7 +305,7 @@
       }
     },
     "1.14.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.15.x",
         "project" : null
@@ -328,7 +328,7 @@
       }
     },
     "1.15.x" : {
-      "recipes" : [ ],
+      "recipes" : [],
       "nextRewrite" : {
         "version" : "1.16.x",
         "project" : null
@@ -351,8 +351,11 @@
       }
     },
     "1.16.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.17.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -363,9 +366,30 @@
           "reactor-netty" : "1.2.x",
           "spring-framework" : "6.2.x",
           "spring-data-commons" : "3.4.x",
-          "azure-sdk-for-java": "1.55.x",
+          "azure-sdk-for-java" : "1.55.x",
           "spring-boot" : "3.4.x",
           "micrometer" : "1.9.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.17.x" : {
+      "recipes" : [],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.57.x",
+          "spring-cloud-azure" : "5.24.x",
+          "reactor" : "3.7.x",
+          "reactor-netty" : "1.2.x",
+          "micrometer" : "1.15.x",
+          "jedis" : "6.0.x",
+          "spring-boot" : "3.5.x",
+          "spring-framework" : "6.2.x",
+          "spring-data-commons" : "3.5.x"
         },
         "excludedArtifacts" : []
       }

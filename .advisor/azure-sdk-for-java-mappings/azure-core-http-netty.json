@@ -13,7 +13,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "reactor" : "3.3.x",
@@ -36,7 +37,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.10.x",
@@ -61,7 +63,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.12.x",
@@ -86,7 +89,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.13.x",
@@ -111,7 +115,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.19.x",
@@ -136,7 +141,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.19.x",
@@ -161,7 +167,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.27.x",
@@ -186,7 +193,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.35.x",
@@ -210,7 +218,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.45.x",
@@ -234,7 +243,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.48.x",
@@ -258,7 +268,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.55.x",
@@ -279,7 +290,8 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.56.x",

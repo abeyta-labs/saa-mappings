@@ -1,0 +1,9 @@
+{
+  "slug" : "azure-security-keyvault-keys",
+  "coordinates" : [
+    "com.azure:azure-security-keyvault-keys"
+  ],
+  "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
+  "rewrite" : {
+  }
+}

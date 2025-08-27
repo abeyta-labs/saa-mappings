@@ -15,7 +15,6 @@ on:
         description: 'Version of java to use'
         required: false
         type: string
-        default: '17'
       runs-on:
         description: 'Runner type (e.g., ubuntu-latest, self-hosted)'
         required: false
@@ -125,7 +124,7 @@ jobs:
           
           if [ ! -f .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json ]; then
             echo "File does not exist. Creating base template..."
-            cat > ${{ inputs.mapping-name }}.json << 'EOF'
+            cat > .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json << 'EOF'
           {
             "slug" : "${{ inputs.mapping-name }}",
             "coordinates" : [
@@ -147,8 +146,8 @@ jobs:
           
           Parameters:
           - mapping-name: ${{ inputs.mapping-name }}
-          - coordinates: ${{ inputs.coordinates }}"
-          - skip-on-error: ${{ inputs.skip-on-error }}
+          - coordinates: ${{ inputs.coordinates }}
+          - skip-on-error: ${{ inputs.skip-on-error }}"
           
           if [ -n "${{ inputs.min-version }}" ]; then
             COMMIT_MSG="$COMMIT_MSG

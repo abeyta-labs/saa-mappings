@@ -17,7 +17,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "spring-integration" : "5.3.x",
@@ -46,7 +47,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 11,
+          "major" : 11
         },
         "supportedGenerations" : {
           "spring-boot" : "2.4.x"
@@ -62,7 +64,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-boot" : "2.5.x"
@@ -78,7 +81,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-boot" : "2.6.x"
@@ -94,7 +98,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-cloud-azure" : "4.4.x",
@@ -120,7 +125,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-cloud-azure" : "4.4.x",
@@ -146,7 +152,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-cloud-azure" : "4.6.x",
@@ -172,7 +179,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-cloud-azure" : "4.8.x",
@@ -196,7 +204,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "spring-cloud-azure" : "4.10.x",
@@ -220,7 +229,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "4.3.x",
@@ -243,7 +253,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.1.x",
@@ -266,7 +277,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.1.x",
@@ -289,7 +301,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.1.x",
@@ -312,7 +325,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
@@ -335,7 +349,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
@@ -358,7 +373,8 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "jedis" : "5.2.x",
@@ -378,7 +394,8 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 17,
+          "major" : 17
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.57.x",

@@ -1,0 +1,234 @@
+name: Generate Azure Mapping Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      mapping-name:
+        description: 'Name of the mapping (e.g., shedlock, spring-boot, etc.)'
+        required: true
+        type: string
+      coordinates:
+        description: 'Coordinates for the mapping'
+        required: true
+        type: string
+      java-version:
+        description: 'Version of java to use'
+        required: false
+        type: string
+        default: '17'
+      runs-on:
+        description: 'Runner type (e.g., ubuntu-latest, self-hosted)'
+        required: false
+        type: string
+      skip-on-error:
+        description: 'Continue processing even if some versions fail'
+        required: false
+        type: boolean
+        default: true
+      min-version:
+        description: 'Minimum version to process (e.g., 1.12 to skip older versions)'
+        required: false
+        type: string
+      cron_schedule:
+        description: 'Cron schedule for the workflow (optional, defaults to "0 9 1,15 * *")'
+        required: false
+        type: string
+        default: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  generate-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          ref: main
+      - name: Generate workflow file
+        run: |
+          # Create the workflows directory if it doesn't exist
+          mkdir -p .github/workflows
+          
+          # Use provided cron schedule or default
+          CRON_SCHEDULE="${{ inputs.cron_schedule }}"
+          if [ -z "$CRON_SCHEDULE" ]; then
+            CRON_SCHEDULE="0 9 1,15 * *"
+          fi
+          
+          # Start generating the workflow file
+          cat > .github/workflows/${{ inputs.mapping-name }}-mapping.yml << EOF
+          name: ${{ inputs.mapping-name }}-mapping
+          
+          on:
+            workflow_dispatch:
+            repository_dispatch:
+              types: [${{ inputs.mapping-name }}]
+            schedule:
+              - cron: '$CRON_SCHEDULE'
+          
+          permissions:
+            contents: write
+            pull-requests: write
+          
+          jobs:
+            call-mapping-workflow:
+              uses: ./.github/workflows/update-azure-sdk-mapping.yml
+              with:
+                mapping-name: ${{ inputs.mapping-name }}
+                skip-on-error: ${{ inputs.skip-on-error }}
+          EOF
+          
+          if [ -n "${{ inputs.min-version }}" ]; then
+            echo "      min-version: ${{ inputs.min-version }}" >> .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+          fi
+          
+          if [ -n "${{ inputs.runs-on }}" ]; then
+            echo "      runs-on: ${{ inputs.runs-on }}" >> .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+          fi
+          
+          if [ -n "${{ inputs.java_version }}" ]; then
+            echo "      java-version: ${{ inputs.java_version }}" >> .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+          fi
+          
+          echo "    secrets: inherit" >> .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+          
+          echo "Generated workflow file: .github/workflows/${{ inputs.mapping-name }}-mapping.yml"
+          echo "---"
+          echo "Content of generated file:"
+          cat .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet .github/workflows/${{ inputs.mapping-name }}-mapping.yml; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in the workflow file"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in the workflow file"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true' || !hashFiles('.github/workflows/${{ inputs.mapping-name }}-mapping.yml')
+        run: |
+          git add .github/workflows/${{ inputs.mapping-name }}-mapping.yml
+          
+          if [ ! -f .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json ]; then
+            echo "File does not exist. Creating base template..."
+            cat > ${{ inputs.mapping-name }}.json << 'EOF'
+          {
+            "slug" : "${{ inputs.mapping-name }}",
+            "coordinates" : [
+              "${{ inputs.coordinates }}"
+            ],
+            "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
+            "rewrite" : {
+            }
+          }
+          EOF
+            echo "✅ Created .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json with base template"
+            git add .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json
+          else
+            echo "📄 .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json already exists, skipping creation"
+          fi
+          
+          # Build commit message
+          COMMIT_MSG="Generate/Update ${{ inputs.mapping-name }}-mapping.yml workflow
+          
+          Parameters:
+          - mapping-name: ${{ inputs.mapping-name }}
+          - coordinates: ${{ inputs.coordinates }}"
+          - skip-on-error: ${{ inputs.skip-on-error }}
+          
+          if [ -n "${{ inputs.min-version }}" ]; then
+            COMMIT_MSG="$COMMIT_MSG
+          - min-version: ${{ inputs.min-version }}"
+          fi
+          
+          if [ -n "${{ inputs.java_version }}" ]; then
+            COMMIT_MSG="$COMMIT_MSG
+          - java-version: ${{ inputs.java_version }}"
+          fi
+          
+          if [ -n "${{ inputs.runs-on }}" ]; then
+            COMMIT_MSG="$COMMIT_MSG
+          - runs-on: ${{ inputs.runs-on }}"
+          fi
+          
+          if [ -n "${{ inputs.cron_schedule }}" ]; then
+            COMMIT_MSG="$COMMIT_MSG
+          - cron: ${{ inputs.cron_schedule }}"
+          fi
+          
+          # Check if there are changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "$COMMIT_MSG"
+            git push origin main
+            echo "✅ Successfully committed and pushed the workflow file"
+          else
+            echo "ℹ️ No changes to commit - workflow file already up to date"
+          fi
+
+      - name: Trigger generated workflow
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          event-type: ${{ inputs.mapping-name }}
+
+      - name: Summary
+        run: |
+          echo "## Workflow Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Workflow" >> $GITHUB_STEP_SUMMARY
+          echo "- **File**: \`.github/workflows/${{ inputs.mapping-name }}-mapping.yml\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Mapping Name**: ${{ inputs.mapping-name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Coordinates**: ${{ inputs.coordinates }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Skip On Error**: ${{ inputs.skip-on-error }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -n "${{ inputs.min-version }}" ]; then
+            echo "- **Min-Version**: ${{ inputs.min-version }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Min-Version**: *(not provided)*" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -n "${{ inputs.runs-on }}" ]; then
+            echo "- **Runs-On**: ${{ inputs.runs-on }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Runs-On**: *(not provided)*" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -n "${{ inputs.java_version }}" ]; then
+            echo "- **Java Version**: ${{ inputs.java_version }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Java Version**: *(not provided)*" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          CRON_SCHEDULE="${{ inputs.cron_schedule }}"
+          if [ -z "$CRON_SCHEDULE" ]; then
+            CRON_SCHEDULE="0 9 1,15 * *"
+          fi
+          echo "- **Cron Schedule**: \`$CRON_SCHEDULE\`" >> $GITHUB_STEP_SUMMARY
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Schedule" >> $GITHUB_STEP_SUMMARY
+          echo "The generated workflow will run:" >> $GITHUB_STEP_SUMMARY
+          echo "- On manual trigger (workflow_dispatch)" >> $GITHUB_STEP_SUMMARY
+          echo "- On schedule: \`$CRON_SCHEDULE\`" >> $GITHUB_STEP_SUMMARY
+          
+          # Parse and explain the cron schedule
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "$CRON_SCHEDULE" = "0 9 1,15 * *" ]; then
+            echo "*Schedule: At 9:00 AM UTC on the 1st and 15th of every month*" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "*Custom schedule configured*" >> $GITHUB_STEP_SUMMARY
+          fi

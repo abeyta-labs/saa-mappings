@@ -102,6 +102,18 @@ def extract_pom_dependencies(script_path: str, effective_pom_path: str):
 
 def create_rewrite_object(version_data: dict) -> dict:
     """Create a rewrite object from the version.json data."""
+    java_version = int(version_data.get("javaVersion", 11))
+    supported_generations = version_data.get("deps", {})
+
+    # Build supportedJavaVersions
+    supported_java_versions = {
+        "minor": java_version
+    }
+
+    # Add major version if spring-boot is present in supportedGenerations
+    if "spring-boot" in supported_generations:
+        supported_java_versions["major"] = java_version
+
     rewrite = {
         "recipes": [],
         "nextRewrite": {
@@ -109,14 +121,39 @@ def create_rewrite_object(version_data: dict) -> dict:
             "project": None
         },
         "requirements": {
-            "supportedJavaVersions": {
-                "minor": int(version_data.get("javaVersion", 11))
-            },
-            "supportedGenerations": version_data.get("deps", {}),
+            "supportedJavaVersions": supported_java_versions,
+            "supportedGenerations": supported_generations,
             "excludedArtifacts": []
         }
     }
     return rewrite
+
+def ensure_java_version_consistency(rewrite_dict: dict) -> int:
+    """
+    Ensure major Java version is set when spring-boot is present.
+    Returns the number of fixes made.
+    """
+    fixes_made = 0
+    for version, config in rewrite_dict.items():
+        if 'requirements' not in config:
+            continue
+
+        requirements = config['requirements']
+
+        # Check if spring-boot is in supportedGenerations
+        if 'supportedGenerations' in requirements and 'spring-boot' in requirements.get('supportedGenerations', {}):
+            # Ensure major version matches minor version
+            if 'supportedJavaVersions' in requirements:
+                java_versions = requirements['supportedJavaVersions']
+                minor_version = java_versions.get('minor')
+                major_version = java_versions.get('major')
+
+                if minor_version and major_version != minor_version:
+                    java_versions['major'] = minor_version
+                    fixes_made += 1
+                    print(f"  Fixed {version}: Set major={minor_version} for Spring Boot consistency")
+
+    return fixes_made
 
 def sort_versions(version_list: List[str]) -> List[str]:
     """Sort version strings like '1.5.x' in proper numerical order."""
@@ -393,6 +430,12 @@ def main():
 
             print(f"Updating nextRewrite links...")
             update_next_rewrite_links(mapping_data['rewrite'])
+
+            # Ensure Java version consistency for all entries
+            print(f"Ensuring Java version consistency...")
+            java_fixes = ensure_java_version_consistency(mapping_data['rewrite'])
+            if java_fixes > 0:
+                print(f"  Fixed {java_fixes} existing entries for Spring Boot consistency")
 
         # Write updated mapping back to file
         print(f"\nWriting updated mapping to {mapping_file}")

@@ -344,7 +344,45 @@ def main():
     print(f"Missing versions to process: {len(missing_versions)}")
 
     if not missing_versions:
-        print("No missing versions to process. Mapping is up to date!")
+        print("No missing versions to process. Checking for other updates...")
+
+        # Still check for Java version consistency and other fixes
+        if 'rewrite' in mapping_data:
+            changes_made = False
+
+            # Ensure Java version consistency
+            print(f"\nChecking Java version consistency...")
+            java_fixes = ensure_java_version_consistency(mapping_data['rewrite'])
+            if java_fixes > 0:
+                print(f"  Fixed {java_fixes} entries for Spring Boot consistency")
+                changes_made = True
+            else:
+                print(f"  All entries are already consistent")
+
+            # Sort versions if needed
+            original_order = list(mapping_data['rewrite'].keys())
+            sorted_order = sort_versions(original_order)
+            if original_order != sorted_order:
+                print(f"\nSorting versions...")
+                mapping_data['rewrite'] = sort_rewrite_dict(mapping_data['rewrite'])
+                print(f"  Reordered versions for better readability")
+                changes_made = True
+
+            # Always update nextRewrite links
+            print(f"\nVerifying nextRewrite links...")
+            update_next_rewrite_links(mapping_data['rewrite'])
+            changes_made = True
+
+            if changes_made:
+                # Write updated mapping back to file
+                print(f"\nWriting updated mapping to {mapping_file}")
+                write_json_file(mapping_file, mapping_data)
+                print(f"\n{'='*60}")
+                print("✓ Mapping file updated with consistency fixes!")
+                print(f"{'='*60}")
+            else:
+                print("\nMapping is up to date - no changes needed!")
+
         return
 
     print(f"Missing versions: {[get_major_minor_string(m, n) for (m, n), _ in missing_versions]}")
@@ -419,23 +457,29 @@ def main():
 
         # Sort the rewrite dictionary by version
         if 'rewrite' in mapping_data:
-            print(f"\nSorting versions in mapping file...")
+            print(f"\nPost-processing all versions...")
+
+            # Sort versions
+            print(f"  Sorting versions in mapping file...")
             original_order = list(mapping_data['rewrite'].keys())
             mapping_data['rewrite'] = sort_rewrite_dict(mapping_data['rewrite'])
             new_order = list(mapping_data['rewrite'].keys())
 
             if original_order != new_order:
-                print(f"  Reordered versions for better readability")
-                print(f"  Order: {new_order[:5]}{'...' if len(new_order) > 5 else ''}")
+                print(f"    Reordered versions for better readability")
+                print(f"    Order: {new_order[:5]}{'...' if len(new_order) > 5 else ''}")
 
-            print(f"Updating nextRewrite links...")
+            # Update links
+            print(f"  Updating nextRewrite links...")
             update_next_rewrite_links(mapping_data['rewrite'])
 
-            # Ensure Java version consistency for all entries
-            print(f"Ensuring Java version consistency...")
+            # Ensure Java version consistency for ALL entries (new and existing)
+            print(f"  Ensuring Java version consistency for all entries...")
             java_fixes = ensure_java_version_consistency(mapping_data['rewrite'])
             if java_fixes > 0:
-                print(f"  Fixed {java_fixes} existing entries for Spring Boot consistency")
+                print(f"    Fixed {java_fixes} entries for Spring Boot consistency")
+            else:
+                print(f"    All entries are already consistent")
 
         # Write updated mapping back to file
         print(f"\nWriting updated mapping to {mapping_file}")

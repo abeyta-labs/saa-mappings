@@ -1,0 +1,20 @@
+name: azure-security-keyvault-keys-mapping
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [azure-security-keyvault-keys]
+  schedule:
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: ./.github/workflows/update-azure-sdk-mapping.yml
+    with:
+      mapping-name: azure-security-keyvault-keys
+      skip-on-error: true
+    secrets: inherit

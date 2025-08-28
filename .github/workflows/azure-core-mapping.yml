@@ -1,0 +1,20 @@
+name: azure-core-mapping
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [azure-core]
+  schedule:
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: ./.github/workflows/update-azure-sdk-mapping.yml
+    with:
+      mapping-name: azure-core
+      skip-on-error: true
+    secrets: inherit

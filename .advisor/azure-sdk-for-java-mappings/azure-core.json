@@ -1,0 +1,9 @@
+{
+  "slug" : "azure-core",
+  "coordinates" : [
+    "com.azure:azure-core"
+  ],
+  "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
+  "rewrite" : {
+  }
+}

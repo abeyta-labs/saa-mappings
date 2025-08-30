@@ -15,9 +15,21 @@ import argparse
 dep_mappings = {
     "spring-boot": ("org.springframework.boot", None),
     "spring-data-commons": ("org.springframework.data", "spring-data-commons"),
+    "spring-data-jpa": ("org.springframework.data", "spring-data-jpa"),
+    "spring-data-mongodb": ("org.springframework.data", "spring-data-mongodb"),
+    "spring-data-redis": ("org.springframework.data", "spring-data-redis"),
+    "spring-data-relational": ("org.springframework.data", "spring-data-relational"),
     "spring-framework": ("org.springframework", r"^spring-core$|^spring-context$|^spring-beans$|^spring-web$"),
+    "spring-security": ("org.springframework.security", r"^spring-security-.*"),
+    "spring-integration": ("org.springframework.integration", r"^spring-integration-.*"),
+    "spring-kafka": ("org.springframework.kafka", "spring-kafka"),
+    "spring-retry": ("org.springframework.retry", "spring-retry"),
     "spring-cloud-azure": ("com.azure.spring", None),  # Any artifact from com.azure.spring
-    "spring-cloud-commons": ("org.springframework.cloud", "spring-cloud-commons"),  # Exact match
+    "spring-cloud-commons": ("org.springframework.cloud", "spring-cloud-commons"),
+    "spring-cloud-function": ("org.springframework.cloud", r"^spring-cloud-function-.*"),
+    "spring-cloud-stream": ("org.springframework.cloud", "spring-cloud-stream"),
+    "spring-cloud-bus": ("org.springframework.cloud", "spring-cloud-bus"),
+    "spring-cloud-sleuth": ("org.springframework.cloud", "spring-cloud-sleuth"),
     "azure-sdk-for-java": ("com.azure", "azure-core"),  # Renamed from azure-core
     "micrometer": ("io.micrometer", "micrometer-core"),  # Exact match
     "reactor": ("io.projectreactor", "reactor-core"),  # Exact match

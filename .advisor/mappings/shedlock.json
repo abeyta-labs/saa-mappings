@@ -33,6 +33,7 @@
     "net.javacrumbs.shedlock:shedlock-test-support-jdbc",
     "net.javacrumbs.shedlock:micronaut4-jdbc-template",
     "net.javacrumbs.shedlock:shedlock-provider-arangodb",
+    "net.javacrumbs.shedlock:shedlock-provider-firestore",
     "net.javacrumbs.shedlock:shedlock-springboot-kotlin-test",
     "net.javacrumbs.shedlock:shedlock-core",
     "net.javacrumbs.shedlock:micronaut-jdbc-template",
@@ -2989,7 +2990,10 @@
     },
     "6.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "6.10.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -3004,6 +3008,47 @@
           "aws-sdk-java" : "2.31.x",
           "spring-boot" : "3.5.x",
           "lettuce" : "6.7.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "6.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "3.5.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "6.1.x",
+          "reactor" : "3.7.x",
+          "spring-framework" : "6.2.x",
+          "aws-sdk-java" : "2.32.x",
+          "spring-boot" : "4.0.x",
+          "lettuce" : "6.8.x",
           "spring-cloud-sleuth" : "3.1.x"
         },
         "excludedArtifacts" : [

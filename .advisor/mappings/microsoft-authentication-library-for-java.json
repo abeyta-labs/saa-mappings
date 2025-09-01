@@ -402,6 +402,20 @@
     },
     "1.22.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.23.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 8
+        },
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.23.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {

@@ -15,6 +15,8 @@
     "io.hawt.examples:hawtio-example-springboot-plugin",
     "io.hawt:hawtio-springboot-keycloak",
     "io.hawt:hawtio-default",
+    "io.hawt:hawtio-jetty-security",
+    "io.hawt:hawtio-springboot-security",
     "io.hawt:hawtio-core",
     "io.hawt.tests:hawtio-tests-utils",
     "io.hawt:hawtio-util",
@@ -644,7 +646,10 @@
     },
     "4.4.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -675,6 +680,42 @@
           "io.hawt:hawtio-osgi",
           "io.hawt:hawtio-osgi-jmx",
           "io.hawt:hawtio-springboot",
+          "io.hawt:hawtio-springboot-1",
+          "io.hawt:hawtio-springboot-keycloak",
+          "io.hawt:hawtio-util",
+          "io.hawt:hawtio-wildfly",
+          "io.hawt:simple-plugin"
+        ]
+      }
+    },
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-boot" : "3.4.x"
+        },
+        "excludedArtifacts" : [
+          "io.hawt.examples:hawtio-example-springboot-1",
+          "io.hawt.examples:hawtio-example-springboot-1-authentication",
+          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
+          "io.hawt.tests:hawtio-tests",
+          "io.hawt.tests:hawtio-tests-springboot",
+          "io.hawt.tests:hawtio-tests-utils",
+          "io.hawt:branding-plugin",
+          "io.hawt:hawtio-app",
+          "io.hawt:hawtio-base",
+          "io.hawt:hawtio-core",
+          "io.hawt:hawtio-ide",
+          "io.hawt:hawtio-junit",
+          "io.hawt:hawtio-karaf",
+          "io.hawt:hawtio-log-osgi",
+          "io.hawt:hawtio-maven-plugin",
+          "io.hawt:hawtio-osgi",
+          "io.hawt:hawtio-osgi-jmx",
           "io.hawt:hawtio-springboot-1",
           "io.hawt:hawtio-springboot-keycloak",
           "io.hawt:hawtio-util",

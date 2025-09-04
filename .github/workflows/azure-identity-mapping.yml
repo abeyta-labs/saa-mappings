@@ -18,5 +18,5 @@ jobs:
       mapping-name: azure-identity
       skip-on-error: true
       min-version: 1.1
-      module-path: 'sdk/identity/azure-identity'
+      module-path: 'sdk/identity/azure-identity,sdk/identity/azure-identity-extensions,sdk/identity/azure-identity-broker'
     secrets: inherit

@@ -7,6 +7,11 @@ on:
         description: 'Name of the mapping (e.g., shedlock, spring-boot, etc.)'
         required: true
         type: string
+      module-path:
+        description: 'Maven module path (e.g., sdk/core/azure-core-http-netty)'
+        required: false
+        type: string
+        default: ''
       java-version:
         description: 'Version of java to use'
         required: false
@@ -89,6 +94,12 @@ jobs:
           if [[ -n "${{ inputs.min-version }}" ]]; then
             echo "Minimum version filter: ${{ inputs.min-version }}"
             COMMAND="$COMMAND --min-version ${{ inputs.min-version }}"
+          fi
+          
+          # Add --module-path if provided
+          if [[ -n "${{ inputs.module-path }}" ]]; then
+            echo "Module Path: ${{ inputs.module-path }}"
+            COMMAND="$COMMAND --module-path ${{ inputs.module-path }}"
           fi
           
           echo "Running command: $COMMAND"

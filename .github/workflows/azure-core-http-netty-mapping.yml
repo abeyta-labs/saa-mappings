@@ -16,6 +16,7 @@ jobs:
     uses: ./.github/workflows/update-azure-sdk-mapping.yml
     with:
       mapping-name: azure-core-http-netty
+      module-path: 'sdk/core/azure-core-http-netty'
       skip-on-error: true
       min-version: 1.5
     secrets: inherit

@@ -87,17 +87,30 @@ def checkout_tag(repo_path: str, tag: str):
     run_command(['git', 'checkout', tag], cwd=repo_path)
 
 def generate_effective_pom(repo_path: str, version: str, output_dir: str, module_path: Optional[str] = None):
+    """Generate effective POM for a given version.
+
+    When using -pl with Maven, the working directory changes to the module directory,
+    so we need to adjust the relative path accordingly.
+    """
     output_file = os.path.join(output_dir, f"effective-pom-{version}.xml")
 
     if module_path:
-        # NEW: Calculate path from module directory
+        # When using -pl, Maven changes working directory to the module
+        # Calculate the correct relative path from the module directory to the output file
         module_full_path = os.path.join(repo_path, module_path)
         rel_path = os.path.relpath(output_file, module_full_path)
+
+        # Show module usage
+        module_depth = len(module_path.split('/'))
+        print(f"  Using module: {module_path} (depth: {module_depth})")
     else:
-        # Original: Calculate path from repo root
+        # No module path, working directory remains as repo root
         rel_path = os.path.relpath(output_file, repo_path)
 
+    # Build the Maven command
     cmd = ['mvn', 'help:effective-pom', '-q', f'-Doutput={rel_path}']
+
+    # Add module path if specified
     if module_path:
         cmd.extend(['-pl', module_path])
 
@@ -110,9 +123,72 @@ def extract_pom_dependencies(script_path: str, effective_pom_path: str):
     pom_dir = os.path.dirname(effective_pom_path)
     run_command(['python3', script_path, pom_dir])
 
+def get_java_version_from_maven(repo_path: str, module_path: Optional[str] = None) -> Optional[int]:
+    """Get Java version using Maven help:evaluate plugin.
+
+    This is useful when the effective POM doesn't include Java version
+    (common when using -pl for specific modules).
+    """
+    # Properties to check (in order of preference)
+    properties_to_check = [
+        'maven.compiler.release',
+        'maven.compiler.target',
+        'maven.compiler.source',
+        'java.version'
+    ]
+
+    for prop in properties_to_check:
+        cmd = ['mvn', 'help:evaluate', f'-Dexpression={prop}', '-q', '-DforceStdout']
+        if module_path:
+            cmd.extend(['-pl', module_path])
+
+        try:
+            result = run_command(cmd, cwd=repo_path, check=False)
+            if result.returncode == 0 and result.stdout.strip():
+                version_str = result.stdout.strip()
+                # Skip if we get null or expression not found
+                if 'null' in version_str or 'expression' in version_str.lower():
+                    continue
+
+                # Extract numeric version (e.g., "11", "1.8" -> 8, "17")
+                if version_str.startswith('1.'):
+                    return int(version_str.split('.')[1])
+                elif version_str.isdigit():
+                    return int(version_str)
+                elif version_str and version_str[0].isdigit():
+                    # Handle versions like "17" or "11"
+                    match = re.match(r'^(\d+)', version_str)
+                    if match:
+                        return int(match.group(1))
+        except Exception as e:
+            print(f"    Failed to evaluate {prop}: {e}")
+            continue
+
+    return None
+
 def create_rewrite_object(version_data: dict) -> dict:
     """Create a rewrite object from the version.json data."""
-    java_version = int(version_data.get("javaVersion", 11))
+    # Handle various formats of javaVersion including "unknown"
+    java_version_raw = version_data.get("javaVersion", 11)
+
+    # Convert to integer, handling various edge cases
+    if isinstance(java_version_raw, int):
+        java_version = java_version_raw
+    elif isinstance(java_version_raw, str):
+        if java_version_raw.isdigit():
+            java_version = int(java_version_raw)
+        elif java_version_raw == "unknown" or java_version_raw == "null" or not java_version_raw:
+            java_version = 11  # Default
+        else:
+            # Try to extract a number from the string
+            try:
+                java_version = int(java_version_raw)
+            except (ValueError, TypeError):
+                print(f"    Warning: Invalid Java version '{java_version_raw}', defaulting to 11")
+                java_version = 11
+    else:
+        java_version = 11  # Default for any other type
+
     supported_generations = version_data.get("deps", {})
 
     # Build supportedJavaVersions
@@ -466,6 +542,28 @@ def main():
                     raise FileNotFoundError(f"Expected version JSON file not found: {version_json_path}")
 
                 version_data = read_json_file(version_json_path)
+
+                # Check if Java version is missing, null, or "unknown"
+                java_version_raw = version_data.get('javaVersion')
+                needs_java_version = (
+                    not java_version_raw or
+                    java_version_raw == 'null' or
+                    java_version_raw == 'unknown' or
+                    (isinstance(java_version_raw, str) and not java_version_raw.isdigit())
+                )
+
+                if needs_java_version:
+                    print(f"  Java version not found or invalid in effective POM (got: {java_version_raw}), using Maven evaluate...")
+                    java_version = get_java_version_from_maven(repo_path, args.module_path)
+                    if java_version:
+                        print(f"    Found Java version: {java_version}")
+                        version_data['javaVersion'] = java_version
+                        # Write the updated JSON back
+                        write_json_file(version_json_path, version_data)
+                    else:
+                        print(f"    Could not determine Java version, defaulting to 11")
+                        version_data['javaVersion'] = 11
+                        write_json_file(version_json_path, version_data)
 
                 # Create rewrite object
                 rewrite_obj = create_rewrite_object(version_data)

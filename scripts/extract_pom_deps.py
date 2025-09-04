@@ -31,6 +31,7 @@ dep_mappings = {
     "spring-cloud-bus": ("org.springframework.cloud", "spring-cloud-bus"),
     "spring-cloud-sleuth": ("org.springframework.cloud", "spring-cloud-sleuth"),
     "azure-sdk-for-java": ("com.azure", "azure-core"),  # Renamed from azure-core
+    "azure-core-http-netty": ("com.azure", "azure-core-http-netty"),
     "micrometer": ("io.micrometer", "micrometer-core"),  # Exact match
     "reactor": ("io.projectreactor", "reactor-core"),  # Exact match
     "reactor-netty": ("io.projectreactor.netty", r"^reactor-netty.*"),

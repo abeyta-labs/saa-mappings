@@ -131,7 +131,70 @@ def extract_xml_from_maven_output(file_path):
 
     return xml_sections
 
-def extract_deps_from_xml(xml_content, module_num=0, verbose=False):
+def infer_java_version_from_deps(deps):
+    """Infer Java version based on dependency versions"""
+    if not deps:
+        return None
+
+    # Check Spring Boot version first (most reliable indicator)
+    if 'spring-boot' in deps:
+        boot_version = deps['spring-boot']
+        # Spring Boot 3.x requires Java 17+
+        if boot_version.startswith('3.'):
+            return "17"
+        # Spring Boot 2.7.x supports Java 8-17, but commonly uses 11
+        elif boot_version.startswith('2.7'):
+            return "11"
+        # Spring Boot 2.6.x and earlier support Java 8
+        elif boot_version.startswith('2.'):
+            return "8"
+
+    # Check Spring Framework version as fallback
+    if 'spring-framework' in deps:
+        framework_version = deps['spring-framework']
+        # Spring Framework 6.x requires Java 17+
+        if framework_version.startswith('6.'):
+            return "17"
+        # Spring Framework 5.3.x supports Java 8-17
+        elif framework_version.startswith('5.3'):
+            return "8"
+        # Spring Framework 5.x supports Java 8
+        elif framework_version.startswith('5.'):
+            return "8"
+
+    # Check Reactor version
+    if 'reactor' in deps:
+        reactor_version = deps['reactor']
+        # Reactor 3.5+ typically used with Java 17
+        if reactor_version.startswith('3.5') or reactor_version.startswith('3.6'):
+            return "17"
+        # Earlier Reactor 3.x versions support Java 8
+        elif reactor_version.startswith('3.'):
+            return "8"
+
+    return None
+
+def extract_java_version_from_plugin(root, ns, prefix):
+    """Extract Java version from maven-compiler-plugin configuration"""
+    # Look in build/plugins/plugin for maven-compiler-plugin
+    build = root.find(f'{prefix}build', ns) if prefix else root.find('build')
+    if build is not None:
+        plugins = build.find(f'{prefix}plugins', ns) if prefix else build.find('plugins')
+        if plugins is not None:
+            plugin_elements = plugins.findall(f'{prefix}plugin', ns) if prefix else plugins.findall('plugin')
+            for plugin in plugin_elements:
+                artifact_id = plugin.find(f'{prefix}artifactId', ns) if prefix else plugin.find('artifactId')
+                if artifact_id is not None and artifact_id.text == 'maven-compiler-plugin':
+                    config = plugin.find(f'{prefix}configuration', ns) if prefix else plugin.find('configuration')
+                    if config is not None:
+                        # Check for source, target, or release
+                        for tag in ['release', 'target', 'source']:
+                            elem = config.find(f'{prefix}{tag}', ns) if prefix else config.find(tag)
+                            if elem is not None and elem.text:
+                                return elem.text.strip()
+    return None
+
+def extract_deps_from_xml(xml_content, module_num=0, verbose=False, fallback_java_version=None):
     """Extract dependencies from a single XML project section"""
     deps = {}
     java_version = None
@@ -159,12 +222,12 @@ def extract_deps_from_xml(xml_content, module_num=0, verbose=False):
                 prefix = ''
                 ns_dict = {}
 
-            # Look for Java version in properties
+            # Strategy 1: Look for Java version in properties
             properties = root.find(f'{prefix}properties', ns_dict)
             if properties is not None:
                 # Check various Java version properties
                 java_props = ['java.version', 'maven.compiler.target', 'maven.compiler.source',
-                              'maven.compiler.release', 'project.build.sourceLevel']
+                             'maven.compiler.release', 'project.build.sourceLevel']
                 for prop in java_props:
                     elem = properties.find(f'{prefix}{prop}', ns_dict)
                     if elem is None and not use_ns:
@@ -175,6 +238,12 @@ def extract_deps_from_xml(xml_content, module_num=0, verbose=False):
                         if verbose:
                             print(f"    Module {module_num}: Found Java version in properties/{prop}: {java_version}")
                         break
+
+            # Strategy 2: Try maven-compiler-plugin configuration
+            if java_version is None:
+                java_version = extract_java_version_from_plugin(root, ns_dict, prefix)
+                if java_version and verbose:
+                    print(f"    Module {module_num}: Found Java version in maven-compiler-plugin: {java_version}")
 
         # Extract dependencies
         for use_ns in [False, True]:
@@ -231,6 +300,20 @@ def extract_deps_from_xml(xml_content, module_num=0, verbose=False):
                             deps[dep_name] = version_str
                             break
 
+        # Strategy 3: Infer from dependencies if Java version still not found
+        if java_version is None and deps:
+            inferred_version = infer_java_version_from_deps(deps)
+            if inferred_version:
+                java_version = inferred_version
+                if verbose:
+                    print(f"    Module {module_num}: Inferred Java version from dependencies: {java_version}")
+
+        # Strategy 4: Use fallback if provided
+        if java_version is None and fallback_java_version:
+            java_version = fallback_java_version
+            if verbose:
+                print(f"    Module {module_num}: Using fallback Java version: {java_version}")
+
     except ET.ParseError as e:
         if verbose:
             print(f"    Module {module_num}: XML Parse error: {e}")
@@ -240,7 +323,7 @@ def extract_deps_from_xml(xml_content, module_num=0, verbose=False):
 
     return java_version, deps
 
-def extract_compile_deps_multi_module(pom_file, verbose=False):
+def extract_compile_deps_multi_module(pom_file, verbose=False, fallback_java_version=None):
     """Extract compile-scope dependencies from multi-module POM"""
     try:
         # Extract all XML sections from the Maven output
@@ -257,7 +340,9 @@ def extract_compile_deps_multi_module(pom_file, verbose=False):
         java_versions = []
 
         for i, xml_content in enumerate(xml_sections):
-            module_java_version, module_deps = extract_deps_from_xml(xml_content, i, verbose)
+            module_java_version, module_deps = extract_deps_from_xml(
+                xml_content, i, verbose, fallback_java_version
+            )
 
             # Collect all Java versions found
             if module_java_version:
@@ -295,6 +380,20 @@ def extract_compile_deps_multi_module(pom_file, verbose=False):
             if verbose and len(set(java_versions)) > 1:
                 print(f"    Multiple Java versions found: {set(java_versions)}, using highest: {java_version}")
 
+        # If still no Java version, try to infer from collected dependencies
+        if java_version is None and all_deps:
+            inferred_version = infer_java_version_from_deps(all_deps)
+            if inferred_version:
+                java_version = inferred_version
+                if verbose:
+                    print(f"    Inferred Java version from aggregated dependencies: {java_version}")
+
+        # Use fallback if still nothing
+        if java_version is None and fallback_java_version:
+            java_version = fallback_java_version
+            if verbose:
+                print(f"    Using fallback Java version: {java_version}")
+
         # Convert versions to x format
         final_deps = {}
         for dep_name, dep_version in all_deps.items():
@@ -309,7 +408,7 @@ def extract_compile_deps_multi_module(pom_file, verbose=False):
             traceback.print_exc()
         return None, {}
 
-def process_pom_directory(pom_dir, clean_xml=False, verbose=False):
+def process_pom_directory(pom_dir, clean_xml=False, verbose=False, fallback_java_version=None):
     """Process all effective-pom-*.xml files in the given directory"""
 
     if not os.path.exists(pom_dir):
@@ -340,7 +439,7 @@ def process_pom_directory(pom_dir, clean_xml=False, verbose=False):
                         f.write(xml_content)
                     print(f"  Saved clean XML: {clean_file}")
 
-        java_version, deps = extract_compile_deps_multi_module(pom_file, verbose)
+        java_version, deps = extract_compile_deps_multi_module(pom_file, verbose, fallback_java_version)
 
         output = {
             "version": version_with_x,
@@ -379,10 +478,14 @@ def main():
         action='store_true',
         help='Enable verbose output'
     )
+    parser.add_argument(
+        '--default-java-version', '-j',
+        help='Default Java version to use when not found in POM (e.g., 8, 11, 17)'
+    )
 
     args = parser.parse_args()
 
-    return process_pom_directory(args.pom_dir, args.clean_xml, args.verbose)
+    return process_pom_directory(args.pom_dir, args.clean_xml, args.verbose, args.default_java_version)
 
 if __name__ == "__main__":
     sys.exit(main())

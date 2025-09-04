@@ -1,9 +1,8 @@
 {
-  "slug": "azure-core-http-netty",
-  "coordinates": [
+  "slug" : "azure-core-http-netty",
+  "coordinates" : [
     "com.azure:azure-core-http-netty"
   ],
-  "repositoryUrl": "https://github.com/azure/azure-sdk-for-java",
-  "rewrite": {
-  }
+  "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
+  "rewrite" : {}
 }

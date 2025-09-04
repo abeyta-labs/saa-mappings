@@ -86,33 +86,40 @@ def checkout_tag(repo_path: str, tag: str):
     """Checkout a specific tag in the repository."""
     run_command(['git', 'checkout', tag], cwd=repo_path)
 
-def generate_effective_pom(repo_path: str, version: str, output_dir: str, module_path: Optional[str] = None):
+def generate_effective_pom(repo_path: str, version: str, output_dir: str, module_paths: Optional[List[str]] = None):
     """Generate effective POM for a given version.
 
-    When using -pl with Maven, the working directory changes to the module directory,
-    so we need to adjust the relative path accordingly.
+    When using -pl with Maven:
+    - Single module: Maven changes working directory to that module
+    - Multiple modules: Maven stays at repository root
     """
     output_file = os.path.join(output_dir, f"effective-pom-{version}.xml")
 
-    if module_path:
-        # When using -pl, Maven changes working directory to the module
-        # Calculate the correct relative path from the module directory to the output file
-        module_full_path = os.path.join(repo_path, module_path)
-        rel_path = os.path.relpath(output_file, module_full_path)
+    if module_paths and len(module_paths) > 0:
+        if len(module_paths) == 1:
+            # Single module: Maven changes working directory to the module
+            module_path = module_paths[0]
+            module_full_path = os.path.join(repo_path, module_path)
+            rel_path = os.path.relpath(output_file, module_full_path)
 
-        # Show module usage
-        module_depth = len(module_path.split('/'))
-        print(f"  Using module: {module_path} (depth: {module_depth})")
+            module_depth = len(module_path.split('/'))
+            print(f"  Using single module: {module_path} (depth: {module_depth})")
+        else:
+            # Multiple modules: Maven stays at repository root
+            rel_path = os.path.relpath(output_file, repo_path)
+            print(f"  Using {len(module_paths)} modules: {', '.join(module_paths)}")
     else:
-        # No module path, working directory remains as repo root
+        # No module paths, working directory remains as repo root
         rel_path = os.path.relpath(output_file, repo_path)
 
     # Build the Maven command
     cmd = ['mvn', 'help:effective-pom', '-q', f'-Doutput={rel_path}']
 
-    # Add module path if specified
-    if module_path:
-        cmd.extend(['-pl', module_path])
+    # Add module paths if specified
+    if module_paths and len(module_paths) > 0:
+        # Maven expects comma-separated list for multiple modules
+        modules_str = ','.join(module_paths)
+        cmd.extend(['-pl', modules_str])
 
     run_command(cmd, cwd=repo_path)
     return output_file
@@ -123,7 +130,7 @@ def extract_pom_dependencies(script_path: str, effective_pom_path: str):
     pom_dir = os.path.dirname(effective_pom_path)
     run_command(['python3', script_path, pom_dir])
 
-def get_java_version_from_maven(repo_path: str, module_path: Optional[str] = None) -> Optional[int]:
+def get_java_version_from_maven(repo_path: str, module_paths: Optional[List[str]] = None) -> Optional[int]:
     """Get Java version using Maven help:evaluate plugin.
 
     This is useful when the effective POM doesn't include Java version
@@ -139,8 +146,10 @@ def get_java_version_from_maven(repo_path: str, module_path: Optional[str] = Non
 
     for prop in properties_to_check:
         cmd = ['mvn', 'help:evaluate', f'-Dexpression={prop}', '-q', '-DforceStdout']
-        if module_path:
-            cmd.extend(['-pl', module_path])
+        if module_paths and len(module_paths) > 0:
+            # Maven expects comma-separated list for multiple modules
+            modules_str = ','.join(module_paths)
+            cmd.extend(['-pl', modules_str])
 
         try:
             result = run_command(cmd, cwd=repo_path, check=False)
@@ -329,8 +338,9 @@ def parse_arguments():
     parser.add_argument(
         '--module-path',
         type=str,
+        nargs='+',  # Accept one or more module paths
         default=None,
-        help='Maven module path for multi-module projects (e.g., sdk/core/azure-core-http-netty)'
+        help='Maven module path(s) for multi-module projects. Can specify multiple modules (e.g., sdk/core/azure-core sdk/core/azure-core-http-netty)'
     )
 
     return parser.parse_args()
@@ -351,7 +361,10 @@ def main():
     print(f"Effective POMs directory: {effective_poms_dir}")
     print(f"Extract script: {extract_script}")
     if args.module_path:
-        print(f"Module path: {args.module_path}")
+        if len(args.module_path) == 1:
+            print(f"Module path: {args.module_path[0]}")
+        else:
+            print(f"Module paths ({len(args.module_path)}): {', '.join(args.module_path)}")
 
     if args.dry_run:
         print("DRY RUN MODE - No changes will be made")
@@ -369,14 +382,26 @@ def main():
         print(f"Error: Extract script not found: {extract_script}")
         sys.exit(1)
 
-    # Validate module path if provided
+    # Validate module paths if provided
     if args.module_path:
-        module_full_path = os.path.join(repo_path, args.module_path)
-        if not os.path.exists(module_full_path):
-            print(f"Warning: Module path does not exist: {module_full_path}")
-            print(f"Maven will fail if the module is not available in the checked out tag")
+        missing_modules = []
+        for module in args.module_path:
+            module_full_path = os.path.join(repo_path, module)
+            if not os.path.exists(module_full_path):
+                missing_modules.append(module)
+
+        if missing_modules:
+            print(f"Warning: The following module paths do not exist:")
+            for module in missing_modules:
+                print(f"  - {os.path.join(repo_path, module)}")
+            print(f"Maven will fail if these modules are not available in the checked out tags")
         else:
-            print(f"Using module path: {args.module_path}")
+            if len(args.module_path) == 1:
+                print(f"Using module path: {args.module_path[0]}")
+            else:
+                print(f"Using {len(args.module_path)} module paths:")
+                for module in args.module_path:
+                    print(f"  - {module}")
 
     # Create effective-poms directory if it doesn't exist
     os.makedirs(effective_poms_dir, exist_ok=True)
@@ -495,7 +520,12 @@ def main():
         for (major, minor), tag in missing_versions:
             print(f"  - {get_major_minor_string(major, minor)} (tag: {tag})")
         if args.module_path:
-            print(f"\nModule path to be used: {args.module_path}")
+            if len(args.module_path) == 1:
+                print(f"\nModule path to be used: {args.module_path[0]}")
+            else:
+                print(f"\nModule paths to be used ({len(args.module_path)}):")
+                for module in args.module_path:
+                    print(f"  - {module}")
         return
 
     # Store current branch/tag to restore later
@@ -529,7 +559,7 @@ def main():
                     repo_path,
                     version_for_filename,
                     effective_poms_dir,
-                    args.module_path
+                    args.module_path  # Now passes a list or None
                 )
 
                 # Extract dependencies
@@ -554,7 +584,7 @@ def main():
 
                 if needs_java_version:
                     print(f"  Java version not found or invalid in effective POM (got: {java_version_raw}), using Maven evaluate...")
-                    java_version = get_java_version_from_maven(repo_path, args.module_path)
+                    java_version = get_java_version_from_maven(repo_path, args.module_path)  # Now passes a list or None
                     if java_version:
                         print(f"    Found Java version: {java_version}")
                         version_data['javaVersion'] = java_version

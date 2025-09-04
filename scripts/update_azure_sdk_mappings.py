@@ -87,18 +87,19 @@ def checkout_tag(repo_path: str, tag: str):
     run_command(['git', 'checkout', tag], cwd=repo_path)
 
 def generate_effective_pom(repo_path: str, version: str, output_dir: str, module_path: Optional[str] = None):
-    """Generate effective POM for a given version."""
     output_file = os.path.join(output_dir, f"effective-pom-{version}.xml")
-    # Calculate relative path from repo to output
-    rel_path = os.path.relpath(output_file, repo_path)
 
-    # Build the Maven command
+    if module_path:
+        # NEW: Calculate path from module directory
+        module_full_path = os.path.join(repo_path, module_path)
+        rel_path = os.path.relpath(output_file, module_full_path)
+    else:
+        # Original: Calculate path from repo root
+        rel_path = os.path.relpath(output_file, repo_path)
+
     cmd = ['mvn', 'help:effective-pom', '-q', f'-Doutput={rel_path}']
-
-    # Add module path if specified
     if module_path:
         cmd.extend(['-pl', module_path])
-        print(f"  Using module: {module_path}")
 
     run_command(cmd, cwd=repo_path)
     return output_file

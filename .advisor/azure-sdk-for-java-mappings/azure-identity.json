@@ -8,5 +8,292 @@
     "com.azure:azure-identity-broker-samples"
   ],
   "repositoryUrl" : "https://github.com/Azure/azure-sdk-for-java",
-  "rewrite" : {}
+  "rewrite" : {
+    "1.1.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.9.x",
+          "azure-core-http-netty" : "1.6.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.2.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.15.x",
+          "azure-core-http-netty" : "1.9.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.3.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.21.x",
+          "azure-core-http-netty" : "1.11.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.4.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.26.x",
+          "azure-core-http-netty" : "1.11.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.32.x",
+          "azure-core-http-netty" : "1.12.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.33.x",
+          "azure-core-http-netty" : "1.12.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.35.x",
+          "azure-core-http-netty" : "1.12.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.38.x",
+          "azure-core-http-netty" : "1.13.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.9.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.41.x",
+          "azure-core-http-netty" : "1.13.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.10.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.44.x",
+          "azure-core-http-netty" : "1.13.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.11.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.47.x",
+          "azure-core-http-netty" : "1.14.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.12.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.49.x",
+          "azure-core-http-netty" : "1.15.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.13.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.52.x",
+          "azure-core-http-netty" : "1.15.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.14.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.54.x",
+          "azure-core-http-netty" : "1.15.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.15.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.55.x",
+          "azure-core-http-netty" : "1.15.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.16.x" : {
+      "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.55.x",
+          "azure-core-http-netty" : "1.15.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.17.x" : {
+      "recipes" : [],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.56.x",
+          "azure-core-http-netty" : "1.16.x"
+        },
+        "excludedArtifacts" : []
+      }
+    }
+  }
 }

@@ -86,12 +86,21 @@ def checkout_tag(repo_path: str, tag: str):
     """Checkout a specific tag in the repository."""
     run_command(['git', 'checkout', tag], cwd=repo_path)
 
-def generate_effective_pom(repo_path: str, version: str, output_dir: str):
+def generate_effective_pom(repo_path: str, version: str, output_dir: str, module_path: Optional[str] = None):
     """Generate effective POM for a given version."""
     output_file = os.path.join(output_dir, f"effective-pom-{version}.xml")
     # Calculate relative path from repo to output
     rel_path = os.path.relpath(output_file, repo_path)
-    run_command(['mvn', 'help:effective-pom', '-q', f'-Doutput={rel_path}'], cwd=repo_path)
+
+    # Build the Maven command
+    cmd = ['mvn', 'help:effective-pom', '-q', f'-Doutput={rel_path}']
+
+    # Add module path if specified
+    if module_path:
+        cmd.extend(['-pl', module_path])
+        print(f"  Using module: {module_path}")
+
+    run_command(cmd, cwd=repo_path)
     return output_file
 
 def extract_pom_dependencies(script_path: str, effective_pom_path: str):
@@ -240,6 +249,12 @@ def parse_arguments():
         default=None,
         help='Minimum version to process (e.g., 1.12 to skip older versions)'
     )
+    parser.add_argument(
+        '--module-path',
+        type=str,
+        default=None,
+        help='Maven module path for multi-module projects (e.g., sdk/core/azure-core-http-netty)'
+    )
 
     return parser.parse_args()
 
@@ -258,6 +273,8 @@ def main():
     print(f"Repository path: {repo_path}")
     print(f"Effective POMs directory: {effective_poms_dir}")
     print(f"Extract script: {extract_script}")
+    if args.module_path:
+        print(f"Module path: {args.module_path}")
 
     if args.dry_run:
         print("DRY RUN MODE - No changes will be made")
@@ -274,6 +291,15 @@ def main():
     if not os.path.exists(extract_script):
         print(f"Error: Extract script not found: {extract_script}")
         sys.exit(1)
+
+    # Validate module path if provided
+    if args.module_path:
+        module_full_path = os.path.join(repo_path, args.module_path)
+        if not os.path.exists(module_full_path):
+            print(f"Warning: Module path does not exist: {module_full_path}")
+            print(f"Maven will fail if the module is not available in the checked out tag")
+        else:
+            print(f"Using module path: {args.module_path}")
 
     # Create effective-poms directory if it doesn't exist
     os.makedirs(effective_poms_dir, exist_ok=True)
@@ -334,7 +360,7 @@ def main():
             min_minor = int(min_parts[1]) if len(min_parts) > 1 else 0
             original_count = len(missing_versions)
             missing_versions = [((maj, min_v), tag) for (maj, min_v), tag in missing_versions
-                                if maj > min_major or (maj == min_major and min_v >= min_minor)]
+                              if maj > min_major or (maj == min_major and min_v >= min_minor)]
             filtered_count = original_count - len(missing_versions)
             if filtered_count > 0:
                 print(f"Filtered out {filtered_count} versions older than {args.min_version}")
@@ -391,6 +417,8 @@ def main():
         print("\nDry run complete. The following versions would be processed:")
         for (major, minor), tag in missing_versions:
             print(f"  - {get_major_minor_string(major, minor)} (tag: {tag})")
+        if args.module_path:
+            print(f"\nModule path to be used: {args.module_path}")
         return
 
     # Store current branch/tag to restore later
@@ -420,7 +448,12 @@ def main():
                 # Generate effective POM
                 version_for_filename = f"{major}.{minor}.0"  # Use a consistent format
                 print(f"Generating effective POM for version {version_for_filename}")
-                effective_pom_path = generate_effective_pom(repo_path, version_for_filename, effective_poms_dir)
+                effective_pom_path = generate_effective_pom(
+                    repo_path,
+                    version_for_filename,
+                    effective_poms_dir,
+                    args.module_path
+                )
 
                 # Extract dependencies
                 print(f"Extracting dependencies from effective POM")

@@ -17,4 +17,5 @@ jobs:
     with:
       mapping-name: azure-security-keyvault-keys
       skip-on-error: true
+      module-path: 'sdk/keyvault/azure-security-keyvault-keys'
     secrets: inherit

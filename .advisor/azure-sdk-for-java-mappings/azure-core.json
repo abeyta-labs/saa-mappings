@@ -1,7 +1,26 @@
 {
-  "slug" : "azure-core",
+  "slug" : "azure-sdk-for-java",
   "coordinates" : [
-    "com.azure:azure-core"
+    "com.azure:azure-core",
+    "com.azure:azure-core-amqp",
+    "com.azure:azure-core-amqp-experimental",
+    "com.azure:azure-core-experimental",
+    "com.azure:azure-core-http-jdk-httpclient",
+    "com.azure:azure-core-http-okhttp",
+    "com.azure:azure-core-http-vertx",
+    "com.azure:azure-core-management",
+    "com.azure:azure-core-metrics-opentelemetry",
+    "com.azure:azure-core-perf",
+    "com.azure:azure-core-serializer-avro-apache",
+    "com.azure:azure-core-serializer-json-gson",
+    "com.azure:azure-core-serializer-json-jackson",
+    "com.azure:azure-core-test",
+    "com.azure:azure-core-tracing-opentelemetry",
+    "com.azure:azure-core-tracing-opentelemetry-samples",
+    "com.azure:azure-core-version-tests",
+    "com.azure:azure-search-documents",
+    "com.azure:azure-search-perf",
+    "com.azure:azure-ai-openai"
   ],
   "repositoryUrl" : "https://github.com/azure/azure-sdk-for-java",
   "rewrite" : {
@@ -13,11 +32,12 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11
+          "minor" : 8
         },
         "supportedGenerations" : {
-          "reactor" : "3.3.x",
           "azure-sdk-for-java" : "1.4.x",
+          "reactor" : "3.3.x",
+          "azure-core-http-netty" : "1.5.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.2.x"
         },
@@ -32,16 +52,19 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
-          "reactor" : "3.3.x",
+          "azure-core-http-netty" : "1.5.x",
           "azure-sdk-for-java" : "1.5.x",
+          "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.3.x",
           "spring-boot" : "2.2.x",
-          "spring-framework" : "5.2.x"
+          "spring-framework" : "5.2.x",
+          "spring-security" : "5.2.x",
+          "spring-data-commons" : "2.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -54,18 +77,19 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.5.x",
           "azure-sdk-for-java" : "1.6.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
-          "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x"
+          "spring-security" : "5.3.x",
+          "spring-data-commons" : "2.3.x"
         },
         "excludedArtifacts" : []
       }
@@ -78,18 +102,21 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
-          "reactor" : "3.3.x",
+          "azure-core-http-netty" : "1.5.x",
           "azure-sdk-for-java" : "1.7.x",
+          "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x"
+          "spring-integration" : "5.2.x",
+          "spring-retry" : "1.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -102,19 +129,25 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.6.x",
           "azure-sdk-for-java" : "1.8.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-kafka" : "2.5.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -127,19 +160,25 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.6.x",
           "azure-sdk-for-java" : "1.9.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-kafka" : "2.5.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -152,20 +191,26 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.6.x",
           "azure-sdk-for-java" : "1.10.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
+          "spring-cloud-azure" : "3.0.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
-          "spring-cloud-azure" : "3.0.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x",
+          "spring-kafka" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -178,20 +223,26 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.7.x",
           "azure-sdk-for-java" : "1.11.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
+          "spring-cloud-azure" : "3.0.x",
           "spring-boot" : "2.3.x",
           "spring-framework" : "5.2.x",
-          "spring-cloud-azure" : "3.0.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x",
+          "spring-kafka" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -204,20 +255,26 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.7.x",
           "azure-sdk-for-java" : "1.12.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
           "spring-cloud-azure" : "3.2.x",
+          "spring-boot" : "2.3.x",
+          "spring-framework" : "5.2.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x",
+          "spring-kafka" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -230,20 +287,26 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.8.x",
           "azure-sdk-for-java" : "1.13.x",
           "reactor" : "3.3.x",
           "reactor-netty" : "0.9.x",
           "micrometer" : "1.5.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
           "spring-cloud-azure" : "3.2.x",
+          "spring-boot" : "2.3.x",
+          "spring-framework" : "5.2.x",
+          "spring-security" : "5.3.x",
           "spring-data-commons" : "2.3.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "2.2.x"
+          "spring-integration" : "5.3.x",
+          "spring-retry" : "1.2.x",
+          "spring-data-redis" : "2.3.x",
+          "spring-cloud-stream" : "3.0.x",
+          "spring-cloud-function" : "3.0.x",
+          "spring-kafka" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -256,20 +319,26 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "1.14.x",
+          "azure-core-http-netty" : "1.9.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.6.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.4.x",
           "spring-cloud-azure" : "3.3.x",
+          "spring-boot" : "2.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.4.x",
           "spring-data-commons" : "2.4.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.4.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.4.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x"
         },
         "excludedArtifacts" : []
       }
@@ -282,20 +351,28 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "1.15.x",
+          "azure-core-http-netty" : "1.9.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.6.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.4.x",
           "spring-cloud-azure" : "3.4.x",
+          "spring-boot" : "2.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.4.x",
           "spring-data-commons" : "2.4.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.4.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.4.x",
+          "spring-kafka" : "2.6.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-data-jpa" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -308,20 +385,28 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 11,
-          "major" : 11
+          "minor" : 8,
+          "major" : 8
         },
         "supportedGenerations" : {
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "1.16.x",
+          "azure-core-http-netty" : "1.9.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.6.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.4.x",
           "spring-cloud-azure" : "3.5.x",
+          "spring-boot" : "2.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.4.x",
           "spring-data-commons" : "2.4.x",
-          "jedis" : "3.3.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.4.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.4.x",
+          "spring-kafka" : "2.6.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-data-jpa" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -340,14 +425,22 @@
         "supportedGenerations" : {
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "1.17.x",
+          "azure-core-http-netty" : "1.10.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.6.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x",
+          "spring-data-jpa" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -366,14 +459,22 @@
         "supportedGenerations" : {
           "reactor" : "3.4.x",
           "azure-sdk-for-java" : "1.18.x",
+          "azure-core-http-netty" : "1.10.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.7.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x",
+          "spring-data-jpa" : "2.5.x"
         },
         "excludedArtifacts" : []
       }
@@ -390,16 +491,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.10.x",
           "azure-sdk-for-java" : "1.19.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.8.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x"
         },
         "excludedArtifacts" : []
       }
@@ -416,16 +524,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.20.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.9.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x"
         },
         "excludedArtifacts" : []
       }
@@ -442,16 +557,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.21.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.10.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x"
         },
         "excludedArtifacts" : []
       }
@@ -468,16 +590,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.22.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.7.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.5.x",
           "spring-cloud-azure" : "3.11.x",
+          "spring-boot" : "2.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.5.x",
           "spring-data-commons" : "2.5.x",
-          "jedis" : "3.6.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.5.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x",
+          "spring-kafka" : "2.6.x"
         },
         "excludedArtifacts" : []
       }
@@ -494,16 +623,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.23.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
           "spring-cloud-azure" : "3.11.x",
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.6.x",
           "spring-data-commons" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.0.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.6.x",
+          "spring-kafka" : "2.8.x",
+          "spring-cloud-commons" : "3.0.x",
+          "spring-cloud-stream" : "3.1.x",
+          "spring-cloud-function" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -520,16 +656,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.24.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
           "spring-cloud-azure" : "3.12.x",
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.6.x",
           "spring-data-commons" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.6.x",
+          "spring-kafka" : "2.8.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -546,16 +689,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.25.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
           "spring-cloud-azure" : "3.14.x",
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.6.x",
           "spring-data-commons" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.6.x",
+          "spring-kafka" : "2.8.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -572,16 +722,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.26.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
           "spring-cloud-azure" : "3.15.x",
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.6.x",
           "spring-data-commons" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.6.x",
+          "spring-kafka" : "2.8.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -598,16 +755,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.11.x",
           "azure-sdk-for-java" : "1.27.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
           "spring-cloud-azure" : "3.15.x",
+          "spring-boot" : "2.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-security" : "5.6.x",
           "spring-data-commons" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-retry" : "1.3.x",
+          "spring-data-redis" : "2.6.x",
+          "spring-kafka" : "2.8.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -624,16 +788,21 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.28.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
           "spring-cloud-azure" : "4.1.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.6.x",
           "spring-boot" : "2.6.x",
-          "jedis" : "3.7.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-security" : "5.6.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -650,16 +819,22 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.29.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.8.x",
-          "spring-framework" : "5.3.x",
           "spring-cloud-azure" : "4.3.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.6.x",
           "spring-boot" : "2.6.x",
-          "jedis" : "4.2.x",
-          "spring-cloud-commons" : "3.1.x"
+          "spring-integration" : "5.5.x",
+          "spring-security" : "5.6.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "jedis" : "4.2.x"
         },
         "excludedArtifacts" : []
       }
@@ -676,15 +851,21 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.30.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.2.x",
           "spring-cloud-azure" : "4.3.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.2.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
           "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
@@ -702,15 +883,21 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.31.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.2.x",
           "spring-cloud-azure" : "4.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.2.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
           "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
@@ -728,15 +915,22 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.32.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.2.x",
           "spring-cloud-azure" : "4.4.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.2.x"
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -753,15 +947,22 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.33.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.2.x",
           "spring-cloud-azure" : "4.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.2.x"
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -778,15 +979,22 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.34.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.2.x",
           "spring-cloud-azure" : "4.5.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.2.x"
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -803,15 +1011,22 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.12.x",
           "azure-sdk-for-java" : "1.35.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
+          "jedis" : "4.3.x",
           "spring-cloud-azure" : "4.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
           "spring-boot" : "2.7.x",
-          "jedis" : "4.3.x"
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -828,15 +1043,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.36.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.6.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.6.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -853,15 +1076,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.37.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.7.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.7.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -878,15 +1109,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.38.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.8.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.8.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -903,15 +1142,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.39.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.8.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.8.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -928,15 +1175,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.40.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.9.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.9.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -953,15 +1208,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.41.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.10.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.10.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -978,15 +1241,23 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.42.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.11.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.11.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x"
         },
         "excludedArtifacts" : []
       }
@@ -1003,15 +1274,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.43.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
-          "spring-framework" : "5.3.x",
-          "spring-cloud-azure" : "4.12.x",
           "jedis" : "4.3.x",
+          "spring-cloud-azure" : "4.12.x",
+          "spring-framework" : "5.3.x",
+          "spring-retry" : "1.3.x",
           "spring-data-commons" : "2.7.x",
-          "spring-boot" : "2.7.x"
+          "spring-boot" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1028,15 +1308,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.44.x",
-          "spring-cloud-azure" : "4.12.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.12.x",
           "jedis" : "4.3.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1053,15 +1342,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.13.x",
           "azure-sdk-for-java" : "1.45.x",
-          "spring-cloud-azure" : "4.13.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.13.x",
           "jedis" : "4.3.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1078,15 +1376,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.14.x",
           "azure-sdk-for-java" : "1.46.x",
-          "spring-cloud-azure" : "4.15.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.15.x",
           "jedis" : "4.3.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1103,15 +1410,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.14.x",
           "azure-sdk-for-java" : "1.47.x",
-          "spring-cloud-azure" : "4.17.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.17.x",
           "jedis" : "5.1.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1128,15 +1444,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.14.x",
           "azure-sdk-for-java" : "1.48.x",
-          "spring-cloud-azure" : "4.18.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.18.x",
           "jedis" : "5.1.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1153,15 +1478,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
-          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.49.x",
+          "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
-          "spring-cloud-azure" : "4.20.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.20.x",
           "jedis" : "5.1.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1178,15 +1512,24 @@
           "major" : 11
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.50.x",
-          "spring-cloud-azure" : "4.20.x",
           "reactor" : "3.4.x",
           "reactor-netty" : "1.0.x",
           "micrometer" : "1.9.x",
+          "spring-cloud-azure" : "4.20.x",
           "jedis" : "5.1.x",
           "spring-boot" : "2.7.x",
           "spring-framework" : "5.3.x",
-          "spring-data-commons" : "2.7.x"
+          "spring-retry" : "1.3.x",
+          "spring-data-commons" : "2.7.x",
+          "spring-integration" : "5.5.x",
+          "spring-cloud-stream" : "3.2.x",
+          "spring-cloud-function" : "3.2.x",
+          "spring-data-redis" : "2.7.x",
+          "spring-security" : "5.7.x",
+          "spring-cloud-commons" : "3.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1203,15 +1546,24 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.51.x",
-          "spring-cloud-azure" : "5.15.x",
           "reactor" : "3.6.x",
           "reactor-netty" : "1.1.x",
           "micrometer" : "1.13.x",
+          "spring-cloud-azure" : "5.15.x",
           "jedis" : "5.1.x",
           "spring-boot" : "3.3.x",
           "spring-framework" : "6.1.x",
-          "spring-data-commons" : "3.3.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.3.x",
+          "spring-integration" : "6.3.x",
+          "spring-cloud-stream" : "4.1.x",
+          "spring-cloud-function" : "4.1.x",
+          "spring-data-redis" : "3.3.x",
+          "spring-security" : "6.3.x",
+          "spring-cloud-commons" : "4.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1228,15 +1580,24 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.52.x",
-          "spring-cloud-azure" : "5.17.x",
           "reactor" : "3.6.x",
           "reactor-netty" : "1.1.x",
           "micrometer" : "1.13.x",
+          "spring-cloud-azure" : "5.17.x",
           "jedis" : "5.1.x",
           "spring-boot" : "3.3.x",
           "spring-framework" : "6.1.x",
-          "spring-data-commons" : "3.3.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.3.x",
+          "spring-integration" : "6.3.x",
+          "spring-cloud-stream" : "4.1.x",
+          "spring-cloud-function" : "4.1.x",
+          "spring-data-redis" : "3.3.x",
+          "spring-security" : "6.3.x",
+          "spring-cloud-commons" : "4.1.x",
+          "spring-data-relational" : "2.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1253,15 +1614,24 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.53.x",
-          "spring-cloud-azure" : "5.17.x",
           "reactor" : "3.6.x",
           "reactor-netty" : "1.1.x",
           "micrometer" : "1.13.x",
+          "spring-cloud-azure" : "5.17.x",
           "jedis" : "5.1.x",
           "spring-boot" : "3.3.x",
           "spring-framework" : "6.1.x",
-          "spring-data-commons" : "3.3.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.3.x",
+          "spring-integration" : "6.3.x",
+          "spring-cloud-stream" : "4.1.x",
+          "spring-cloud-function" : "4.1.x",
+          "spring-data-redis" : "3.3.x",
+          "spring-security" : "6.3.x",
+          "spring-cloud-commons" : "4.1.x",
+          "spring-data-relational" : "3.3.x"
         },
         "excludedArtifacts" : []
       }
@@ -1278,15 +1648,24 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.54.x",
-          "spring-cloud-azure" : "5.19.x",
           "reactor" : "3.6.x",
           "reactor-netty" : "1.1.x",
           "micrometer" : "1.13.x",
+          "spring-cloud-azure" : "5.19.x",
           "jedis" : "5.2.x",
           "spring-boot" : "3.3.x",
           "spring-framework" : "6.1.x",
-          "spring-data-commons" : "3.3.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.3.x",
+          "spring-integration" : "6.3.x",
+          "spring-cloud-stream" : "4.1.x",
+          "spring-cloud-function" : "4.1.x",
+          "spring-data-redis" : "3.3.x",
+          "spring-security" : "6.3.x",
+          "spring-cloud-commons" : "4.1.x",
+          "spring-data-relational" : "3.3.x"
         },
         "excludedArtifacts" : []
       }
@@ -1303,6 +1682,7 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.15.x",
           "azure-sdk-for-java" : "1.55.x",
           "reactor" : "3.7.x",
           "reactor-netty" : "1.2.x",
@@ -1311,7 +1691,16 @@
           "jedis" : "5.2.x",
           "spring-boot" : "3.4.x",
           "spring-framework" : "6.2.x",
-          "spring-data-commons" : "3.4.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.4.x",
+          "spring-integration" : "6.4.x",
+          "spring-kafka" : "3.3.x",
+          "spring-cloud-stream" : "4.2.x",
+          "spring-cloud-function" : "4.2.x",
+          "spring-data-redis" : "3.4.x",
+          "spring-security" : "6.4.x",
+          "spring-cloud-commons" : "4.2.x",
+          "spring-data-relational" : "3.4.x"
         },
         "excludedArtifacts" : []
       }
@@ -1325,15 +1714,24 @@
           "major" : 17
         },
         "supportedGenerations" : {
+          "azure-core-http-netty" : "1.16.x",
           "azure-sdk-for-java" : "1.56.x",
-          "spring-cloud-azure" : "5.24.x",
           "reactor" : "3.7.x",
           "reactor-netty" : "1.2.x",
+          "spring-cloud-azure" : "6.0.x",
           "micrometer" : "1.15.x",
-          "jedis" : "6.0.x",
+          "jedis" : "6.2.x",
           "spring-boot" : "3.5.x",
           "spring-framework" : "6.2.x",
-          "spring-data-commons" : "3.5.x"
+          "spring-retry" : "2.0.x",
+          "spring-data-commons" : "3.5.x",
+          "spring-integration" : "6.5.x",
+          "spring-kafka" : "3.3.x",
+          "spring-cloud-stream" : "4.3.x",
+          "spring-cloud-function" : "4.3.x",
+          "spring-data-redis" : "3.5.x",
+          "spring-security" : "6.5.x",
+          "spring-data-relational" : "3.5.x"
         },
         "excludedArtifacts" : []
       }

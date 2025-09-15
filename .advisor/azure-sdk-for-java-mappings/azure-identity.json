@@ -17,11 +17,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.9.x",
-          "azure-core-http-netty" : "1.6.x"
+          "reactor" : "3.3.x",
+          "azure-core-http-netty" : "1.6.x",
+          "reactor-netty" : "0.9.x"
         },
         "excludedArtifacts" : []
       }
@@ -34,11 +36,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.15.x",
-          "azure-core-http-netty" : "1.9.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.9.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -51,11 +55,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.21.x",
-          "azure-core-http-netty" : "1.11.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.11.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -68,11 +74,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.26.x",
-          "azure-core-http-netty" : "1.11.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.11.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -85,11 +93,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.32.x",
-          "azure-core-http-netty" : "1.12.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.12.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -102,11 +112,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.33.x",
-          "azure-core-http-netty" : "1.12.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.12.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -119,11 +131,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.35.x",
-          "azure-core-http-netty" : "1.12.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.12.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -136,11 +150,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 8
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.38.x",
-          "azure-core-http-netty" : "1.13.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.13.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -153,11 +169,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.41.x",
-          "azure-core-http-netty" : "1.13.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.13.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -170,11 +188,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.44.x",
-          "azure-core-http-netty" : "1.13.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.13.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -187,11 +207,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.47.x",
-          "azure-core-http-netty" : "1.14.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.14.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -204,11 +226,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.49.x",
-          "azure-core-http-netty" : "1.15.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -221,11 +245,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.52.x",
-          "azure-core-http-netty" : "1.15.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -238,11 +264,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.54.x",
-          "azure-core-http-netty" : "1.15.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -255,11 +283,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.55.x",
-          "azure-core-http-netty" : "1.15.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -272,11 +302,13 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.55.x",
-          "azure-core-http-netty" : "1.15.x"
+          "reactor" : "3.4.x",
+          "azure-core-http-netty" : "1.15.x",
+          "reactor-netty" : "1.0.x"
         },
         "excludedArtifacts" : []
       }
@@ -286,11 +318,13 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 17
+          "minor" : 11
         },
         "supportedGenerations" : {
           "azure-sdk-for-java" : "1.56.x",
-          "azure-core-http-netty" : "1.16.x"
+          "reactor" : "3.7.x",
+          "azure-core-http-netty" : "1.16.x",
+          "reactor-netty" : "1.2.x"
         },
         "excludedArtifacts" : []
       }

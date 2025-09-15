@@ -79,10 +79,10 @@ jobs:
           echo "Updating mapping for: ${{ inputs.mapping-name }}"
           
           # Ensure the script is executable
-          chmod +x ./scripts/update_azure_sdk_mappings.py
+          chmod +x ./scripts/update_azure_sdk_sbom_mappings.py
           
           # Build the command with optional parameters
-          COMMAND="python3 ./scripts/update_azure_sdk_mappings.py ${{ inputs.mapping-name }}"
+          COMMAND="python3 ./scripts/update_azure_sdk_sbom_mappings.py ${{ inputs.mapping-name }}"
           
           # Add --skip-on-error if enabled
           if [[ "${{ inputs.skip-on-error }}" == "true" ]]; then
@@ -115,8 +115,9 @@ jobs:
           git diff --stat .advisor/azure-sdk-for-java-mappings/${{ inputs.mapping-name }}.json || true
           
           # cleanup before committing
-          rm -rf .github/repos/azure-sdk-for-java
+          rm -rf .github/repos
           rm -rf .github/effective-poms
+          rm -rf .github/sboms
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7

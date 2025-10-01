@@ -315,6 +315,25 @@
     },
     "1.17.x" : {
       "recipes" : [],
+      "nextRewrite" : {
+        "version" : "1.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 11
+        },
+        "supportedGenerations" : {
+          "azure-sdk-for-java" : "1.56.x",
+          "reactor" : "3.7.x",
+          "azure-core-http-netty" : "1.16.x",
+          "reactor-netty" : "1.2.x"
+        },
+        "excludedArtifacts" : []
+      }
+    },
+    "1.18.x" : {
+      "recipes" : [],
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {

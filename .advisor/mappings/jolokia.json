@@ -28,6 +28,7 @@
     "org.jolokia:jolokia-agent-osgi",
     "org.jolokia:jolokia-client-kubernetes",
     "org.jolokia:jolokia-service-serializer",
+    "org.jolokia:jolokia-support-spring",
     "org.jolokia:jolokia-client-javascript-esm"
   ],
   "repositoryUrl" : "https://github.com/jolokia/jolokia",

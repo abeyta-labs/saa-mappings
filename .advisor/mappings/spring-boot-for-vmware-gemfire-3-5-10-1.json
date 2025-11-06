@@ -1,0 +1,50 @@
+{
+  "slug": "spring-boot-for-vmware-gemfire-3-5-10-1",
+  "coordinates": [
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-autoconfigure-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-actuator-autoconfigure-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-actuator-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-extensions-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-samples-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-starter-actuator-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-starter-logging-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-starter-session-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-starter-test-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-starter-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-10.1",
+    "com.vmware.gemfire:spring-boot-3.5-gemfire-core-10.1",
+    "com.vmware.gemfire:spring-boot-actuator-3.5-gemfire-10.1"
+
+  ],
+  "repositoryUrl": "https://github.com/gemfire/spring-boot-for-vmware-gemfire",
+  "rewrite": {
+    "1.0.x": {
+      "recipes": [],
+      "nextRewrite" : "2.0.x",
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "3.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite" : null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "3.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

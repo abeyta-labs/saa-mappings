@@ -8,15 +8,22 @@
     "org.jolokia:jolokia-client-jmx-adapter",
     "org.jolokia:jolokia-example-osgi-restrictor",
     "org.jolokia:jolokia-tools-siteskin",
+    "org.jolokia:jolokia-example-spring-boot",
     "org.jolokia:jolokia-agent-jvm",
     "org.jolokia:jolokia-service-jsr160",
+    "org.jolokia:jolokia-client-java-httpclient5",
     "org.jolokia:jolokia-support-jmx",
+    "org.jolokia:jolokia-client-java-httpclient4",
+    "org.jolokia:jolokia-example-spring-boot-actuator",
     "org.jolokia:jolokia-json",
+    "org.jolokia:jolokia-support-spring",
     "org.jolokia:jolokia-server-detector",
     "org.jolokia:jolokia-server-core",
     "org.jolokia:jolokia-service-history",
     "org.jolokia:jolokia-parent",
     "org.jolokia:jolokia-agent-war-unsecured",
+    "org.jolokia:jolokia-it-osgi",
+    "org.jolokia:jolokia-example-spring",
     "org.jolokia:jolokia-tools-test",
     "org.jolokia:jolokia-client-java",
     "org.jolokia:jolokia-example-client-javascript-test-app",
@@ -77,12 +84,29 @@
     },
     "2.3.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
         },
         "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "6.2.x",
+          "spring-boot" : "3.5.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

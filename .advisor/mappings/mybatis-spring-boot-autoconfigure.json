@@ -157,7 +157,10 @@
     },
     "3.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -165,6 +168,20 @@
         "supportedGenerations" : {
           "spring-framework" : "6.2.x",
           "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-framework" : "7.0.x",
+          "spring-boot" : "4.0.x"
         },
         "excludedArtifacts" : [ ]
       }

@@ -410,7 +410,7 @@
         "supportedGenerations" : {
           "hibernate-orm" : "5.6.x",
           "r2dbc-spi" : "1.0.x",
-          "spring-framework" : "5.3.x",
+          "spring-framework" : "6.2.x",
           "kotlin-coroutines" : "1.6.x"
         },
         "excludedArtifacts" : [
@@ -435,7 +435,7 @@
         "supportedGenerations" : {
           "hibernate-orm" : "5.6.x",
           "r2dbc-spi" : "1.0.x",
-          "spring-framework" : "5.3.x",
+          "spring-framework" : "6.2.x",
           "kotlin-coroutines" : "1.7.x"
         },
         "excludedArtifacts" : [

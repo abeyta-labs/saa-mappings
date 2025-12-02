@@ -5,9 +5,11 @@
     "net.javacrumbs.shedlock:shedlock-provider-redis-spring",
     "net.javacrumbs.shedlock:shedlock-micronaut4",
     "net.javacrumbs.shedlock:shedlock-provider-jedis",
+    "net.javacrumbs.shedlock:shedlock-provider-jetstream",
     "net.javacrumbs.shedlock:quarkus-test",
     "net.javacrumbs.shedlock:shedlock-provider-datastore",
     "net.javacrumbs.shedlock:micronaut-jdbc",
+    "net.javacrumbs.shedlock:shedlock-provider-vertx-sqlclient",
     "net.javacrumbs.shedlock:shedlock-provider-jooq",
     "net.javacrumbs.shedlock:shedlock-provider-jdbc-micronaut",
     "net.javacrumbs.shedlock:shedlock-springboot24-test",
@@ -64,6 +66,7 @@
     "net.javacrumbs.shedlock:micronaut-jdbc-new",
     "net.javacrumbs.shedlock:shedlock-provider-consul",
     "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+    "net.javacrumbs.shedlock:shedlock-sql-support",
     "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
     "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
     "net.javacrumbs.shedlock:shedlock-provider-hazelcast4",
@@ -3034,7 +3037,10 @@
     },
     "6.10.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "7.0.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
@@ -3066,6 +3072,147 @@
           "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
           "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
           "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "7.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "3.5.x",
+          "mongo-java-driver" : "5.6.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "7.0.x",
+          "reactor" : "3.7.x",
+          "spring-framework" : "7.0.x",
+          "spring-boot" : "4.0.x",
+          "aws-sdk-java" : "2.36.x",
+          "lettuce" : "7.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-consul",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-provider-s3",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "7.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "4.0.x",
+          "mongo-java-driver" : "5.6.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "7.0.x",
+          "reactor" : "3.8.x",
+          "spring-framework" : "7.0.x",
+          "spring-boot" : "4.0.x",
+          "aws-sdk-java" : "2.38.x",
+          "lettuce" : "7.0.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-consul",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-provider-s3",
+          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
+          "net.javacrumbs.shedlock:shedlock-springboot22-test",
+          "net.javacrumbs.shedlock:shedlock-springboot24-test"
+        ]
+      }
+    },
+    "7.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-data-redis" : "4.0.x",
+          "mongo-java-driver" : "5.6.x",
+          "r2dbc-spi" : "1.0.x",
+          "jedis" : "7.1.x",
+          "reactor" : "3.8.x",
+          "spring-framework" : "7.0.x",
+          "aws-sdk-java" : "2.39.x",
+          "spring-boot" : "4.0.x",
+          "lettuce" : "7.1.x",
+          "spring-cloud-sleuth" : "3.1.x"
+        },
+        "excludedArtifacts" : [
+          "net.javacrumbs.shedlock:micronaut-jdbc",
+          "net.javacrumbs.shedlock:micronaut-jdbc-new",
+          "net.javacrumbs.shedlock:micronaut-jdbc-template",
+          "net.javacrumbs.shedlock:micronaut-test",
+          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
+          "net.javacrumbs.shedlock:shedlock-micronaut",
+          "net.javacrumbs.shedlock:shedlock-provider-consul",
+          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
+          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
+          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
+          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
+          "net.javacrumbs.shedlock:shedlock-provider-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
+          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
+          "net.javacrumbs.shedlock:shedlock-provider-s3",
           "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
           "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
           "net.javacrumbs.shedlock:shedlock-springboot22-test",

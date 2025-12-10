@@ -65,6 +65,7 @@
     "org.apache.hive.shims:hive-shims-0.20",
     "org.apache.hive:hive-iceberg-shading",
     "org.apache.hive:hive-parser",
+    "org.apache.hive:hive-standalone-metastore-client",
     "org.apache.hive:hive-serde",
     "org.apache.hive.hcatalog:hive-hcatalog-core",
     "org.apache.hive:hive-jdbc",
@@ -322,10 +323,42 @@
     },
     "4.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedJavaVersions" : {
           "minor" : 17
+        },
+        "supportedGenerations" : {
+          "spring-ldap" : "2.4.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [
+          "org.apache.hive.hcatalog:hive-hcatalog-hbase-storage-handler",
+          "org.apache.hive.hcatalog:hive-hcatalog-streaming",
+          "org.apache.hive.shims:hive-shims-0.20",
+          "org.apache.hive.shims:hive-shims-0.20S",
+          "org.apache.hive.shims:hive-shims-common-secure",
+          "org.apache.hive.shims:hive-shims-scheduler",
+          "org.apache.hive:hive-ant",
+          "org.apache.hive:hive-hwi",
+          "org.apache.hive:hive-kryo-registrator",
+          "org.apache.hive:hive-odbc",
+          "org.apache.hive:hive-orc",
+          "org.apache.hive:hive-spark-client",
+          "org.apache.hive:hive-upgrade-acid",
+          "org.apache.hive:spark-client"
+        ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedJavaVersions" : {
+          "minor" : 21
         },
         "supportedGenerations" : {
           "spring-ldap" : "2.4.x",

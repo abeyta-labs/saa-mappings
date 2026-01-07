@@ -3,8 +3,6 @@ name: azure-identity-mapping
 on:
   # Manual trigger (on-demand)
   workflow_dispatch:
-  repository_dispatch:
-    types: [azure-identity]
   schedule:
     # Runs based on the configured schedule
     - cron: '0 9 1,15 * *'
@@ -15,9 +13,10 @@ permissions:
 
 jobs:
   call-mapping-workflow:
-    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    uses: ./.github/workflows/update-azure-sdk-mapping.yml
     with:
       mapping-name: azure-identity
-      repo-url: https://github.com/Azure/azure-sdk-for-java
-      coordinates: com.azure:azure-identity
+      skip-on-error: true
+      min-version: 1.1
+      module-path: 'sdk/identity/azure-identity'
     secrets: inherit

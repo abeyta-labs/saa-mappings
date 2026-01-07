@@ -455,8 +455,8 @@
           "minor" : 21
         },
         "supportedGenerations" : {
-          "r2dbc-spi" : "1.0.x",
           "hibernate-orm" : "5.6.x",
+          "r2dbc-spi" : "1.0.x",
           "reactor" : "3.6.x",
           "spring-framework" : "6.2.x",
           "kotlin-coroutines" : "1.7.x"

@@ -1,0 +1,23 @@
+name: spring-boot-hibernate-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [spring-boot-hibernate]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    with:
+      mapping-name: spring-boot-hibernate
+      repo-url: https://github.com/spring-projects/spring-boot
+      coordinates: org.springframework.boot:spring-boot-hibernate
+    secrets: inherit

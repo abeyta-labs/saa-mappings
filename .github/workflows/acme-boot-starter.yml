@@ -1,0 +1,23 @@
+name: acme-boot-starter-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [acme-boot-starter]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping-github-app.yml@main
+    with:
+      mapping-name: acme-boot-starter
+      repo-url: https://github.com/abeyta-labs/acme-boot-starter
+      coordinates: com.acme.boot:acme-boot-starter
+    secrets: inherit

@@ -1,0 +1,22 @@
+name: aws-sdk-for-java-v2-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [aws-sdk-for-java-v2]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    with:
+      mapping-name: aws-sdk-for-java-v2
+      repo-url: https://github.com/aws/aws-sdk-java-v2
+    secrets: inherit

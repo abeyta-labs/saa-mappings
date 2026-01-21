@@ -19,5 +19,5 @@ jobs:
     with:
       mapping-name: aws-sdk-for-java-v2
       repo-url: https://github.com/aws/aws-sdk-java-v2
-      coordinates: software.amazon.awssdk:utils-lite
+      coordinates: software.amazon.awssdk:utils
     secrets: inherit

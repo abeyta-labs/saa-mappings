@@ -18,6 +18,7 @@ jobs:
     uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
     with:
       mapping-name: aws-sdk-java-v2
+      after-mapping-script: "scripts/mapping-cleanup/aws-sdk.py"
       repo-url: https://github.com/aws/aws-sdk-java-v2
       coordinates: software.amazon.awssdk:utils
     secrets: inherit

@@ -1,6 +1,6 @@
 {
-  "slug" : "aws-sdk-java-v2",
-  "coordinates" : [
+  "slug": "aws-sdk-java-v2",
+  "coordinates": [
     "software.amazon.awssdk:inspector2",
     "software.amazon.awssdk:ssmcontacts",
     "software.amazon.awssdk:neptunedata",
@@ -539,345 +539,345 @@
     "software.amazon.awssdk:supportapp",
     "software.amazon.awssdk:imds"
   ],
-  "repositoryUrl" : "https://github.com/aws/aws-sdk-java-v2",
-  "rewrite" : {
-    "2.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.1.x",
-        "project" : null
+  "repositoryUrl": "https://github.com/aws/aws-sdk-java-v2",
+  "rewrite": {
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.1.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [ ]
+        "excludedArtifacts": []
       }
     },
-    "2.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
+    "2.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.2.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.3.x",
-        "project" : null
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.3.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.3.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.4.x",
-        "project" : null
+    "2.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.4.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.4.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.5.x",
-        "project" : null
+    "2.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.5.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.5.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.6.x",
-        "project" : null
+    "2.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.6.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.6.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.7.x",
-        "project" : null
+    "2.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.7.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.7.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.8.x",
-        "project" : null
+    "2.7.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.8.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.8.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.9.x",
-        "project" : null
+    "2.8.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.9.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.9.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.10.x",
-        "project" : null
+    "2.9.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.10.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon:flow"
         ]
       }
     },
-    "2.10.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.11.x",
-        "project" : null
+    "2.10.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.11.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.11.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.12.x",
-        "project" : null
+    "2.11.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.12.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.12.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.13.x",
-        "project" : null
+    "2.12.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.13.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.13.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.14.x",
-        "project" : null
+    "2.13.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.14.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.14.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.15.x",
-        "project" : null
+    "2.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.15.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "rx-java" : "2.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "rx-java": "2.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.15.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.16.x",
-        "project" : null
+    "2.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.16.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "rx-java" : "2.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "rx-java": "2.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.16.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.17.x",
-        "project" : null
+    "2.16.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.17.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "rx-java" : "2.2.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "rx-java": "2.2.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:dynamodbdocument-v1",
           "software.amazon.awssdk:dynamodbmapper-v1",
           "software.amazon:flow"
         ]
       }
     },
-    "2.17.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.18.x",
-        "project" : null
+    "2.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.18.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "2.2.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "2.2.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -886,22 +886,22 @@
         ]
       }
     },
-    "2.18.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.19.x",
-        "project" : null
+    "2.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.19.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -910,22 +910,22 @@
         ]
       }
     },
-    "2.19.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.20.x",
-        "project" : null
+    "2.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.20.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -934,22 +934,22 @@
         ]
       }
     },
-    "2.20.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.21.x",
-        "project" : null
+    "2.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.21.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -958,48 +958,22 @@
         ]
       }
     },
-    "2.21.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.22.x",
-        "project" : null
+    "2.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.22.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
-          "software.amazon.awssdk:auth-sts-testing",
-          "software.amazon.awssdk:aws-ion-protocol",
-          "software.amazon.awssdk:dynamodbdocument-v1",
-          "software.amazon.awssdk:dynamodbmapper-v1",
-          "software.amazon.awssdk:gamesparks",
-          "software.amazon.awssdk:macie",
-          "software.amazon:flow"
-        ]
-      }
-    },
-    "2.22.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.23.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
-        },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -1010,22 +984,22 @@
         ]
       }
     },
-    "2.23.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.24.x",
-        "project" : null
+    "2.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.23.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -1036,22 +1010,22 @@
         ]
       }
     },
-    "2.24.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.25.x",
-        "project" : null
+    "2.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.24.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -1062,22 +1036,48 @@
         ]
       }
     },
-    "2.25.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.26.x",
-        "project" : null
+    "2.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.25.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
+          "software.amazon.awssdk:auth-sts-testing",
+          "software.amazon.awssdk:aws-ion-protocol",
+          "software.amazon.awssdk:dynamodbdocument-v1",
+          "software.amazon.awssdk:dynamodbmapper-v1",
+          "software.amazon.awssdk:gamesparks",
+          "software.amazon.awssdk:macie",
+          "software.amazon:flow"
+        ]
+      }
+    },
+    "2.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
+        },
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
+        },
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1091,22 +1091,22 @@
         ]
       }
     },
-    "2.26.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.27.x",
-        "project" : null
+    "2.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.27.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1122,22 +1122,22 @@
         ]
       }
     },
-    "2.27.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.28.x",
-        "project" : null
+    "2.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.28.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1154,22 +1154,22 @@
         ]
       }
     },
-    "2.28.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.29.x",
-        "project" : null
+    "2.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.29.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1187,22 +1187,22 @@
         ]
       }
     },
-    "2.29.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.30.x",
-        "project" : null
+    "2.29.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.30.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1223,22 +1223,22 @@
         ]
       }
     },
-    "2.30.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.31.x",
-        "project" : null
+    "2.30.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.31.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1260,22 +1260,22 @@
         ]
       }
     },
-    "2.31.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.32.x",
-        "project" : null
+    "2.31.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.32.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1298,22 +1298,22 @@
         ]
       }
     },
-    "2.32.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.33.x",
-        "project" : null
+    "2.32.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.33.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1338,63 +1338,22 @@
         ]
       }
     },
-    "2.33.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.34.x",
-        "project" : null
+    "2.33.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.34.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
-          "software.amazon.awssdk:alexaforbusiness",
-          "software.amazon.awssdk:auth-sts-testing",
-          "software.amazon.awssdk:aws-ion-protocol",
-          "software.amazon.awssdk:backupstorage",
-          "software.amazon.awssdk:codestar",
-          "software.amazon.awssdk:dynamodbdocument-v1",
-          "software.amazon.awssdk:dynamodbmapper-v1",
-          "software.amazon.awssdk:elasticinference",
-          "software.amazon.awssdk:gamesparks",
-          "software.amazon.awssdk:honeycode",
-          "software.amazon.awssdk:iot1clickdevices",
-          "software.amazon.awssdk:iot1clickprojects",
-          "software.amazon.awssdk:iotroborunner",
-          "software.amazon.awssdk:macie",
-          "software.amazon.awssdk:mobile",
-          "software.amazon.awssdk:nimble",
-          "software.amazon.awssdk:opsworks",
-          "software.amazon.awssdk:opsworkscm",
-          "software.amazon.awssdk:privatenetworks",
-          "software.amazon.awssdk:sms",
-          "software.amazon.awssdk:worklink",
-          "software.amazon:flow"
-        ]
-      }
-    },
-    "2.34.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.35.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
-        },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1420,22 +1379,22 @@
         ]
       }
     },
-    "2.35.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.36.x",
-        "project" : null
+    "2.34.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.35.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1461,22 +1420,22 @@
         ]
       }
     },
-    "2.36.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.37.x",
-        "project" : null
+    "2.35.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.36.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:auth-sts-testing",
           "software.amazon.awssdk:aws-ion-protocol",
@@ -1502,22 +1461,63 @@
         ]
       }
     },
-    "2.37.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.38.x",
-        "project" : null
+    "2.36.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.37.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
+          "software.amazon.awssdk:alexaforbusiness",
+          "software.amazon.awssdk:auth-sts-testing",
+          "software.amazon.awssdk:aws-ion-protocol",
+          "software.amazon.awssdk:backupstorage",
+          "software.amazon.awssdk:codestar",
+          "software.amazon.awssdk:dynamodbdocument-v1",
+          "software.amazon.awssdk:dynamodbmapper-v1",
+          "software.amazon.awssdk:elasticinference",
+          "software.amazon.awssdk:gamesparks",
+          "software.amazon.awssdk:honeycode",
+          "software.amazon.awssdk:iot1clickdevices",
+          "software.amazon.awssdk:iot1clickprojects",
+          "software.amazon.awssdk:iotroborunner",
+          "software.amazon.awssdk:macie",
+          "software.amazon.awssdk:mobile",
+          "software.amazon.awssdk:nimble",
+          "software.amazon.awssdk:opsworks",
+          "software.amazon.awssdk:opsworkscm",
+          "software.amazon.awssdk:privatenetworks",
+          "software.amazon.awssdk:sms",
+          "software.amazon.awssdk:worklink",
+          "software.amazon:flow"
+        ]
+      }
+    },
+    "2.37.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.38.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
+        },
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
+        },
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:apptest",
           "software.amazon.awssdk:auth-sts-testing",
@@ -1550,22 +1550,22 @@
         ]
       }
     },
-    "2.38.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.39.x",
-        "project" : null
+    "2.38.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.39.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:apptest",
           "software.amazon.awssdk:auth-sts-testing",
@@ -1598,22 +1598,22 @@
         ]
       }
     },
-    "2.39.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.40.x",
-        "project" : null
+    "2.39.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.40.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:apptest",
           "software.amazon.awssdk:auth-sts-testing",
@@ -1646,22 +1646,22 @@
         ]
       }
     },
-    "2.40.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.41.x",
-        "project" : null
+    "2.40.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.41.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:apptest",
           "software.amazon.awssdk:auth-sts-testing",
@@ -1695,19 +1695,19 @@
         ]
       }
     },
-    "2.41.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
+    "2.41.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "minor": 8
         },
-        "supportedGenerations" : {
-          "reactive-streams" : "1.0.x",
-          "blockhound" : "1.0.x",
-          "rx-java" : "3.1.x"
+        "supportedGenerations": {
+          "reactive-streams": "1.0.x",
+          "blockhound": "1.0.x",
+          "rx-java": "3.1.x"
         },
-        "excludedArtifacts" : [
+        "excludedArtifacts": [
           "software.amazon.awssdk:alexaforbusiness",
           "software.amazon.awssdk:apptest",
           "software.amazon.awssdk:auth-sts-testing",

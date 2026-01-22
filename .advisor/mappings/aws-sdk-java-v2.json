@@ -552,7 +552,8 @@
           "minor" : 8
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -565,10 +566,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.1.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -583,10 +585,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.2.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -601,10 +604,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.3.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -619,10 +623,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.4.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -637,10 +642,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.5.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -655,10 +661,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.6.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -673,10 +680,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.7.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -691,10 +699,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.8.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -709,10 +718,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.9.x"
         },
         "excludedArtifacts" : [
           "software.amazon:flow"
@@ -727,10 +737,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.10.x"
         },
         "excludedArtifacts" : [
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -747,10 +758,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.11.x"
         },
         "excludedArtifacts" : [
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -767,10 +779,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.12.x"
         },
         "excludedArtifacts" : [
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -787,10 +800,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.13.x"
         },
         "excludedArtifacts" : [
           "software.amazon.awssdk:dynamodbdocument-v1",
@@ -807,10 +821,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.14.x",
           "rx-java" : "2.1.x"
         },
         "excludedArtifacts" : [
@@ -828,10 +843,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.15.x",
           "rx-java" : "2.1.x"
         },
         "excludedArtifacts" : [
@@ -849,10 +865,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.16.x",
           "rx-java" : "2.2.x"
         },
         "excludedArtifacts" : [
@@ -870,10 +887,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.17.x",
           "blockhound" : "1.0.x",
           "rx-java" : "2.2.x"
         },
@@ -894,10 +912,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.18.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -918,10 +937,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.19.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -942,10 +962,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.20.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -966,10 +987,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.21.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -992,10 +1014,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.22.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1018,10 +1041,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.23.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1044,10 +1068,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.24.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1070,10 +1095,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.25.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1099,10 +1125,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.26.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1130,10 +1157,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.27.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1162,10 +1190,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.28.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1195,10 +1224,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.29.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1231,10 +1261,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.30.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1268,10 +1299,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.31.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1306,10 +1338,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.32.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1346,10 +1379,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.33.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1387,10 +1421,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.34.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1428,10 +1463,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.35.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1469,10 +1505,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.36.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1510,10 +1547,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.37.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1558,10 +1596,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.38.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1606,10 +1645,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.39.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1654,10 +1694,11 @@
       },
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.40.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },
@@ -1700,10 +1741,11 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedJavaVersions" : {
-          "minor" : 8
+          "minor" : 9
         },
         "supportedGenerations" : {
           "reactive-streams" : "1.0.x",
+          "aws-sdk-java" : "2.41.x",
           "blockhound" : "1.0.x",
           "rx-java" : "3.1.x"
         },

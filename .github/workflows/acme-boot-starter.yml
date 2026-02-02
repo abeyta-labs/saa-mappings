@@ -20,4 +20,6 @@ jobs:
       mapping-name: acme-boot-starter
       repo-url: https://github.com/abeyta-labs/acme-boot-starter
       coordinates: com.acme.boot:acme-boot-starter
+      offline: true
+      debug: true
     secrets: inherit

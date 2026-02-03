@@ -19,4 +19,5 @@ jobs:
       repo-url: "https://github.com/jolokia/jolokia"
       coordinates: "org.jolokia:jolokia-support-spring"
       runs-on: "self-hosted"
+      after-mapping-script: "scripts/mapping-cleanup/jolokia.py"
     secrets: inherit

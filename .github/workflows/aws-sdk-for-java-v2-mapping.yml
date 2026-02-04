@@ -21,4 +21,5 @@ jobs:
       after-mapping-script: "scripts/mapping-cleanup/aws-sdk.py"
       repo-url: https://github.com/aws/aws-sdk-java-v2
       coordinates: software.amazon.awssdk:utils
+      large-disk: true
     secrets: inherit

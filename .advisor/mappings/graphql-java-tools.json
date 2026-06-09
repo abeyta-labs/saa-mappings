@@ -1,9 +1,7 @@
 {
   "slug" : "graphql-java-tools",
-  "coordinates" : [
-    "com.graphql-java-kickstart:graphql-java-tools"
-  ],
-  "repositoryUrl" : "https://github.com/graphql-java-kickstart/graphql-java-tools",
+  "coordinates" : [ "com.graphql-java-kickstart:graphql-java-tools" ],
+  "repositoryUrl" : "",
   "rewrite" : {
     "5.3.x" : {
       "recipes" : [ ],
@@ -12,11 +10,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
+          "apache-commons-lang" : "3.8.x",
+          "jackson" : "2.9.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -28,11 +24,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
+          "apache-commons-lang" : "3.8.x",
+          "jackson" : "2.9.x",
           "kotlin-coroutines" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -45,11 +39,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
+          "apache-commons-lang" : "3.8.x",
+          "jackson" : "2.9.x",
           "kotlin-coroutines" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -62,12 +54,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.2.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.9.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -79,12 +68,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.2.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -96,12 +82,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.2.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -113,12 +96,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.2.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -130,12 +110,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.2.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -147,12 +124,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "4.3.x",
-          "kotlin-coroutines" : "1.3.x"
+          "apache-commons-lang" : "3.9.x",
+          "jackson" : "2.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -164,12 +138,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.5.x"
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.12.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -181,12 +152,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.5.x"
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.12.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -198,12 +166,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.5.x"
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.13.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -211,16 +176,27 @@
     "12.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
+        "version" : "13.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
         "version" : "13.1.x",
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.6.x"
+          "apache-commons-lang" : "3.13.x",
+          "jackson" : "2.15.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -232,12 +208,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.7.x"
+          "apache-commons-lang" : "3.13.x",
+          "jackson" : "2.15.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -246,12 +219,9 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.10.x"
+          "apache-commons-lang" : "3.17.x",
+          "jackson" : "2.19.x"
         },
         "excludedArtifacts" : [ ]
       }

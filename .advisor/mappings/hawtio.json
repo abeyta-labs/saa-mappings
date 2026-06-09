@@ -1,62 +1,38 @@
 {
   "slug" : "hawtio",
-  "coordinates" : [
-    "io.hawt:hawtio-osgi-jmx",
-    "io.hawt.examples:hawtio-example-springboot-security",
-    "io.hawt.examples:hawtio-example-quarkus-keycloak",
-    "io.hawt:hawtio-example-war-plugin",
-    "io.hawt:hawtio-ide",
-    "io.hawt:hawtio-springboot",
-    "io.hawt.examples:hawtio-example-quarkus",
-    "io.hawt:hawtio-jbang",
-    "io.hawt:hawtio-app",
-    "io.hawt.examples:hawtio-example-springboot-1-authentication",
-    "io.hawt:hawtio-maven-plugin",
-    "io.hawt.examples:hawtio-example-springboot-plugin",
-    "io.hawt:hawtio-springboot-keycloak",
-    "io.hawt:hawtio-default",
-    "io.hawt:hawtio-jetty-security",
-    "io.hawt:hawtio-springboot-security",
-    "io.hawt:hawtio-core",
-    "io.hawt.tests:hawtio-tests-utils",
-    "io.hawt:hawtio-util",
-    "io.hawt.examples:hawtio-example-springboot-keycloak",
-    "io.hawt.examples:hawtio-example-springboot-log4j2",
-    "io.hawt.tests:hawtio-tests",
-    "io.hawt:project",
-    "io.hawt:hawtio-karaf",
-    "io.hawt.examples:hawtio-example-springboot-1",
-    "io.hawt:hawtio-console-assembly",
-    "io.hawt:hawtio-springboot-1",
-    "io.hawt:simple-plugin",
-    "io.hawt:hawtio-log-logback",
-    "io.hawt:hawtio-quarkus-deployment",
-    "io.hawt:hawtio-war",
-    "io.hawt:branding-plugin",
-    "io.hawt.tests:hawtio-tests-springboot",
-    "io.hawt:hawtio-system",
-    "io.hawt.examples:hawtio-example-sample-plugin",
-    "io.hawt:hawtio-junit",
-    "io.hawt:hawtio-embedded",
-    "io.hawt:hawtio-quarkus-parent",
-    "io.hawt:hawtio-plugin-mbean",
-    "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-    "io.hawt:hawtio-local-jvm-mbean",
-    "io.hawt:hawtio-wildfly",
-    "io.hawt.examples:hawtio-example-springboot",
-    "io.hawt.examples:hawtio-example-springboot-authentication",
-    "io.hawt:hawtio-bom",
-    "io.hawt:hawtio-log-osgi",
-    "io.hawt:hawtio-quarkus",
-    "io.hawt:hawtio-log",
-    "io.hawt:hawtio-console-minimal-assembly",
-    "io.hawt:hawtio-connect",
-    "io.hawt:hawtio-osgi",
-    "io.hawt:hawtio-base",
-    "io.hawt:hawtio-war-minimal"
-  ],
-  "repositoryUrl" : "https://github.com/hawtio/hawtio",
+  "coordinates" : [ "io.hawt:hawtio-springboot", "io.hawt:hawtio-system" ],
+  "repositoryUrl" : "",
   "rewrite" : {
+    "1.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hawtio-core" : "1.4.x",
+          "hawtio-git" : "1.4.x",
+          "spring-boot" : "1.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hawtio-core" : "1.5.x",
+          "hawtio-git" : "1.5.x",
+          "spring-boot" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -64,12 +40,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.21.x",
-          "spring-framework" : "4.3.x",
+          "hawtio-core" : "2.0.x",
           "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -82,12 +54,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.21.x",
-          "spring-framework" : "4.3.x",
+          "hawtio-core" : "2.1.x",
           "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -100,12 +68,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.21.x",
-          "spring-framework" : "4.3.x",
+          "hawtio-core" : "2.2.x",
           "spring-boot" : "1.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -118,12 +82,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.22.x",
-          "spring-framework" : "5.0.x",
+          "hawtio-core" : "2.3.x",
           "spring-boot" : "2.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -136,12 +96,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.23.x",
-          "spring-framework" : "5.1.x",
+          "hawtio-core" : "2.4.x",
           "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -154,12 +110,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.23.x",
-          "spring-framework" : "5.1.x",
+          "hawtio-core" : "2.5.x",
           "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -172,12 +124,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "camel" : "2.23.x",
-          "spring-framework" : "5.1.x",
+          "hawtio-core" : "2.6.x",
           "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -190,14 +138,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.1.x",
-          "spring-plugin" : "1.2.x",
-          "spring-boot" : "2.1.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.7.x",
+          "spring-boot" : "2.1.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -209,20 +152,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.1.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.8.x",
+          "spring-boot" : "2.1.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.9.x" : {
@@ -232,20 +166,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.2.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.9.x",
+          "spring-boot" : "2.2.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.10.x" : {
@@ -255,20 +180,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.10.x",
+          "spring-boot" : "2.3.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.11.x" : {
@@ -278,20 +194,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.11.x",
+          "spring-boot" : "2.3.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.12.x" : {
@@ -301,20 +208,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.12.x",
+          "spring-boot" : "2.3.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.13.x" : {
@@ -324,20 +222,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.13.x",
+          "spring-boot" : "2.3.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.14.x" : {
@@ -347,20 +236,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.6.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.14.x",
+          "spring-boot" : "2.6.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.15.x" : {
@@ -370,20 +250,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.7.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.15.x",
+          "spring-boot" : "2.7.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.16.x" : {
@@ -393,20 +264,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-plugin" : "1.2.x",
-          "spring-framework" : "5.3.x",
-          "spring-boot" : "2.7.x",
-          "spring-hateoas" : "0.25.x"
+          "hawtio-core" : "2.16.x",
+          "spring-boot" : "2.7.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.17.x" : {
@@ -416,18 +278,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-framework" : "5.3.x",
+          "hawtio-core" : "2.17.x",
           "spring-boot" : "2.7.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt:hawtio-springboot-1"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.0.x" : {
@@ -437,35 +292,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
           "spring-boot" : "2.7.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.0.x" : {
@@ -475,41 +305,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
+        "supportedGenerations" : {
+          "spring-boot" : "3.2.x"
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot",
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.examples:hawtio-example-springboot-keycloak",
-          "io.hawt.examples:hawtio-example-springboot-log4j2",
-          "io.hawt.examples:hawtio-example-springboot-plugin",
-          "io.hawt.examples:hawtio-example-springboot-security",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.1.x" : {
@@ -519,41 +318,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
+        "supportedGenerations" : {
+          "spring-boot" : "3.3.x"
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot",
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.examples:hawtio-example-springboot-keycloak",
-          "io.hawt.examples:hawtio-example-springboot-log4j2",
-          "io.hawt.examples:hawtio-example-springboot-plugin",
-          "io.hawt.examples:hawtio-example-springboot-security",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.2.x" : {
@@ -563,41 +331,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
+        "supportedGenerations" : {
+          "spring-boot" : "3.3.x"
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot",
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.examples:hawtio-example-springboot-keycloak",
-          "io.hawt.examples:hawtio-example-springboot-log4j2",
-          "io.hawt.examples:hawtio-example-springboot-plugin",
-          "io.hawt.examples:hawtio-example-springboot-security",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.3.x" : {
@@ -607,41 +344,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
+        "supportedGenerations" : {
+          "spring-boot" : "3.4.x"
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot",
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.examples:hawtio-example-springboot-keycloak",
-          "io.hawt.examples:hawtio-example-springboot-log4j2",
-          "io.hawt.examples:hawtio-example-springboot-plugin",
-          "io.hawt.examples:hawtio-example-springboot-security",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.4.x" : {
@@ -651,77 +357,85 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
+        "supportedGenerations" : {
+          "spring-boot" : "3.4.x"
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot",
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.examples:hawtio-example-springboot-keycloak",
-          "io.hawt.examples:hawtio-example-springboot-log4j2",
-          "io.hawt.examples:hawtio-example-springboot-plugin",
-          "io.hawt.examples:hawtio-example-springboot-security",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.5.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
           "spring-boot" : "3.4.x"
         },
-        "excludedArtifacts" : [
-          "io.hawt.examples:hawtio-example-springboot-1",
-          "io.hawt.examples:hawtio-example-springboot-1-authentication",
-          "io.hawt.examples:hawtio-example-springboot-authentication-jar",
-          "io.hawt.tests:hawtio-tests",
-          "io.hawt.tests:hawtio-tests-springboot",
-          "io.hawt.tests:hawtio-tests-utils",
-          "io.hawt:branding-plugin",
-          "io.hawt:hawtio-app",
-          "io.hawt:hawtio-base",
-          "io.hawt:hawtio-core",
-          "io.hawt:hawtio-ide",
-          "io.hawt:hawtio-junit",
-          "io.hawt:hawtio-karaf",
-          "io.hawt:hawtio-log-osgi",
-          "io.hawt:hawtio-maven-plugin",
-          "io.hawt:hawtio-osgi",
-          "io.hawt:hawtio-osgi-jmx",
-          "io.hawt:hawtio-springboot-1",
-          "io.hawt:hawtio-springboot-keycloak",
-          "io.hawt:hawtio-util",
-          "io.hawt:hawtio-wildfly",
-          "io.hawt:simple-plugin"
-        ]
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
       }
     }
   }

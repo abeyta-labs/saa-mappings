@@ -1,0 +1,59 @@
+{
+  "slug" : "hive-udf",
+  "coordinates" : [ "org.apache.hive:hive-udf" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.23.x",
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.16.x",
+          "org.apache.hive.shims:hive-shims" : "4.0.x",
+          "spring-cloud-gateway" : "1.51.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.26.x",
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.16.x",
+          "mockito" : "5.17.x",
+          "org.apache.hive.shims:hive-shims" : "4.1.x",
+          "spring-cloud-gateway" : "1.72.x",
+          "spring-ldap" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.26.x",
+          "apache-commons-lang" : "3.14.x",
+          "jackson" : "2.16.x",
+          "mockito" : "5.17.x",
+          "org.apache.hive.shims:hive-shims" : "4.2.x",
+          "spring-cloud-gateway" : "1.72.x",
+          "spring-ldap" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

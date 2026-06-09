@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-serialization-jdk",
+  "coordinates" : [ "org.apache.dubbo:dubbo-serialization-jdk" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

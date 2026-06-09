@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-metadata-report-redis",
+  "coordinates" : [ "org.apache.dubbo:dubbo-metadata-report-redis" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

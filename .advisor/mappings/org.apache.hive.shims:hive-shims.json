@@ -1,57 +1,8 @@
 {
-  "slug" : "hive",
-  "coordinates" : [ "org.apache.hive:hive" ],
+  "slug" : "org.apache.hive.shims:hive-shims",
+  "coordinates" : [ "org.apache.hive.shims:hive-shims-0.23", "org.apache.hive.shims:hive-shims-common" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.10.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.11.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.11.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.12.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.12.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.13.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "0.13.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -59,7 +10,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-shims-common-secure" : "0.13.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -70,7 +23,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-shims-common-secure" : "0.14.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -81,7 +36,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-shims-common-secure" : "1.0.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -148,7 +105,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
           "apache-commons-lang" : "3.12.x"
         },
         "excludedArtifacts" : [ ]
@@ -161,11 +117,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "jackson" : "2.9.x",
-          "jackson-annotations" : "2.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },

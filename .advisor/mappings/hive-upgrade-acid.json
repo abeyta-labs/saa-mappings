@@ -1,0 +1,15 @@
+{
+  "slug" : "hive-upgrade-acid",
+  "coordinates" : [ "org.apache.hive:hive-upgrade-acid" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug" : "hive-shims-0.20",
+  "coordinates" : [ "org.apache.hive.shims:hive-shims-0.20" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

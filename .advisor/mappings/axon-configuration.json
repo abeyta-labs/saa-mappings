@@ -1,0 +1,200 @@
+{
+  "slug" : "axon-configuration",
+  "coordinates" : [ "org.axonframework:axon-configuration" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.0.x",
+          "axon-modelling" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.1.x",
+          "axon-modelling" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.2.x",
+          "axon-modelling" : "4.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.3.x",
+          "axon-modelling" : "4.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.4.x",
+          "axon-modelling" : "4.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.5.x",
+          "axon-modelling" : "4.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.6.x",
+          "axon-modelling" : "4.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.7.x",
+          "axon-modelling" : "4.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.8.x",
+          "axon-modelling" : "4.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.9.x",
+          "axon-modelling" : "4.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.10.x",
+          "axon-modelling" : "4.10.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.11.x",
+          "axon-modelling" : "4.11.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.12.x",
+          "axon-modelling" : "4.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "axon-messaging" : "4.13.x",
+          "axon-modelling" : "4.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

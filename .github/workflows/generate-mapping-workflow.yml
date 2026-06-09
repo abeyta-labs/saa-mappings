@@ -69,7 +69,7 @@ jobs:
           
           jobs:
             call-mapping-workflow:
-              uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+              uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
               with:
                 mapping-name: ${{ inputs.slug }}
                 repo-url: ${{ inputs.repo_url }}

@@ -1,0 +1,80 @@
+{
+  "slug" : "keycloak-spring-boot-adapter",
+  "coordinates" : [ "org.keycloak:keycloak-spring-boot-adapter" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "3.1.x",
+          "keycloak-spring-security-adapter" : "3.1.x",
+          "spring-boot-container-bundle" : "3.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "3.2.x",
+          "keycloak-spring-security-adapter" : "3.2.x",
+          "spring-boot-container-bundle" : "3.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "3.3.x",
+          "keycloak-spring-security-adapter" : "3.3.x",
+          "spring-boot-container-bundle" : "3.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "3.4.x",
+          "keycloak-spring-security-adapter" : "3.4.x",
+          "spring-boot-container-bundle" : "3.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "4.0.x",
+          "keycloak-spring-boot-adapter-core" : "4.0.x",
+          "keycloak-spring-security-adapter" : "4.0.x",
+          "spring-boot-container-bundle" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

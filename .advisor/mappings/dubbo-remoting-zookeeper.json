@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-remoting-zookeeper",
+  "coordinates" : [ "org.apache.dubbo:dubbo-remoting-zookeeper" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

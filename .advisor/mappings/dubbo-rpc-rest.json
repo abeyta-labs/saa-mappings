@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-rpc-rest",
+  "coordinates" : [ "org.apache.dubbo:dubbo-rpc-rest" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

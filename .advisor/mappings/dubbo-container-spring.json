@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-container-spring",
+  "coordinates" : [ "org.apache.dubbo:dubbo-container-spring" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

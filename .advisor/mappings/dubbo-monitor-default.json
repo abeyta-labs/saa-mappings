@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-monitor-default",
+  "coordinates" : [ "org.apache.dubbo:dubbo-monitor-default" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

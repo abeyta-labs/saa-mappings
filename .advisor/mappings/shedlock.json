@@ -1,82 +1,7 @@
 {
   "slug" : "shedlock",
-  "coordinates" : [
-    "net.javacrumbs.shedlock:shedlock-testng-test",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-spring",
-    "net.javacrumbs.shedlock:shedlock-micronaut4",
-    "net.javacrumbs.shedlock:shedlock-provider-jedis",
-    "net.javacrumbs.shedlock:shedlock-provider-jetstream",
-    "net.javacrumbs.shedlock:quarkus-test",
-    "net.javacrumbs.shedlock:shedlock-provider-datastore",
-    "net.javacrumbs.shedlock:micronaut-jdbc",
-    "net.javacrumbs.shedlock:shedlock-provider-vertx-sqlclient",
-    "net.javacrumbs.shedlock:shedlock-provider-jooq",
-    "net.javacrumbs.shedlock:shedlock-provider-jdbc-micronaut",
-    "net.javacrumbs.shedlock:shedlock-springboot24-test",
-    "net.javacrumbs.shedlock:shedlock-parent",
-    "net.javacrumbs.shedlock:shedlock-provider-ignite",
-    "net.javacrumbs.shedlock:shedlock-springboot-old-test",
-    "net.javacrumbs.shedlock:shedlock-micronaut",
-    "net.javacrumbs.shedlock:shedlock-springboot-sleuth-test",
-    "net.javacrumbs.shedlock:shedlock-springboot-future-test",
-    "net.javacrumbs.shedlock:shedlock-support-redis",
-    "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-jedis4",
-    "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-    "net.javacrumbs.shedlock:shedlock-cdi",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-    "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-    "net.javacrumbs.shedlock:shedlock-spring",
-    "net.javacrumbs.shedlock:shedlock-provider-etcd-jetcd",
-    "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-    "net.javacrumbs.shedlock:shedlock-provider-gcs",
-    "net.javacrumbs.shedlock:micronaut-test",
-    "net.javacrumbs.shedlock:shedlock-provider-s3",
-    "net.javacrumbs.shedlock:shedlock-provider-opensearch-java",
-    "net.javacrumbs.shedlock:shedlock-test-support-jdbc",
-    "net.javacrumbs.shedlock:micronaut4-jdbc-template",
-    "net.javacrumbs.shedlock:shedlock-provider-arangodb",
-    "net.javacrumbs.shedlock:shedlock-provider-firestore",
-    "net.javacrumbs.shedlock:shedlock-springboot-kotlin-test",
-    "net.javacrumbs.shedlock:shedlock-core",
-    "net.javacrumbs.shedlock:micronaut-jdbc-template",
-    "net.javacrumbs.shedlock:shedlock-springboot22-test",
-    "net.javacrumbs.shedlock:shedlock-provider-mongo-reactivestreams",
-    "net.javacrumbs.shedlock:shedlock-provider-spanner",
-    "net.javacrumbs.shedlock:shedlock-springboot-test",
-    "net.javacrumbs.shedlock:shedlock-provider-jdbc",
-    "net.javacrumbs.shedlock:shedlock-provider-mongo",
-    "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient3",
-    "net.javacrumbs.shedlock:shedlock-provider-cassandra",
-    "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-    "net.javacrumbs.shedlock:micronaut4-jdbc",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-lettuce",
-    "net.javacrumbs.shedlock:shedlock-provider-exposed",
-    "net.javacrumbs.shedlock:shedlock-provider-elasticsearch9",
-    "net.javacrumbs.shedlock:shedlock-provider-neo4j",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-    "net.javacrumbs.shedlock:shedlock-provider-dynamodb2",
-    "net.javacrumbs.shedlock:shedlock-bom",
-    "net.javacrumbs.shedlock:shedlock-test-support-redis",
-    "net.javacrumbs.shedlock:shedlock-provider-memcached-spy",
-    "net.javacrumbs.shedlock:shedlock-provider-s3v2",
-    "net.javacrumbs.shedlock:shedlock-provider-r2dbc",
-    "net.javacrumbs.shedlock:shedlock-provider-zookeeper-curator",
-    "net.javacrumbs.shedlock:shedlock-test-support",
-    "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-    "net.javacrumbs.shedlock:micronaut-jdbc-new",
-    "net.javacrumbs.shedlock:shedlock-provider-consul",
-    "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-    "net.javacrumbs.shedlock:shedlock-sql-support",
-    "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-    "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-    "net.javacrumbs.shedlock:shedlock-provider-hazelcast4",
-    "net.javacrumbs.shedlock:shedlock-provider-inmemory",
-    "net.javacrumbs.shedlock:shedlock-provider-jdbc-template",
-    "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-    "net.javacrumbs.shedlock:shedlock-cdi-vintage"
-  ],
-  "repositoryUrl" : "https://github.com/lukas-krecan/ShedLock",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-core", "net.javacrumbs.shedlock:shedlock-spring" ],
+  "repositoryUrl" : "",
   "rewrite" : {
     "0.1.x" : {
       "recipes" : [ ],
@@ -85,13 +10,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -103,13 +23,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -121,13 +36,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -139,13 +49,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -157,13 +62,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -175,13 +75,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.4.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -193,13 +88,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -211,13 +101,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -229,13 +114,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -247,13 +127,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -265,14 +140,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -284,14 +153,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -303,14 +166,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -322,14 +179,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -341,14 +192,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -360,14 +205,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -379,14 +218,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -398,15 +231,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "1.8.x",
-          "mongo-java-driver" : "3.4.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "4.3.x",
-          "spring-boot" : "1.5.x"
+          "spring-framework" : "4.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -418,19 +244,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "1.1.x" : {
@@ -440,19 +257,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "1.2.x" : {
@@ -462,19 +270,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "1.3.x" : {
@@ -484,19 +283,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.0.x" : {
@@ -506,19 +296,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.1.x" : {
@@ -528,19 +309,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.0.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.2.x" : {
@@ -550,19 +322,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.1.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.3.x" : {
@@ -572,19 +335,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.1.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.4.x" : {
@@ -594,19 +348,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.1.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.5.x" : {
@@ -616,19 +361,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.0.x",
-          "spring-boot" : "2.2.x"
+          "spring-framework" : "5.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "2.6.x" : {
@@ -638,19 +374,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.0.x" : {
@@ -660,19 +387,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.5.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.0.x" : {
@@ -682,20 +400,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.6.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.1.x" : {
@@ -705,20 +413,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.6.x",
-          "jedis" : "2.9.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.2.x" : {
@@ -728,21 +426,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.6.x",
-          "jedis" : "2.9.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.3.x" : {
@@ -752,21 +439,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.6.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.4.x" : {
@@ -776,21 +452,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.6.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.5.x" : {
@@ -800,21 +465,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.6.x" : {
@@ -824,21 +478,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.7.x" : {
@@ -848,21 +491,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.8.x" : {
@@ -872,22 +504,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.2.x",
-          "aws-sdk-java" : "2.11.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.9.x" : {
@@ -897,23 +517,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.10.x" : {
@@ -923,23 +530,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.8.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "aws-sdk-java" : "2.11.x",
-          "spring-boot" : "2.2.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.11.x" : {
@@ -949,23 +543,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.3.x",
-          "aws-sdk-java" : "2.11.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.12.x" : {
@@ -975,23 +556,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.0.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.1.x",
-          "spring-boot" : "2.3.x",
-          "aws-sdk-java" : "2.11.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.13.x" : {
@@ -1001,23 +569,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.14.x" : {
@@ -1027,23 +582,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "spring-boot" : "2.3.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.15.x" : {
@@ -1053,24 +595,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.16.x" : {
@@ -1080,24 +608,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.17.x" : {
@@ -1107,24 +621,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.18.x" : {
@@ -1134,24 +634,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.19.x" : {
@@ -1161,24 +647,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.20.x" : {
@@ -1188,24 +660,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.3.x",
-          "mongo-java-driver" : "3.12.x",
-          "jedis" : "3.2.x",
-          "cassandra-java-driver" : "4.3.x",
-          "spring-framework" : "5.2.x",
-          "aws-sdk-java" : "2.13.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "2.2.x"
+          "spring-framework" : "5.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.21.x" : {
@@ -1215,25 +673,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.4.x",
-          "mongo-java-driver" : "4.2.x",
-          "jedis" : "3.5.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.10.x",
-          "aws-sdk-java" : "2.16.x",
-          "spring-boot" : "2.4.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.22.x" : {
@@ -1243,27 +686,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.4.x",
-          "mongo-java-driver" : "4.2.x",
-          "jedis" : "3.5.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.10.x",
-          "spring-boot" : "2.5.x",
-          "aws-sdk-java" : "2.16.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.23.x" : {
@@ -1273,26 +699,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.4.x",
-          "mongo-java-driver" : "4.2.x",
-          "jedis" : "3.5.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.11.x",
-          "spring-boot" : "2.5.x",
-          "aws-sdk-java" : "2.16.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.24.x" : {
@@ -1302,27 +712,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.2.x",
-          "jedis" : "3.6.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.11.x",
-          "spring-boot" : "2.5.x",
-          "aws-sdk-java" : "2.16.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.25.x" : {
@@ -1332,27 +725,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.2.x",
-          "jedis" : "3.6.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.12.x",
-          "aws-sdk-java" : "2.16.x",
-          "spring-boot" : "2.5.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.26.x" : {
@@ -1362,27 +738,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.3.x",
-          "jedis" : "3.6.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.27.x" : {
@@ -1392,27 +751,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.3.x",
-          "jedis" : "3.7.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.28.x" : {
@@ -1422,27 +764,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.3.x",
-          "jedis" : "3.7.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.29.x" : {
@@ -1452,29 +777,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.5.x",
-          "mongo-java-driver" : "4.3.x",
-          "r2dbc-spi" : "0.8.x",
-          "jedis" : "3.7.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.0.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.30.x" : {
@@ -1484,61 +790,75 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.6.x",
-          "mongo-java-driver" : "4.4.x",
-          "r2dbc-spi" : "0.8.x",
-          "jedis" : "3.7.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.31.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.32.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.32.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.33.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.33.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.34.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.34.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.35.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.35.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
         "version" : "4.36.x",
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.6.x",
-          "mongo-java-driver" : "4.4.x",
-          "r2dbc-spi" : "0.8.x",
-          "jedis" : "4.0.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.13.x",
-          "spring-boot" : "2.6.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.36.x" : {
@@ -1548,31 +868,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.6.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.37.x" : {
@@ -1582,31 +881,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.6.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.38.x" : {
@@ -1616,31 +894,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.6.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.39.x" : {
@@ -1650,31 +907,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "jackson" : "2.13.x",
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.40.x" : {
@@ -1684,31 +921,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "jackson" : "2.13.x",
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.41.x" : {
@@ -1718,31 +935,11 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "jackson" : "2.13.x",
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.42.x" : {
@@ -1752,31 +949,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.43.x" : {
@@ -1786,31 +962,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.44.x" : {
@@ -1820,31 +975,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.45.x" : {
@@ -1854,31 +988,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.46.x" : {
@@ -1888,31 +1001,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.47.x" : {
@@ -1922,31 +1014,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "4.48.x" : {
@@ -1956,31 +1027,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "2.7.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "0.9.x",
-          "jedis" : "4.2.x",
-          "reactor" : "3.4.x",
-          "spring-framework" : "5.3.x",
-          "cassandra-java-driver" : "4.14.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "5.3.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.0.x" : {
@@ -1990,36 +1040,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.0.x",
-          "mongo-java-driver" : "4.7.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.15.x",
-          "spring-framework" : "6.0.x",
-          "spring-boot" : "3.0.x",
-          "aws-sdk-java" : "2.17.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.1.x" : {
@@ -2029,36 +1053,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.0.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "cassandra-java-driver" : "4.15.x",
-          "spring-framework" : "6.0.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.2.x" : {
@@ -2068,36 +1066,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.0.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.15.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.1.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.3.x" : {
@@ -2107,36 +1079,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.0.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.15.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.1.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.4.x" : {
@@ -2146,36 +1092,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.16.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.1.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.5.x" : {
@@ -2185,36 +1105,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.16.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.1.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.6.x" : {
@@ -2224,36 +1118,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.1.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.7.x" : {
@@ -2263,36 +1131,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.8.x" : {
@@ -2302,36 +1144,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.8.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.9.x" : {
@@ -2341,36 +1157,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.1.x",
-          "mongo-java-driver" : "4.11.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "4.3.x",
-          "reactor" : "3.5.x",
-          "spring-framework" : "6.0.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.18.x",
-          "spring-boot" : "3.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.10.x" : {
@@ -2380,36 +1170,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.2.x",
-          "mongo-java-driver" : "4.11.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "cassandra-java-driver" : "4.17.x",
-          "spring-framework" : "6.1.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.11.x" : {
@@ -2419,36 +1183,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.2.x",
-          "mongo-java-driver" : "4.11.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.3.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.12.x" : {
@@ -2458,36 +1196,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.2.x",
-          "mongo-java-driver" : "4.11.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.3.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.13.x" : {
@@ -2497,36 +1209,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.2.x",
-          "mongo-java-driver" : "5.0.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.3.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.14.x" : {
@@ -2536,36 +1222,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.3.x",
-          "mongo-java-driver" : "5.1.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.15.x" : {
@@ -2575,36 +1235,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.3.x",
-          "mongo-java-driver" : "5.1.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "5.16.x" : {
@@ -2614,36 +1248,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.3.x",
-          "mongo-java-driver" : "5.1.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.1.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.1.x",
-          "cassandra-java-driver" : "4.17.x",
-          "aws-sdk-java" : "2.21.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.1.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.0.x" : {
@@ -2653,40 +1261,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.2.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.1.x" : {
@@ -2696,40 +1274,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.2.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.2.x" : {
@@ -2739,40 +1287,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.2.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.29.x",
-          "spring-boot" : "3.4.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.3.x" : {
@@ -2782,40 +1300,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.4.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "spring-boot" : "3.5.x",
-          "aws-sdk-java" : "2.31.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.4.x" : {
@@ -2825,40 +1313,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.4.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x",
-          "spring-boot" : "3.5.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.5.x" : {
@@ -2868,40 +1326,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.4.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "spring-boot" : "3.5.x",
-          "aws-sdk-java" : "2.31.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.6.x" : {
@@ -2911,85 +1339,36 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.4.x",
-          "mongo-java-driver" : "5.5.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x",
-          "spring-boot" : "3.5.x",
-          "lettuce" : "6.6.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.8.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
         "version" : "6.9.x",
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.5.x",
-          "mongo-java-driver" : "5.5.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "spring-boot" : "3.5.x",
-          "aws-sdk-java" : "2.31.x",
-          "lettuce" : "6.6.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.9.x" : {
@@ -2999,41 +1378,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.5.x",
-          "mongo-java-driver" : "5.5.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "5.2.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.31.x",
-          "spring-boot" : "3.5.x",
-          "lettuce" : "6.7.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "6.10.x" : {
@@ -3043,41 +1391,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.5.x",
-          "mongo-java-driver" : "5.5.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "6.1.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "6.2.x",
-          "aws-sdk-java" : "2.32.x",
-          "spring-boot" : "4.0.x",
-          "lettuce" : "6.8.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "6.2.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.0.x" : {
@@ -3087,45 +1404,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "3.5.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.0.x",
-          "reactor" : "3.7.x",
-          "spring-framework" : "7.0.x",
-          "spring-boot" : "4.0.x",
-          "aws-sdk-java" : "2.36.x",
-          "lettuce" : "7.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.1.x" : {
@@ -3135,45 +1417,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "4.0.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.0.x",
-          "reactor" : "3.8.x",
-          "spring-framework" : "7.0.x",
-          "spring-boot" : "4.0.x",
-          "aws-sdk-java" : "2.38.x",
-          "lettuce" : "7.0.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.2.x" : {
@@ -3183,45 +1430,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "4.0.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.1.x",
-          "reactor" : "3.8.x",
-          "spring-framework" : "7.0.x",
-          "aws-sdk-java" : "2.40.x",
-          "spring-boot" : "4.0.x",
-          "lettuce" : "7.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.3.x" : {
@@ -3231,45 +1443,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "4.0.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.1.x",
-          "reactor" : "3.8.x",
-          "spring-framework" : "7.0.x",
-          "aws-sdk-java" : "2.40.x",
-          "spring-boot" : "4.0.x",
-          "lettuce" : "7.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.4.x" : {
@@ -3279,90 +1456,46 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "4.0.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.2.x",
-          "reactor" : "3.8.x",
-          "spring-framework" : "7.0.x",
-          "aws-sdk-java" : "2.40.x",
-          "spring-boot" : "4.0.x",
-          "lettuce" : "7.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "7.5.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "7.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "7.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.7.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "spring-data-redis" : "4.0.x",
-          "mongo-java-driver" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "jedis" : "7.2.x",
-          "reactor" : "3.8.x",
-          "spring-framework" : "7.0.x",
-          "aws-sdk-java" : "2.40.x",
-          "spring-boot" : "4.0.x",
-          "lettuce" : "7.2.x",
-          "spring-cloud-sleuth" : "3.1.x"
+          "spring-framework" : "7.0.x"
         },
-        "excludedArtifacts" : [
-          "net.javacrumbs.shedlock:micronaut-jdbc",
-          "net.javacrumbs.shedlock:micronaut-jdbc-new",
-          "net.javacrumbs.shedlock:micronaut-jdbc-template",
-          "net.javacrumbs.shedlock:micronaut-test",
-          "net.javacrumbs.shedlock:shedlock-cdi-vintage",
-          "net.javacrumbs.shedlock:shedlock-micronaut",
-          "net.javacrumbs.shedlock:shedlock-provider-consul",
-          "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient",
-          "net.javacrumbs.shedlock:shedlock-provider-dynamodb",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch",
-          "net.javacrumbs.shedlock:shedlock-provider-elasticsearch8",
-          "net.javacrumbs.shedlock:shedlock-provider-hazelcast",
-          "net.javacrumbs.shedlock:shedlock-provider-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-opensearch",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-jedis",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2",
-          "net.javacrumbs.shedlock:shedlock-provider-redis-spring-1",
-          "net.javacrumbs.shedlock:shedlock-provider-s3",
-          "net.javacrumbs.shedlock:shedlock-springboot22-kotlin-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-sleuth-test",
-          "net.javacrumbs.shedlock:shedlock-springboot22-test",
-          "net.javacrumbs.shedlock:shedlock-springboot24-test"
-        ]
+        "excludedArtifacts" : [ ]
       }
     }
   }

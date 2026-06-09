@@ -1,6 +1,6 @@
 {
-  "slug" : "keycloak-spring-boot-starter",
-  "coordinates" : [ "org.keycloak:keycloak-spring-boot-starter" ],
+  "slug" : "keycloak-adapter-core",
+  "coordinates" : [ "org.keycloak:keycloak-adapter-core" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "3.1.x" : {

@@ -1,0 +1,144 @@
+{
+  "slug" : "graphql-java-kickstart",
+  "coordinates" : [ "com.graphql-java-kickstart:graphql-java-kickstart" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "9.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.10.x",
+          "jackson-annotations" : "2.10.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.10.x",
+          "jackson-annotations" : "2.10.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.10.x",
+          "jackson-annotations" : "2.10.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "14.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "jackson-annotations" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "14.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "15.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.13.x",
+          "jackson-annotations" : "2.13.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "15.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "15.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.14.x",
+          "jackson-annotations" : "2.14.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "15.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.15.x",
+          "jackson-annotations" : "2.15.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

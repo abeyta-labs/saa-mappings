@@ -1,0 +1,15 @@
+{
+  "slug" : "azure-annotations",
+  "coordinates" : [ "com.microsoft.azure:azure-annotations" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

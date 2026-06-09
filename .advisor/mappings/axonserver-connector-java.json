@@ -1,10 +1,48 @@
 {
   "slug" : "axonserver-connector-java",
-  "coordinates" : [
-    "io.axoniq:axonserver-connector-java"
-  ],
-  "repositoryUrl" : "https://github.com/AxonIQ/axonserver-connector-java",
+  "coordinates" : [ "io.axoniq:axonserver-connector-java" ],
+  "repositoryUrl" : "",
   "rewrite" : {
+    "4.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-cloud-gateway" : "1.33.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-cloud-gateway" : "1.43.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2023.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.50.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "2023.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -12,11 +50,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.50.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -28,11 +64,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.50.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -44,11 +78,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.59.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -60,11 +92,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.65.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -76,11 +106,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.75.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -92,24 +120,34 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.69.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "2025.2.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2026.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.79.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2026.0.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "reactive-streams" : "1.0.x"
+          "reactive-streams" : "1.0.x",
+          "spring-cloud-gateway" : "1.79.x"
         },
         "excludedArtifacts" : [ ]
       }

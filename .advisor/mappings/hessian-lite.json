@@ -1,0 +1,15 @@
+{
+  "slug" : "hessian-lite",
+  "coordinates" : [ "org.apache.dubbo:hessian-lite" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

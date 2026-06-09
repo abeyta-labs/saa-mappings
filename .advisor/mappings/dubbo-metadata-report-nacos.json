@@ -1,0 +1,28 @@
+{
+  "slug" : "dubbo-metadata-report-nacos",
+  "coordinates" : [ "org.apache.dubbo:dubbo-metadata-report-nacos" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "dubbo-container-api" : "3.2.x",
+          "dubbo-container-spring" : "3.2.x",
+          "dubbo-metadata-report-redis" : "3.2.x",
+          "dubbo-monitor-api" : "3.2.x",
+          "dubbo-monitor-default" : "3.2.x",
+          "dubbo-remoting-http" : "3.2.x",
+          "dubbo-remoting-zookeeper" : "3.2.x",
+          "dubbo-rpc-rest" : "3.2.x",
+          "dubbo-serialization-jdk" : "3.2.x",
+          "hessian-lite" : "3.2.x",
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

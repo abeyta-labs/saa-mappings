@@ -1,0 +1,15 @@
+{
+  "slug" : "dubbo-monitor-api",
+  "coordinates" : [ "org.apache.dubbo:dubbo-monitor-api" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

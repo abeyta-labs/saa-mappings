@@ -1,0 +1,21 @@
+{
+  "slug" : "azure-keyvault",
+  "coordinates" : [ "com.microsoft.azure:azure-keyvault", "com.microsoft.azure:azure-keyvault-core", "com.microsoft.azure:azure-keyvault-cryptography", "com.microsoft.azure:azure-keyvault-webkey" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.5.x",
+          "azure-client-runtime" : "1.3.x",
+          "jackson" : "2.9.x",
+          "jackson-annotations" : "2.9.x",
+          "rx-java" : "1.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

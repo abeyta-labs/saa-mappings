@@ -1,0 +1,15 @@
+{
+  "slug" : "azure-client-runtime",
+  "coordinates" : [ "com.microsoft.azure:azure-client-runtime" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug" : "jolokia-support-spring",
+  "coordinates" : [ "org.jolokia:jolokia-support-spring" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jolokia-agent-jvm" : "2.0.x",
+          "jolokia-support-jmx" : "2.0.x",
+          "spring-boot" : "3.2.x",
+          "spring-framework" : "6.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jolokia-agent-jvm" : "2.1.x",
+          "jolokia-support-jmx" : "2.1.x",
+          "spring-boot" : "3.3.x",
+          "spring-framework" : "6.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jolokia-agent-jvm" : "2.2.x",
+          "jolokia-support-jmx" : "2.2.x",
+          "spring-boot" : "3.4.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jolokia-agent-jvm" : "2.3.x",
+          "jolokia-support-jmx" : "2.3.x",
+          "spring-boot" : "3.5.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jolokia-agent-jvm" : "2.4.x",
+          "jolokia-support-jmx" : "2.4.x",
+          "spring-boot" : "3.5.x",
+          "spring-framework" : "6.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

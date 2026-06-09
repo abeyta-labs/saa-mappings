@@ -1,0 +1,69 @@
+{
+  "slug" : "keycloak-policy-enforcer",
+  "coordinates" : [ "org.keycloak:keycloak-policy-enforcer" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "21.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "22.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "21.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "22.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "23.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "22.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "23.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "24.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "23.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "24.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "25.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "24.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "25.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "keycloak-core" : "25.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

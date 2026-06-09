@@ -1,83 +1,8 @@
 {
-  "slug" : "keycloak-spring-boot-starter",
-  "coordinates" : [ "org.keycloak:keycloak-spring-boot-starter" ],
+  "slug" : "keycloak-spring-boot-adapter-core",
+  "coordinates" : [ "org.keycloak:keycloak-spring-boot-adapter-core" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "3.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "3.2.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.5.x",
-          "jackson-annotations" : "2.5.x",
-          "keycloak-adapter-spi" : "3.1.x",
-          "keycloak-core" : "3.1.x",
-          "keycloak-spring-boot-adapter" : "3.1.x",
-          "spring-boot" : "1.5.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "3.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "3.3.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.5.x",
-          "jackson-annotations" : "2.5.x",
-          "keycloak-adapter-spi" : "3.2.x",
-          "keycloak-authz-client" : "3.2.x",
-          "keycloak-core" : "3.2.x",
-          "keycloak-spring-boot-adapter" : "3.2.x",
-          "spring-boot" : "1.5.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "3.3.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "3.4.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.5.x",
-          "jackson-annotations" : "2.5.x",
-          "keycloak-adapter-spi" : "3.3.x",
-          "keycloak-authz-client" : "3.3.x",
-          "keycloak-core" : "3.3.x",
-          "keycloak-spring-boot-adapter" : "3.3.x",
-          "spring-boot" : "1.5.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "3.4.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.8.x",
-          "jackson-annotations" : "2.8.x",
-          "keycloak-adapter-spi" : "3.4.x",
-          "keycloak-authz-client" : "3.4.x",
-          "keycloak-core" : "3.4.x",
-          "keycloak-spring-boot-adapter" : "3.4.x",
-          "spring-boot" : "1.5.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {

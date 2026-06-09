@@ -1,6 +1,6 @@
 {
-  "slug" : "keycloak-spring-boot-starter",
-  "coordinates" : [ "org.keycloak:keycloak-spring-boot-starter" ],
+  "slug" : "spring-boot-container-bundle",
+  "coordinates" : [ "org.keycloak:spring-boot-container-bundle" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "3.1.x" : {

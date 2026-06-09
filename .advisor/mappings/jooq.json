@@ -1,37 +1,85 @@
 {
   "slug" : "jooq",
-  "coordinates" : [
-    "org.jooq:jooq-xtend",
-    "org.jooq:jooq-jpa-extensions",
-    "org.jooq:jooq-postgres-extensions",
-    "org.jooq:jooq-beans-extensions",
-    "org.jooq:jooq-refaster",
-    "org.jooq:jooq-parent",
-    "org.jooq:jooq-scala",
-    "org.jooq:jooq-kotlin",
-    "org.jooq:jooq-console",
-    "org.jooq:jooq-migrations-maven",
-    "org.jooq:jooq-bom",
-    "org.jooq:jooq-reactor-extensions",
-    "org.jooq:jooq-scala_3.5",
-    "org.jooq:jooq-meta-extensions",
-    "org.jooq:jooq-jackson-extensions",
-    "org.jooq:jooq-meta",
-    "org.jooq:jooq",
-    "org.jooq:jooq-codegen",
-    "org.jooq:jooq-codegen-maven",
-    "org.jooq:jooq-checker",
-    "org.jooq:jooq-scala_2.11",
-    "org.jooq:jooq-migrations",
-    "org.jooq:jooq-scala_2.12",
-    "org.jooq:jooq-meta-extensions-hibernate",
-    "org.jooq:jooq-kotlin-coroutines",
-    "org.jooq:jooq-meta-kotlin",
-    "org.jooq:jooq-scala_2.13",
-    "org.jooq:jooq-meta-extensions-liquibase"
-  ],
-  "repositoryUrl" : "https://github.com/jOOQ/jOOQ",
+  "coordinates" : [ "org.jooq:jooq" ],
+  "repositoryUrl" : "",
   "rewrite" : {
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "2.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -39,9 +87,6 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
@@ -53,9 +98,6 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
@@ -63,13 +105,32 @@
     "2.6.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
         "version" : "3.2.x",
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
@@ -81,13 +142,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.3.x" : {
@@ -97,13 +153,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.4.x" : {
@@ -113,13 +164,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.5.x" : {
@@ -129,13 +175,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
         "supportedGenerations" : { },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.6.x" : {
@@ -145,16 +186,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 6
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "4.3.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.7.x" : {
@@ -164,16 +197,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "5.0.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.8.x" : {
@@ -183,16 +208,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "5.0.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.9.x" : {
@@ -202,16 +219,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "5.2.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.10.x" : {
@@ -221,17 +230,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "5.2.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-scala"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.11.x" : {
@@ -241,18 +241,8 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
-        "supportedGenerations" : {
-          "hibernate-orm" : "5.2.x",
-          "spring-framework" : "4.1.x"
-        },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11"
-        ]
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
       }
     },
     "3.12.x" : {
@@ -262,19 +252,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.4.x",
-          "reactive-streams" : "1.0.x",
-          "spring-framework" : "5.1.x"
+          "reactive-streams" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.13.x" : {
@@ -284,20 +265,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.4.x",
-          "reactive-streams" : "1.0.x",
-          "spring-framework" : "5.1.x"
+          "reactive-streams" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.14.x" : {
@@ -307,21 +278,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 8
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.4.x",
-          "reactive-streams" : "1.0.x",
-          "spring-framework" : "5.3.x"
+          "reactive-streams" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.15.x" : {
@@ -331,21 +291,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.4.x",
-          "r2dbc-spi" : "0.9.x",
-          "spring-framework" : "5.3.x"
+          "r2dbc-spi" : "0.9.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.16.x" : {
@@ -355,21 +304,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 11
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.6.x",
-          "r2dbc-spi" : "0.9.x",
-          "spring-framework" : "5.3.x"
+          "r2dbc-spi" : "0.9.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.17.x" : {
@@ -379,22 +317,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.6.x",
-          "r2dbc-spi" : "0.9.x",
-          "spring-framework" : "5.3.x",
-          "kotlin-coroutines" : "1.6.x"
+          "r2dbc-spi" : "0.9.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.18.x" : {
@@ -404,22 +330,10 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "spring-framework" : "6.2.x",
-          "kotlin-coroutines" : "1.6.x"
+          "r2dbc-spi" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.19.x" : {
@@ -429,46 +343,33 @@
         "project" : null
       },
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 17
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "spring-framework" : "6.2.x",
-          "kotlin-coroutines" : "1.7.x"
+          "r2dbc-spi" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12"
-        ]
+        "excludedArtifacts" : [ ]
       }
     },
     "3.20.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "r2dbc-spi" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.21.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedJavaVersions" : {
-          "minor" : 21
-        },
         "supportedGenerations" : {
-          "hibernate-orm" : "5.6.x",
-          "r2dbc-spi" : "1.0.x",
-          "reactor" : "3.6.x",
-          "spring-framework" : "6.2.x",
-          "kotlin-coroutines" : "1.7.x"
+          "r2dbc-spi" : "1.0.x"
         },
-        "excludedArtifacts" : [
-          "org.jooq:jooq-console",
-          "org.jooq:jooq-refaster",
-          "org.jooq:jooq-scala",
-          "org.jooq:jooq-scala_2.11",
-          "org.jooq:jooq-scala_2.12",
-          "org.jooq:jooq-scala_2.13"
-        ]
+        "excludedArtifacts" : [ ]
       }
     }
   }

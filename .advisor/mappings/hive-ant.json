@@ -1,0 +1,15 @@
+{
+  "slug" : "hive-ant",
+  "coordinates" : [ "org.apache.hive:hive-ant" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

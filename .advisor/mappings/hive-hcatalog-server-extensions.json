@@ -1,68 +1,8 @@
 {
-  "slug" : "hive",
-  "coordinates" : [ "org.apache.hive:hive" ],
+  "slug" : "hive-hcatalog-server-extensions",
+  "coordinates" : [ "org.apache.hive.hcatalog:hive-hcatalog-server-extensions" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.10.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.11.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.11.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.12.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.12.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.13.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
-          "apache-commons-compress" : "1.4.x",
-          "jackson" : "1.8.x",
-          "junit" : "3.8.x",
-          "mockito" : "1.8.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.13.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.14.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "0.14.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -148,8 +88,12 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.12.x"
+          "hive-cli" : "2.3.x",
+          "hive-common" : "2.3.x",
+          "hive-exec" : "2.3.x",
+          "hive-metastore" : "2.3.x",
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -162,7 +106,10 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
+          "hive-cli" : "3.0.x",
+          "hive-common" : "3.0.x",
+          "hive-exec" : "3.0.x",
+          "hive-metastore" : "3.0.x",
           "jackson" : "2.9.x",
           "jackson-annotations" : "2.9.x"
         },
@@ -176,7 +123,14 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-cli" : "3.1.x",
+          "hive-common" : "3.1.x",
+          "hive-exec" : "3.1.x",
+          "hive-metastore" : "3.1.x",
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -187,7 +141,15 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-cli" : "4.0.x",
+          "hive-common" : "4.0.x",
+          "hive-exec" : "4.0.x",
+          "hive-metastore" : "4.0.x",
+          "jackson" : "2.16.x",
+          "jackson-annotations" : "2.16.x",
+          "mockito" : "3.4.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -198,7 +160,15 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-cli" : "4.1.x",
+          "hive-common" : "4.1.x",
+          "hive-exec" : "4.1.x",
+          "hive-metastore" : "4.1.x",
+          "jackson" : "2.16.x",
+          "jackson-annotations" : "2.16.x",
+          "mockito" : "5.17.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -206,7 +176,15 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "hive-cli" : "4.2.x",
+          "hive-common" : "4.2.x",
+          "hive-exec" : "4.2.x",
+          "hive-metastore" : "4.2.x",
+          "jackson" : "2.16.x",
+          "jackson-annotations" : "2.16.x",
+          "mockito" : "5.17.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

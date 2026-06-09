@@ -1,0 +1,37 @@
+{
+  "slug" : "hive-standalone-metastore",
+  "coordinates" : [ "org.apache.hive:hive-standalone-metastore" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.9.x",
+          "apache-commons-lang" : "3.2.x",
+          "hive-shims-scheduler" : "3.0.x",
+          "hive-storage-api" : "2.6.x",
+          "jackson" : "2.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-compress" : "1.19.x",
+          "hive-upgrade-acid" : "3.1.x",
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

@@ -13,11 +13,9 @@ permissions:
 
 jobs:
   call-mapping-workflow:
-    uses: abeyta-labs/saa-workflows/.github/workflows/build-mapping.yml@main
+    uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
     with:
       mapping-name: jolokia
       repo-url: "https://github.com/jolokia/jolokia"
       coordinates: "org.jolokia:jolokia-support-spring"
-      runs-on: "self-hosted"
-      after-mapping-script: "scripts/mapping-cleanup/jolokia.py"
     secrets: inherit

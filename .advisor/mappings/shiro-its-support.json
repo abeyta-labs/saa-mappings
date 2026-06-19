@@ -1,0 +1,74 @@
+{
+  "slug" : "shiro-its-support",
+  "coordinates" : [ "org.apache.shiro.integrationtests:shiro-its-support" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "4.12.x",
+          "shiro-core" : "1.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "4.12.x",
+          "shiro-core" : "1.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "4.12.x",
+          "shiro-core" : "1.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "1.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "4.12.x",
+          "shiro-core" : "1.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "1.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "junit" : "4.12.x",
+          "shiro-core" : "1.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

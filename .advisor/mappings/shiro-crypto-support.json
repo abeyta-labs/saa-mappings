@@ -1,0 +1,48 @@
+{
+  "slug" : "shiro-crypto-support",
+  "coordinates" : [ "org.apache.shiro.crypto:shiro-crypto-support" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

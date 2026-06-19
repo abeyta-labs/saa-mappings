@@ -1,0 +1,56 @@
+{
+  "slug" : "shiro-cdi",
+  "coordinates" : [ "org.apache.shiro:shiro-cdi" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

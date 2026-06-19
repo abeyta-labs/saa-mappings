@@ -1,0 +1,64 @@
+{
+  "slug" : "shiro-cache",
+  "coordinates" : [ "org.apache.shiro:shiro-cache" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.0.x",
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.1.x",
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "2.2.x",
+          "spring-boot" : "2.7.x",
+          "spring-framework" : "5.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "shiro-hashes" : "3.0.x",
+          "spring-boot" : "4.0.x",
+          "spring-framework" : "7.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

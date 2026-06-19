@@ -101,7 +101,11 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet .github/workflows/${{ inputs.slug }}-mapping.yml; then
+          # Stage the file so that newly created (untracked) files are detected.
+          # `git diff` alone ignores untracked files and would report "no changes"
+          # for a brand-new workflow file.
+          git add .github/workflows/${{ inputs.slug }}-mapping.yml
+          if git diff --cached --quiet -- .github/workflows/${{ inputs.slug }}-mapping.yml; then
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "No changes detected in the workflow file"
           else
@@ -110,10 +114,9 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: ${{ steps.check_changes.outputs.changes == 'true' || !hashFiles(format('.github/workflows/{0}-mapping.yml', inputs.slug)) }}
+        if: ${{ steps.check_changes.outputs.changes == 'true' }}
         run: |
-          git add .github/workflows/${{ inputs.slug }}-mapping.yml
-          
+          # File is already staged by the "Check for changes" step.
           # Build commit message
           COMMIT_MSG="Generate/Update ${{ inputs.slug }}-mapping.yml workflow
           

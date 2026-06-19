@@ -110,7 +110,7 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'true' || !hashFiles('.github/workflows/${{ inputs.slug }}-mapping.yml')
+        if: ${{ steps.check_changes.outputs.changes == 'true' || !hashFiles(format('.github/workflows/{0}-mapping.yml', inputs.slug)) }}
         run: |
           git add .github/workflows/${{ inputs.slug }}-mapping.yml
           
@@ -146,7 +146,7 @@ jobs:
           fi
 
       - name: Trigger generated workflow
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
           event-type: ${{ inputs.slug }}

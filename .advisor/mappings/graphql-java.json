@@ -1,0 +1,15 @@
+{
+  "slug" : "graphql-java",
+  "coordinates" : [ "com.graphql-java:graphql-java" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

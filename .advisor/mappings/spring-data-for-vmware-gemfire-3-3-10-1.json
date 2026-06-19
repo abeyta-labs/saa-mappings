@@ -20,8 +20,21 @@
       }
     },
     "2.0.x": {
-      "recipes": [],
-      "nextRewrite" : null,
+      "recipes": [
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-data-3.3-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-data-3.5-gemfire-10.1"
+          }
+        }
+      ],
+      "nextRewrite": {
+        "version": "2.0.x",
+        "project": "spring-data-for-vmware-gemfire-3-5-10-1"
+      },
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,

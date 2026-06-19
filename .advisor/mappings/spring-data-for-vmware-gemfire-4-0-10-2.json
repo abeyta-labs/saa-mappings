@@ -1,25 +1,25 @@
 {
-  "slug": "spring-data-for-vmware-gemfire-3-1-10-1",
+  "slug": "spring-data-for-vmware-gemfire-4-0-10-2",
   "coordinates": [
-    "com.vmware.gemfire:spring-data-3.1-gemfire-10.1"
+    "com.vmware.gemfire:spring-data-4.0-gemfire-10.2"
   ],
   "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
   "rewrite": {
-    "1.0.x": {
+    "2.0.x": {
       "recipes": [
         {
           "name": "org.openrewrite.java.dependencies.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
-            "oldArtifactId": "spring-data-3.1-gemfire-10.1",
+            "oldArtifactId": "spring-data-4.0-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
-            "newArtifactId": "spring-data-3.3-gemfire-10.1"
+            "newArtifactId": "spring-data-4.1-gemfire-10.2"
           }
         }
       ],
       "nextRewrite": {
-        "version": "1.0.x",
-        "project": "spring-data-for-vmware-gemfire-3-3-10-1"
+        "version": "2.0.x",
+        "project": "spring-data-for-vmware-gemfire-4-1-10-2"
       },
       "requirements": {
         "supportedJavaVersions": {
@@ -27,7 +27,7 @@
           "minor": 17
         },
         "supportedGenerations": {
-          "spring-boot": "3.1.x"
+          "spring-boot": "4.0.x"
         },
         "excludedArtifacts": []
       }

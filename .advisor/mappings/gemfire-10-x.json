@@ -10,7 +10,8 @@
     "com.vmware.gemfire:gemfire-serialization",
     "com.vmware.gemfire:gemfire-logging",
     "com.vmware.gemfire:gemfire-common",
-    "com.vmware.gemfire:gemfire-version"
+    "com.vmware.gemfire:gemfire-version",
+    "com.vmware.gemfire:gemfire-junit"
   ],
   "repositoryUrl" : "",
   "rewrite" : {

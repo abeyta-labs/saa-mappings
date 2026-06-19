@@ -1,0 +1,22 @@
+name: shiro-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [shiro]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
+    with:
+      mapping-name: shiro
+      repo-url: https://github.com/apache/shiro
+    secrets: inherit

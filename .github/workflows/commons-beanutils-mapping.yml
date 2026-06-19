@@ -1,0 +1,23 @@
+name: commons-beanutils-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [commons-beanutils]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
+    with:
+      mapping-name: commons-beanutils
+      repo-url: https://github.com/apache/commons-beanutils
+      coordinates: commons-beanutils:commons-beanutils
+    secrets: inherit

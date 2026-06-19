@@ -6,8 +6,21 @@
   "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
   "rewrite": {
     "1.0.x": {
-      "recipes": [],
-      "nextRewrite": null,
+      "recipes": [
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-data-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-data-3.1-gemfire-10.1"
+          }
+        }
+      ],
+      "nextRewrite": {
+        "version": "1.0.x",
+        "project": "spring-data-for-vmware-gemfire-3-1-10-1"
+      },
       "requirements": {
         "supportedJavaVersions": {
           "major": 8,

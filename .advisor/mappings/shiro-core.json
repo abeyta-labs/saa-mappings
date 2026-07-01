@@ -98,7 +98,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "shiro-hashes" : "3.0.x",
-          "spring-boot" : "4.0.x",
+          "spring-boot" : "4.1.x",
           "spring-framework" : "7.0.x"
         },
         "excludedArtifacts" : [ ]

@@ -1,45 +1,8 @@
 {
-  "slug" : "hive-classification",
-  "coordinates" : [ "org.apache.hive:hive-classification" ],
+  "slug" : "hive-iceberg-catalog",
+  "coordinates" : [ "org.apache.hive:hive-iceberg-catalog" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "3.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "3.1.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.2.x",
-          "hive-shims-scheduler" : "3.0.x",
-          "hive-storage-api" : "2.6.x",
-          "jackson" : "2.9.x",
-          "jackson-annotations" : "2.9.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "3.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.19.x",
-          "apache-commons-lang" : "3.9.x",
-          "hive-shims-scheduler" : "3.1.x",
-          "hive-storage-api" : "2.7.x",
-          "hive-upgrade-acid" : "3.1.x",
-          "jackson" : "2.12.x",
-          "jackson-annotations" : "2.12.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -48,7 +11,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.23.x",
           "apache-commons-lang" : "3.12.x",
           "jackson" : "2.16.x",
@@ -66,11 +28,10 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.26.x",
           "apache-commons-lang" : "3.12.x",
           "jackson" : "2.16.x",
-          "mockito" : "5.17.x",
+          "mockito" : "5.2.x",
           "org.apache.hive.shims:hive-shims" : "4.1.x",
           "spring-cloud-gateway" : "1.72.x",
           "spring-ldap" : "2.4.x"
@@ -83,11 +44,10 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.26.x",
-          "apache-commons-lang" : "3.12.x",
+          "apache-commons-lang" : "3.14.x",
           "jackson" : "2.16.x",
-          "mockito" : "5.17.x",
+          "mockito" : "5.2.x",
           "org.apache.hive.shims:hive-shims" : "4.2.x",
           "spring-cloud-gateway" : "1.72.x",
           "spring-ldap" : "2.4.x"

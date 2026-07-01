@@ -204,9 +204,10 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
+          "apache-commons-collections" : "4.4.x",
           "apache-commons-compress" : "1.23.x",
           "apache-commons-lang" : "3.12.x",
+          "hive-hcatalog" : "4.0.x",
           "jackson" : "2.16.x",
           "org.apache.hive.shims:hive-shims" : "4.0.x",
           "spring-cloud-gateway" : "1.51.x",
@@ -223,9 +224,10 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
+          "apache-commons-collections" : "4.4.x",
           "apache-commons-compress" : "1.26.x",
           "apache-commons-lang" : "3.12.x",
+          "hive-hcatalog" : "4.1.x",
           "jackson" : "2.16.x",
           "mockito" : "5.17.x",
           "org.apache.hive.shims:hive-shims" : "4.1.x",
@@ -244,7 +246,9 @@
           "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.26.x",
           "apache-commons-lang" : "3.14.x",
+          "hive-hcatalog" : "4.2.x",
           "jackson" : "2.16.x",
+          "junit" : "3.8.x",
           "mockito" : "5.17.x",
           "org.apache.hive.shims:hive-shims" : "4.2.x",
           "spring-cloud-gateway" : "1.72.x",

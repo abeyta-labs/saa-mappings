@@ -14,13 +14,12 @@
     "com.vmware.gemfire:spring-boot-3.5-gemfire-10.2",
     "com.vmware.gemfire:spring-boot-3.5-gemfire-core-10.2",
     "com.vmware.gemfire:spring-boot-actuator-3.5-gemfire-10.2"
-
   ],
   "repositoryUrl": "https://github.com/gemfire/spring-boot-for-vmware-gemfire",
   "rewrite": {
     "1.0.x": {
       "recipes": [],
-      "nextRewrite" : "2.0.x",
+      "nextRewrite": "2.0.x",
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,
@@ -35,7 +34,7 @@
     "2.0.x": {
       "recipes": [
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-autoconfigure-10.2",
@@ -44,7 +43,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-autoconfigure-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-autoconfigure-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-actuator-autoconfigure-10.2",
@@ -53,7 +61,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-actuator-autoconfigure-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-actuator-autoconfigure-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-actuator-10.2",
@@ -62,7 +79,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-actuator-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-actuator-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-extensions-10.2",
@@ -71,7 +97,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-extensions-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-extensions-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-samples-10.2",
@@ -80,7 +115,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-samples-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-samples-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-starter-actuator-10.2",
@@ -89,7 +133,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-starter-actuator-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-starter-actuator-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-starter-logging-10.2",
@@ -98,7 +151,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-starter-logging-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-starter-logging-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-starter-session-10.2",
@@ -107,7 +169,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-starter-session-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-starter-session-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-starter-test-10.2",
@@ -116,7 +187,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-starter-test-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-starter-test-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-starter-10.2",
@@ -125,7 +205,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-starter-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-starter-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-10.2",
@@ -134,7 +223,16 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-core-10.2",
@@ -143,7 +241,25 @@
           }
         },
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-3.5-gemfire-core-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-4.0-gemfire-core-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.gradle.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-actuator-3.5-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-actuator-4.0-gemfire-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-actuator-3.5-gemfire-10.2",

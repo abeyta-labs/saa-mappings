@@ -8,7 +8,16 @@
     "2.0.x": {
       "recipes": [
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.gradle.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-data-4.0-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-data-4.1-gemfire-10.2"
+          }
+        },
+        {
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-data-4.0-gemfire-10.2",

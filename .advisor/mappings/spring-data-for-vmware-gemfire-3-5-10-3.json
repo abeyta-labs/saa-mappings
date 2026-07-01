@@ -7,7 +7,7 @@
   "rewrite": {
     "1.0.x": {
       "recipes": [],
-      "nextRewrite" : "2.0.x",
+      "nextRewrite": "2.0.x",
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,
@@ -22,7 +22,16 @@
     "2.0.x": {
       "recipes": [
         {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "name": "org.openrewrite.gradle.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-data-3.5-gemfire-10.3",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-data-4.1-gemfire-10.3"
+          }
+        },
+        {
+          "name": "org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-data-3.5-gemfire-10.3",

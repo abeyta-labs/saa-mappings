@@ -1,0 +1,26 @@
+{
+  "slug" : "patched-iceberg",
+  "coordinates" : [ "org.apache.hive:patched-iceberg-api", "org.apache.hive:patched-iceberg-core" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

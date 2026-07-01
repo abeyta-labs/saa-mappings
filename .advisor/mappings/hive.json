@@ -187,7 +187,12 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.16.x",
+          "spring-cloud-gateway" : "1.51.x",
+          "spring-framework" : "5.3.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -198,7 +203,13 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.16.x",
+          "spring-cloud-gateway" : "1.72.x",
+          "spring-framework" : "5.3.x",
+          "spring-ldap" : "2.4.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -206,7 +217,13 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.14.x",
+          "jackson" : "2.16.x",
+          "spring-cloud-gateway" : "1.72.x",
+          "spring-framework" : "5.3.x",
+          "spring-ldap" : "2.4.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

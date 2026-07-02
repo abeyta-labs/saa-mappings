@@ -1,10 +1,9 @@
 {
-  "slug": "spring-data-for-vmware-gemfire-3-3-10-1",
+  "slug": "spring-session-for-vmware-gemfire-3-3-10-1",
   "coordinates": [
-    "com.vmware.gemfire:spring-data-3.3-gemfire-10.1",
-    "com.vmware.gemfire:spring-data-3.3-gemfire-test-framework-10.1"
+    "com.vmware.gemfire:spring-session-3.3-gemfire-10.1"
   ],
-  "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
+  "repositoryUrl": "https://github.com/gemfire/spring-session-for-vmware-gemfire",
   "rewrite": {
     "1.0.x": {
       "recipes": [],
@@ -26,26 +25,16 @@
           "name": "org.openrewrite.java.dependencies.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
-            "oldArtifactId": "spring-data-3.3-gemfire-10.1",
+            "oldArtifactId": "spring-session-3.3-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
-            "newArtifactId": "spring-data-3.5-gemfire-10.1",
-            "newVersion": "2.0.1"
-          }
-        },
-        {
-          "name": "org.openrewrite.java.dependencies.ChangeDependency",
-          "params": {
-            "oldGroupId": "com.vmware.gemfire",
-            "oldArtifactId": "spring-data-3.3-gemfire-test-framework-10.1",
-            "newGroupId": "com.vmware.gemfire",
-            "newArtifactId": "spring-data-3.5-gemfire-test-framework-10.1",
+            "newArtifactId": "spring-session-3.5-gemfire-10.1",
             "newVersion": "2.0.1"
           }
         }
       ],
       "nextRewrite": {
         "version": "2.0.1",
-        "project": "spring-data-for-vmware-gemfire-3-5-10-1"
+        "project": "spring-session-for-vmware-gemfire-3-5-10-1"
       },
       "requirements": {
         "supportedJavaVersions": {

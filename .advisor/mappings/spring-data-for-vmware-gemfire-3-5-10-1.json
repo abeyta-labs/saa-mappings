@@ -1,7 +1,8 @@
 {
   "slug": "spring-data-for-vmware-gemfire-3-5-10-1",
   "coordinates": [
-    "com.vmware.gemfire:spring-data-3.5-gemfire-10.1"
+    "com.vmware.gemfire:spring-data-3.5-gemfire-10.1",
+    "com.vmware.gemfire:spring-data-3.5-gemfire-test-framework-10.1"
   ],
   "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
   "rewrite": {

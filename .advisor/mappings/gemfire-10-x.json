@@ -1,6 +1,6 @@
 {
-  "slug" : "gemfire-10-x",
-  "coordinates" : [
+  "slug": "gemfire-10-x",
+  "coordinates": [
     "com.vmware.gemfire:gemfire-tcp-server",
     "com.vmware.gemfire:gemfire-tcp-messenger",
     "com.vmware.gemfire:gemfire-core",
@@ -13,42 +13,42 @@
     "com.vmware.gemfire:gemfire-version",
     "com.vmware.gemfire:gemfire-junit"
   ],
-  "repositoryUrl" : "",
-  "rewrite" : {
-    "10.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "major" : 8,
-          "minor" : 8
+  "repositoryUrl": "",
+  "rewrite": {
+    "10.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
+        "supportedGenerations": {},
+        "excludedArtifacts": []
       }
     },
-    "10.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "major" : 8,
-          "minor" : 8
+    "10.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
+        "supportedGenerations": {},
+        "excludedArtifacts": []
       }
     },
-    "10.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedJavaVersions" : {
-          "major" : 8,
-          "minor" : 8
+    "10.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
         },
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
+        "supportedGenerations": {},
+        "excludedArtifacts": []
       }
     }
   }

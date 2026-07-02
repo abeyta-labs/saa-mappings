@@ -1,10 +1,9 @@
 {
-  "slug": "spring-data-for-vmware-gemfire-4-0-10-2",
+  "slug": "spring-session-for-vmware-gemfire-4-0-10-2",
   "coordinates": [
-    "com.vmware.gemfire:spring-data-4.0-gemfire-10.2",
-    "com.vmware.gemfire:spring-data-4.0-gemfire-test-framework-10.2"
+    "com.vmware.gemfire:spring-session-4.0-gemfire-10.2"
   ],
-  "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
+  "repositoryUrl": "https://github.com/gemfire/spring-session-for-vmware-gemfire",
   "rewrite": {
     "2.0.x": {
       "recipes": [],

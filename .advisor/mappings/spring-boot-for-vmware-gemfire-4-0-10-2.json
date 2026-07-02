@@ -137,10 +137,21 @@
           }
         }
       ],
-      "nextRewrite": {
-        "version": "2.0.x",
-        "project": "spring-boot-for-vmware-gemfire-4-1-10-2"
-      },
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.0": {
+      "recipes": [],
+      "nextRewrite": null,
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,

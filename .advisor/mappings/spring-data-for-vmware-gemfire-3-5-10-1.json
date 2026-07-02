@@ -7,7 +7,7 @@
   "rewrite": {
     "1.0.x": {
       "recipes": [],
-      "nextRewrite" : "2.0.x",
+      "nextRewrite": "2.0.x",
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,
@@ -21,7 +21,21 @@
     },
     "2.0.x": {
       "recipes": [],
-      "nextRewrite" : null,
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "3.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.1": {
+      "recipes": [],
+      "nextRewrite": null,
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,

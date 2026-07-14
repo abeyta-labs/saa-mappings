@@ -1,25 +1,11 @@
 {
-  "slug": "spring-data-for-vmware-gemfire-3-5-10-1",
+  "slug": "spring-data-for-vmware-gemfire-4-1-10-2",
   "coordinates": [
-    "com.vmware.gemfire:spring-data-3.5-gemfire-10.1",
-    "com.vmware.gemfire:spring-data-3.5-gemfire-test-framework-10.1"
+    "com.vmware.gemfire:spring-data-4.1-gemfire-10.2",
+    "com.vmware.gemfire:spring-data-4.1-gemfire-test-framework-10.2"
   ],
   "repositoryUrl": "https://github.com/gemfire/spring-data-for-vmware-gemfire",
   "rewrite": {
-    "1.0.x": {
-      "recipes": [],
-      "nextRewrite": "2.0.x",
-      "requirements": {
-        "supportedJavaVersions": {
-          "major": 17,
-          "minor": 17
-        },
-        "supportedGenerations": {
-          "spring-boot": "3.5.x"
-        },
-        "excludedArtifacts": []
-      }
-    },
     "2.0.x": {
       "recipes": [],
       "nextRewrite": null,
@@ -29,12 +15,12 @@
           "minor": 17
         },
         "supportedGenerations": {
-          "spring-boot": "3.5.x"
+          "spring-boot": "4.1.x"
         },
         "excludedArtifacts": []
       }
     },
-    "2.0.2": {
+    "2.0.0": {
       "recipes": [],
       "nextRewrite": null,
       "requirements": {
@@ -43,7 +29,7 @@
           "minor": 17
         },
         "supportedGenerations": {
-          "spring-boot": "3.5.x"
+          "spring-boot": "4.1.x"
         },
         "excludedArtifacts": []
       }

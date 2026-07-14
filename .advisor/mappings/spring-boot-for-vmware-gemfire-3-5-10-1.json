@@ -42,7 +42,7 @@
         "excludedArtifacts": []
       }
     },
-    "2.0.1": {
+    "2.0.2": {
       "recipes": [],
       "nextRewrite": null,
       "requirements": {

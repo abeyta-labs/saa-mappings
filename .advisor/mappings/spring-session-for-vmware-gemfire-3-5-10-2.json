@@ -28,12 +28,12 @@
             "oldArtifactId": "spring-session-3.5-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-session-4.0-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         }
       ],
       "nextRewrite": {
-        "version": "2.0.0",
+        "version": "2.0.1",
         "project": "spring-session-for-vmware-gemfire-4-0-10-2"
       },
       "requirements": {

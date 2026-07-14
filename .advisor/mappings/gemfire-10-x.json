@@ -48,7 +48,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -58,7 +58,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-actuator-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-actuator-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -68,7 +68,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-actuator-autoconfigure-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-actuator-autoconfigure-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -78,7 +78,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-autoconfigure-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-autoconfigure-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -88,7 +88,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-core-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-core-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -98,7 +98,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-extensions-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-extensions-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -108,7 +108,7 @@
             "oldArtifactId": "spring-boot-3.5-gemfire-jetty12-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-jetty12-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -118,7 +118,7 @@
             "oldArtifactId": "spring-boot-actuator-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-actuator-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -128,7 +128,7 @@
             "oldArtifactId": "spring-boot-logging-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-logging-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -138,7 +138,7 @@
             "oldArtifactId": "spring-boot-session-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-session-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -148,7 +148,7 @@
             "oldArtifactId": "spring-data-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -158,7 +158,7 @@
             "oldArtifactId": "spring-data-3.5-gemfire-test-framework-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-3.5-gemfire-test-framework-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -168,7 +168,7 @@
             "oldArtifactId": "spring-session-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-session-3.5-gemfire-10.2",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         }
       ],

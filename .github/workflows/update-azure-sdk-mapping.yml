@@ -48,8 +48,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
           repository: abeyta-labs/azure-sdk-for-java
           path: .github/repos/azure-sdk-for-java
@@ -57,16 +57,17 @@ jobs:
           fetch-depth: 0  # Fetch all history for all branches and tags
           fetch-tags: true  # Explicitly fetch tags
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13'
       - name: Set up JDK
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: ${{ inputs.java-version }}
           distribution: 'liberica'
       - name: Cache Maven
-        uses: actions/cache@v4
+        if: ${{ inputs.runs-on != 'java' && inputs.runs-on != 'self-hosted' }}
+        uses: actions/cache@v5
         with:
           path: ~/.m2/repository
           key: org-maven-${{ runner.os }}-v1
@@ -120,7 +121,7 @@ jobs:
           rm -rf .github/sboms
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
           commit-message: "${{ inputs.mapping-name }} mapping update"

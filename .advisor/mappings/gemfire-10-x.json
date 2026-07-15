@@ -172,10 +172,7 @@
           }
         }
       ],
-      "nextRewrite": {
-        "version": "10.2.5",
-        "project": "gemfire-10-x"
-      },
+      "nextRewrite": "10.2.5",
       "requirements": {
         "supportedJavaVersions": {
           "major": 8,

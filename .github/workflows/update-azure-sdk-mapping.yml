@@ -21,7 +21,7 @@ on:
         description: 'Runner type (e.g., ubuntu-latest, self-hosted)'
         required: false
         type: string
-        default: 'ubuntu-latest'
+        default: 'java'
       skip-on-error:
         description: 'Continue processing even if some versions fail'
         required: false

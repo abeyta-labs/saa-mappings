@@ -19,4 +19,5 @@ jobs:
     with:
       mapping-name: rabbitmq-hop
       repo-url: https://github.com/rabbitmq/hop
+      after-mapping-script: scripts/mapping-cleanup/rabbitmq-http-client.py
     secrets: inherit

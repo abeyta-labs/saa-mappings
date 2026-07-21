@@ -182,6 +182,18 @@
         "excludedArtifacts": []
       }
     },
+    "10.3.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
     "10.2.5": {
       "recipes": [],
       "nextRewrite": null,

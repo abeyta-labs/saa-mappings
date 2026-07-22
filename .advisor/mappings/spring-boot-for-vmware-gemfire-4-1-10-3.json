@@ -1,0 +1,31 @@
+{
+  "slug": "spring-boot-for-vmware-gemfire-4-1-10-3",
+  "coordinates": [
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-10.3",
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-actuator-10.3",
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-actuator-autoconfigure-10.3",
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-autoconfigure-10.3",
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-core-10.3",
+    "com.vmware.gemfire:spring-boot-4.1-gemfire-extensions-10.3",
+    "com.vmware.gemfire:spring-boot-actuator-4.1-gemfire-10.3",
+    "com.vmware.gemfire:spring-boot-logging-4.1-gemfire-10.3",
+    "com.vmware.gemfire:spring-boot-session-4.1-gemfire-10.3"
+  ],
+  "repositoryUrl": "https://github.com/gemfire/spring-boot-for-vmware-gemfire",
+  "rewrite": {
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "4.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

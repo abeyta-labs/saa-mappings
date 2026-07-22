@@ -165,6 +165,16 @@
           "name": "org.openrewrite.java.dependencies.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-integration-6.5-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-integration-6.5-gemfire-10.2",
+            "newVersion": "1.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-session-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-session-3.5-gemfire-10.2",
@@ -292,6 +302,16 @@
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-4.1-gemfire-test-framework-10.3",
             "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-integration-7.1-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-integration-7.1-gemfire-10.3",
+            "newVersion": "1.0.0"
           }
         },
         {

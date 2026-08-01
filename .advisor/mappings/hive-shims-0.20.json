@@ -10,7 +10,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -21,7 +23,9 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "2.6.x"
+        },
         "excludedArtifacts" : [ ]
       }
     },
@@ -29,7 +33,9 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "2.6.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

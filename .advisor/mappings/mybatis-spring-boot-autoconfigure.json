@@ -122,10 +122,23 @@
     },
     "4.0.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
       "requirements" : {
         "supportedGenerations" : {
           "spring-boot" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-boot" : "4.1.x"
         },
         "excludedArtifacts" : [ ]
       }

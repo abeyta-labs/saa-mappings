@@ -12,6 +12,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.4.x",
           "jackson" : "1.8.x",
           "junit" : "3.8.x",
           "mockito" : "1.8.x"
@@ -28,6 +29,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.4.x",
           "jackson" : "1.8.x",
           "junit" : "3.8.x",
           "mockito" : "1.8.x"
@@ -45,6 +47,7 @@
         "supportedGenerations" : {
           "apache-commons-collections" : "3.2.x",
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.4.x",
           "jackson" : "1.8.x",
           "junit" : "3.8.x",
           "mockito" : "1.8.x"
@@ -163,6 +166,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.9.x",
+          "apache-commons-lang" : "2.6.x",
           "jackson" : "2.9.x",
           "jackson-annotations" : "2.9.x"
         },

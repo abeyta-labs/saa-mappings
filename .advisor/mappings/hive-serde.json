@@ -52,6 +52,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20" : "0.14.x",
           "hive-shims-0.20s" : "0.14.x",
           "hive-shims-common-secure" : "0.14.x"
@@ -68,6 +69,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20" : "1.0.x",
           "hive-shims-0.20s" : "1.0.x",
           "hive-shims-common-secure" : "1.0.x"
@@ -84,6 +86,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20s" : "1.1.x",
           "hive-shims-scheduler" : "1.1.x"
         },
@@ -99,6 +102,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.4.x",
+          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20s" : "1.2.x",
           "hive-shims-scheduler" : "1.2.x"
         },
@@ -114,6 +118,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "apache-commons-compress" : "1.9.x",
+          "apache-commons-lang" : "2.6.x",
           "hive-orc" : "2.0.x",
           "hive-shims-scheduler" : "2.0.x",
           "jackson" : "2.4.x"

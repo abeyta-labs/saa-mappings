@@ -11,6 +11,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x",
           "shiro" : "1.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -24,6 +25,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x",
           "shiro" : "1.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -37,6 +39,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x",
           "shiro" : "1.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -50,6 +53,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x",
           "shiro" : "1.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -63,6 +67,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-lang" : "2.4.x",
           "shiro" : "1.4.x"
         },
         "excludedArtifacts" : [ ]

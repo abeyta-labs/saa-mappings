@@ -1,6 +1,6 @@
 {
-  "slug" : "jazzer",
-  "coordinates" : [ "com.code-intelligence:jazzer-api", "com.code-intelligence:jazzer-junit" ],
+  "slug" : "jazzer-junit",
+  "coordinates" : [ "com.code-intelligence:jazzer-junit" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.12.x" : {

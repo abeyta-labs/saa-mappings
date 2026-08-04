@@ -1,0 +1,26 @@
+{
+  "slug" : "swagger-jaxrs2-servlet-initializer-v2",
+  "coordinates" : [ "io.swagger.core.v3:swagger-jaxrs2-servlet-initializer-v2" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

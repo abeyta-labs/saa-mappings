@@ -1,21 +1,8 @@
 {
   "slug" : "shedlock",
-  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-core", "net.javacrumbs.shedlock:shedlock-spring" ],
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-core", "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal", "net.javacrumbs.shedlock:shedlock-provider-jdbc-template" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.2.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "0.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {

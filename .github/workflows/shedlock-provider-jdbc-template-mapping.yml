@@ -20,4 +20,5 @@ jobs:
       mapping-name: shedlock-provider-jdbc-template
       repo-url: https://github.com/lukas-krecan/ShedLock
       coordinates: net.javacrumbs.shedlock:shedlock-provider-jdbc-template
+      after-mapping-script: scripts/mapping-cleanup/shedlock-provider-jdbc-template.py
     secrets: inherit

@@ -1,22 +1,8 @@
 {
   "slug" : "jazzer",
-  "coordinates" : [ "com.code-intelligence:jazzer-api", "com.code-intelligence:jazzer-junit" ],
+  "coordinates" : [ "com.code-intelligence:jazzer", "com.code-intelligence:jazzer-api" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.12.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.13.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "0.13.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -24,10 +10,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -38,9 +21,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -51,9 +32,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -64,10 +43,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -78,10 +54,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -92,10 +65,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -106,10 +76,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -120,10 +87,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.8.x",
-          "testcontainers" : "5.8.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -134,10 +98,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -148,10 +109,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -162,10 +120,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -176,10 +131,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -190,10 +142,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -204,10 +153,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -218,10 +164,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -232,10 +175,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -246,10 +186,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -257,10 +194,7 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : {
-          "junit-platform" : "1.9.x",
-          "testcontainers" : "5.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

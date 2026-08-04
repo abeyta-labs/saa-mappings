@@ -20,4 +20,5 @@ jobs:
       mapping-name: swagger-core-jakarta
       repo-url: https://github.com/swagger-api/swagger-core
       coordinates: io.swagger.core.v3:swagger-core-jakarta
+      after-mapping-script: scripts/mapping-cleanup/swagger-core-jakarta.py
     secrets: inherit

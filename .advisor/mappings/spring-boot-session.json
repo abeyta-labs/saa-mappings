@@ -1,31 +1,33 @@
 {
-  "slug" : "spring-boot-session",
-  "coordinates" : [ "org.springframework.boot:spring-boot-session" ],
-  "repositoryUrl" : "",
-  "rewrite" : {
-    "4.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
+  "slug": "spring-boot-session",
+  "coordinates": [
+    "org.springframework.boot:spring-boot-session"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.1.x",
+        "project": null
       },
-      "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x",
-          "spring-session" : "4.0.x"
+      "requirements": {
+        "supportedGenerations": {
+          "spring-framework": "7.0.x",
+          "spring-session": "4.0.x"
         },
-        "excludedArtifacts" : [ ]
+        "excludedArtifacts": []
       }
     },
-    "4.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x",
-          "spring-session" : "4.1.x"
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-framework": "7.0.x",
+          "spring-session": "4.1.x"
         },
-        "excludedArtifacts" : [ ]
+        "excludedArtifacts": []
       }
     }
   }

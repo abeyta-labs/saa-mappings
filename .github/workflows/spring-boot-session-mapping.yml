@@ -20,4 +20,5 @@ jobs:
       mapping-name: spring-boot-session
       repo-url: https://github.com/spring-projects/spring-boot
       coordinates: org.springframework.boot:spring-boot-session
+      after-mapping-script: scripts/mapping-cleanup/spring-boot-session.py
     secrets: inherit

@@ -1,6 +1,6 @@
 {
-  "slug" : "spring-boot",
-  "coordinates" : [ "org.springframework.boot:spring-boot", "org.springframework.boot:spring-boot-session" ],
+  "slug" : "spring-boot-session",
+  "coordinates" : [ "org.springframework.boot:spring-boot-session" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "4.0.x" : {

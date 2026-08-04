@@ -1,0 +1,22 @@
+name: swagger-core-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [swagger-core]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
+    with:
+      mapping-name: swagger-core
+      repo-url: https://github.com/swagger-api/swagger-core
+    secrets: inherit

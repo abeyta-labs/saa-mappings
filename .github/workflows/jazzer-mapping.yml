@@ -19,5 +19,4 @@ jobs:
     with:
       mapping-name: jazzer
       repo-url: https://github.com/CodeIntelligenceTesting/jazzer
-      coordinates: com.code-intelligence:jazzer
     secrets: inherit

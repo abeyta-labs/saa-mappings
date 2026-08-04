@@ -1,0 +1,23 @@
+name: jqwik-web-mapping
+
+on:
+  # Manual trigger (on-demand)
+  workflow_dispatch:
+  repository_dispatch:
+    types: [jqwik-web]
+  schedule:
+    # Runs based on the configured schedule
+    - cron: '0 9 1,15 * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  call-mapping-workflow:
+    uses: abeyta-labs/saa-workflows/.github/workflows/create-mapping.yml@main
+    with:
+      mapping-name: jqwik-web
+      repo-url: https://github.com/jqwik-team/jqwik
+      coordinates: net.jqwik:jqwik-web
+    secrets: inherit

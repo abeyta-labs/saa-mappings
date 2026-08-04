@@ -20,4 +20,5 @@ jobs:
       mapping-name: jjwt-jackson
       repo-url: https://github.com/jwtk/jjwt
       coordinates: io.jsonwebtoken:jjwt-jackson
+      after-mapping-script: scripts/mapping-cleanup/jjwt-jackson.py
     secrets: inherit

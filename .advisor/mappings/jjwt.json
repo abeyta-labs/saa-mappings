@@ -1,8 +1,73 @@
 {
   "slug" : "jjwt",
-  "coordinates" : [ "io.jsonwebtoken:jjwt-api", "io.jsonwebtoken:jjwt-jackson" ],
+  "coordinates" : [ "io.jsonwebtoken:jjwt-api", "io.jsonwebtoken:jjwt-impl" ],
   "repositoryUrl" : "",
   "rewrite" : {
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.9.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "0.10.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
@@ -10,9 +75,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -23,9 +86,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.12.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -36,9 +97,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.12.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -46,9 +105,7 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : {
-          "jackson" : "2.12.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

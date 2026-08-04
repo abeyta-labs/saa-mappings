@@ -1,0 +1,26 @@
+{
+  "slug" : "swagger-eclipse-transformer-maven-plugin",
+  "coordinates" : [ "io.swagger.core.v3:swagger-eclipse-transformer-maven-plugin" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

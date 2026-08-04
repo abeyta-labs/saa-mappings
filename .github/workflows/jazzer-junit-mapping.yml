@@ -20,4 +20,5 @@ jobs:
       mapping-name: jazzer-junit
       repo-url: https://github.com/CodeIntelligenceTesting/jazzer
       coordinates: com.code-intelligence:jazzer-junit
+      after-mapping-script: scripts/mapping-cleanup/jazzer-junit.py
     secrets: inherit

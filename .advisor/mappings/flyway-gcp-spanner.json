@@ -1,0 +1,972 @@
+{
+  "slug" : "flyway-gcp-spanner",
+  "coordinates" : [ "org.flywaydb:flyway-gcp-spanner" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "7.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "9.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "9.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "10.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "10.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "11.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "11.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

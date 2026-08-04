@@ -1,0 +1,105 @@
+{
+  "slug" : "flyway-database-nc-cassandra",
+  "coordinates" : [ "org.flywaydb:flyway-database-nc-cassandra" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "12.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cassandra-java-driver" : "4.18.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "12.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "12.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

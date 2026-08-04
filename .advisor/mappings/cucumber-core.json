@@ -1,0 +1,1272 @@
+{
+  "slug" : "cucumber-core",
+  "coordinates" : [ "io.cucumber:cucumber-core" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "2.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "4.1.x",
+          "tag-expressions" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "5.0.x",
+          "tag-expressions" : "1.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "5.0.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "5.0.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-html" : "0.2.x",
+          "cucumber-jvm-deps" : "1.0.x",
+          "gherkin" : "5.0.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "5.0.x",
+          "cucumber-html" : "0.2.x",
+          "gherkin" : "5.0.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "6.1.x",
+          "cucumber-html" : "0.2.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "6.1.x",
+          "cucumber-html" : "0.2.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "6.2.x",
+          "cucumber-html" : "0.2.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "6.2.x",
+          "cucumber-html" : "0.2.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "7.0.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "7.0.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "7.0.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "7.0.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "7.0.x",
+          "gherkin" : "5.1.x",
+          "tag-expressions" : "1.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.0.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.1.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.2.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.3.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.4.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.5.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.6.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "8.3.x",
+          "cucumber-gherkin-vintage" : "5.7.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "10.2.x",
+          "html-formatter" : "6.0.x",
+          "messages" : "12.1.x",
+          "tag-expressions" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "10.2.x",
+          "html-formatter" : "6.0.x",
+          "messages" : "12.1.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "10.2.x",
+          "html-formatter" : "7.0.x",
+          "messages" : "12.2.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "cucumber-expressions" : "10.2.x",
+          "html-formatter" : "7.0.x",
+          "messages" : "12.2.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "1.1.x",
+          "cucumber-expressions" : "10.2.x",
+          "html-formatter" : "7.2.x",
+          "messages" : "12.4.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "2.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "9.0.x",
+          "messages" : "13.0.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "2.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "9.0.x",
+          "messages" : "13.0.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "2.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "9.0.x",
+          "messages" : "13.0.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "2.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "9.0.x",
+          "messages" : "13.1.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "2.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "9.0.x",
+          "messages" : "13.2.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "4.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "13.0.x",
+          "messages" : "15.0.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.0.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "4.0.x",
+          "cucumber-expressions" : "10.3.x",
+          "html-formatter" : "13.0.x",
+          "messages" : "15.0.x",
+          "tag-expressions" : "3.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.1.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "6.0.x",
+          "cucumber-expressions" : "13.0.x",
+          "html-formatter" : "17.0.x",
+          "messages" : "17.1.x",
+          "tag-expressions" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "create-meta" : "6.0.x",
+          "cucumber-expressions" : "13.0.x",
+          "html-formatter" : "17.0.x",
+          "messages" : "17.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "8.1.x",
+          "cucumber-expressions" : "15.0.x",
+          "html-formatter" : "17.0.x",
+          "messages" : "17.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.0.x",
+          "cucumber-expressions" : "15.1.x",
+          "gherkin" : "23.0.x",
+          "html-formatter" : "19.1.x",
+          "messages" : "18.0.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.0.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "23.0.x",
+          "html-formatter" : "19.2.x",
+          "messages" : "18.0.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "23.0.x",
+          "html-formatter" : "19.2.x",
+          "messages" : "18.0.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "24.0.x",
+          "html-formatter" : "20.0.x",
+          "messages" : "19.0.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.8.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "24.0.x",
+          "html-formatter" : "20.0.x",
+          "messages" : "19.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.9.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "24.0.x",
+          "html-formatter" : "20.1.x",
+          "messages" : "19.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.10.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.0.x",
+          "gherkin" : "24.1.x",
+          "html-formatter" : "20.1.x",
+          "messages" : "19.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.1.x",
+          "gherkin" : "25.0.x",
+          "html-formatter" : "20.2.x",
+          "messages" : "19.1.x",
+          "tag-expressions" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.1.x",
+          "cucumber-expressions" : "16.1.x",
+          "gherkin" : "26.0.x",
+          "html-formatter" : "20.2.x",
+          "junit-xml-formatter" : "0.1.x",
+          "messages" : "21.0.x",
+          "tag-expressions" : "5.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.2.x",
+          "cucumber-expressions" : "16.1.x",
+          "gherkin" : "26.2.x",
+          "html-formatter" : "20.3.x",
+          "junit-xml-formatter" : "0.2.x",
+          "messages" : "22.0.x",
+          "tag-expressions" : "5.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.14.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "9.2.x",
+          "cucumber-expressions" : "16.1.x",
+          "gherkin" : "26.2.x",
+          "html-formatter" : "20.3.x",
+          "junit-xml-formatter" : "0.2.x",
+          "messages" : "22.0.x",
+          "tag-expressions" : "5.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.15.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.0.x",
+          "gherkin" : "26.2.x",
+          "html-formatter" : "20.4.x",
+          "junit-xml-formatter" : "0.2.x",
+          "messages" : "22.0.x",
+          "tag-expressions" : "6.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.16.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.0.x",
+          "gherkin" : "26.2.x",
+          "html-formatter" : "20.4.x",
+          "junit-xml-formatter" : "0.2.x",
+          "messages" : "22.0.x",
+          "tag-expressions" : "6.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.17.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.1.x",
+          "gherkin" : "28.0.x",
+          "html-formatter" : "21.3.x",
+          "junit-xml-formatter" : "0.3.x",
+          "messages" : "24.1.x",
+          "tag-expressions" : "6.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.17.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.18.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.1.x",
+          "gherkin" : "28.0.x",
+          "html-formatter" : "21.3.x",
+          "junit-xml-formatter" : "0.4.x",
+          "messages" : "24.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.18.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.19.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.1.x",
+          "gherkin" : "28.0.x",
+          "html-formatter" : "21.4.x",
+          "junit-xml-formatter" : "0.5.x",
+          "messages" : "24.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.19.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.20.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.1.x",
+          "gherkin" : "28.0.x",
+          "html-formatter" : "21.7.x",
+          "junit-xml-formatter" : "0.5.x",
+          "messages" : "24.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.20.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.21.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "17.1.x",
+          "gherkin" : "28.0.x",
+          "html-formatter" : "21.7.x",
+          "junit-xml-formatter" : "0.5.x",
+          "messages" : "24.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.21.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.22.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "31.0.x",
+          "html-formatter" : "21.9.x",
+          "junit-xml-formatter" : "0.7.x",
+          "messages" : "27.2.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.22.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.23.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "32.1.x",
+          "html-formatter" : "21.10.x",
+          "junit-xml-formatter" : "0.7.x",
+          "messages" : "27.2.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.23.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.24.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "32.1.x",
+          "html-formatter" : "21.10.x",
+          "junit-xml-formatter" : "0.7.x",
+          "messages" : "27.2.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.3.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.24.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.25.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "33.0.x",
+          "html-formatter" : "21.13.x",
+          "junit-xml-formatter" : "0.8.x",
+          "messages" : "28.0.x",
+          "pretty-formatter" : "0.2.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.25.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.26.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "33.0.x",
+          "html-formatter" : "21.13.x",
+          "junit-xml-formatter" : "0.8.x",
+          "messages" : "28.0.x",
+          "pretty-formatter" : "0.3.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.26.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.27.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "33.0.x",
+          "html-formatter" : "21.13.x",
+          "junit-xml-formatter" : "0.8.x",
+          "messages" : "28.0.x",
+          "pretty-formatter" : "0.3.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.27.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.28.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "gherkin" : "34.0.x",
+          "html-formatter" : "21.13.x",
+          "junit-xml-formatter" : "0.8.x",
+          "messages" : "28.1.x",
+          "pretty-formatter" : "2.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.28.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.29.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.1.x",
+          "gherkin" : "34.0.x",
+          "html-formatter" : "21.13.x",
+          "junit-xml-formatter" : "0.8.x",
+          "messages" : "28.1.x",
+          "pretty-formatter" : "2.1.x",
+          "tag-expressions" : "6.1.x",
+          "testng-xml-formatter" : "0.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.29.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.30.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.2.x",
+          "gherkin" : "35.1.x",
+          "html-formatter" : "21.15.x",
+          "junit-xml-formatter" : "0.9.x",
+          "messages" : "29.0.x",
+          "pretty-formatter" : "2.3.x",
+          "tag-expressions" : "6.1.x",
+          "teamcity-formatter" : "0.1.x",
+          "testng-xml-formatter" : "0.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.30.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.31.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "10.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.2.x",
+          "gherkin" : "35.1.x",
+          "html-formatter" : "21.15.x",
+          "junit-xml-formatter" : "0.9.x",
+          "messages" : "29.0.x",
+          "pretty-formatter" : "2.3.x",
+          "tag-expressions" : "6.1.x",
+          "teamcity-formatter" : "0.1.x",
+          "testng-xml-formatter" : "0.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.31.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.32.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "12.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.3.x",
+          "gherkin" : "36.0.x",
+          "html-formatter" : "22.0.x",
+          "junit-xml-formatter" : "0.10.x",
+          "messages" : "30.1.x",
+          "pretty-formatter" : "2.4.x",
+          "tag-expressions" : "8.0.x",
+          "teamcity-formatter" : "0.2.x",
+          "testng-xml-formatter" : "0.7.x",
+          "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.32.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.33.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "12.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.3.x",
+          "gherkin" : "36.1.x",
+          "html-formatter" : "22.1.x",
+          "junit-xml-formatter" : "0.11.x",
+          "messages" : "30.1.x",
+          "pretty-formatter" : "2.4.x",
+          "tag-expressions" : "8.0.x",
+          "teamcity-formatter" : "0.2.x",
+          "testng-xml-formatter" : "0.7.x",
+          "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.33.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "7.34.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "12.0.x",
+          "cucumber-expressions" : "18.0.x",
+          "cucumber-json-formatter" : "0.3.x",
+          "gherkin" : "36.1.x",
+          "html-formatter" : "22.2.x",
+          "junit-xml-formatter" : "0.11.x",
+          "messages" : "30.1.x",
+          "pretty-formatter" : "2.4.x",
+          "tag-expressions" : "8.1.x",
+          "teamcity-formatter" : "0.2.x",
+          "testng-xml-formatter" : "0.7.x",
+          "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "7.34.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "12.0.x",
+          "cucumber-expressions" : "18.1.x",
+          "cucumber-json-formatter" : "0.3.x",
+          "gherkin" : "36.1.x",
+          "html-formatter" : "22.3.x",
+          "junit-xml-formatter" : "0.11.x",
+          "messages" : "30.1.x",
+          "messages-ndjson" : "0.3.x",
+          "pretty-formatter" : "2.4.x",
+          "tag-expressions" : "8.1.x",
+          "teamcity-formatter" : "0.2.x",
+          "testng-xml-formatter" : "0.7.x",
+          "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

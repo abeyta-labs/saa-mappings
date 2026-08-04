@@ -1,0 +1,102 @@
+{
+  "slug" : "testng-xml-formatter",
+  "coordinates" : [ "io.cucumber:testng-xml-formatter" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "24.1.x",
+          "query" : "12.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "24.1.x",
+          "query" : "12.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.4.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "27.2.x",
+          "query" : "13.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.5.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "28.0.x",
+          "query" : "13.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.6.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "28.1.x",
+          "query" : "13.6.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.7.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "29.0.x",
+          "query" : "14.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "messages" : "30.1.x",
+          "query" : "14.7.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

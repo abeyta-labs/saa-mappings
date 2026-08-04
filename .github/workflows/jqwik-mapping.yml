@@ -19,5 +19,4 @@ jobs:
     with:
       mapping-name: jqwik
       repo-url: https://github.com/jqwik-team/jqwik
-      coordinates: net.jqwik:jqwik
     secrets: inherit

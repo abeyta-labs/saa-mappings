@@ -20,4 +20,5 @@ jobs:
       mapping-name: shedlock-sql-support
       repo-url: https://github.com/lukas-krecan/ShedLock
       coordinates: net.javacrumbs.shedlock:shedlock-sql-support
+      after-mapping-script: scripts/mapping-cleanup/shedlock-sql-support.py
     secrets: inherit

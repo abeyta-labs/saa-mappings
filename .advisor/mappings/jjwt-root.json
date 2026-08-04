@@ -1,0 +1,48 @@
+{
+  "slug" : "jjwt-root",
+  "coordinates" : [ "io.jsonwebtoken:jjwt-root" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "0.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.11.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.12.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.13.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

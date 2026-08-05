@@ -20,4 +20,5 @@ jobs:
       mapping-name: jqwik-web
       repo-url: https://github.com/jqwik-team/jqwik
       coordinates: net.jqwik:jqwik-web
+      after-mapping-script: scripts/mapping-cleanup/jqwik-web.py
     secrets: inherit

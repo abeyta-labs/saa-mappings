@@ -20,4 +20,5 @@ jobs:
       mapping-name: cucumber-jvm
       repo-url: https://github.com/cucumber/cucumber-jvm
       before-mapping-script: scripts/mapping-prepare/cucumber-jvm.py
+      after-mapping-script: scripts/mapping-cleanup/cucumber-jvm.py
     secrets: inherit

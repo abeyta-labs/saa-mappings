@@ -1,0 +1,15 @@
+{
+  "slug" : "cucumber-jvm-deps",
+  "coordinates" : [ "io.cucumber:cucumber-jvm-deps" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "1.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

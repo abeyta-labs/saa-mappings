@@ -1,6 +1,6 @@
 {
   "slug" : "jqwik",
-  "coordinates" : [ "net.jqwik:jqwik-api", "net.jqwik:jqwik-time" ],
+  "coordinates" : [ "net.jqwik:jqwik-api", "net.jqwik:jqwik-web" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "1.4.x" : {

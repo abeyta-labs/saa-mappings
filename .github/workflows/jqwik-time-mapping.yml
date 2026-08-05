@@ -20,4 +20,5 @@ jobs:
       mapping-name: jqwik-time
       repo-url: https://github.com/jqwik-team/jqwik
       coordinates: net.jqwik:jqwik-time
+      after-mapping-script: scripts/mapping-cleanup/jqwik-time.py
     secrets: inherit

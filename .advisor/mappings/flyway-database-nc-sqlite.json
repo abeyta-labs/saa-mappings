@@ -135,6 +135,32 @@
     },
     "13.1.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.2.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "3.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.3.x",
+        "project" : null
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "3.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.3.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {

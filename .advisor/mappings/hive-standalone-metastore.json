@@ -11,7 +11,9 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-compress" : "1.9.x",
           "apache-commons-lang" : "3.2.x",
+          "hive-shims-scheduler" : "3.0.x",
           "hive-storage-api" : "2.6.x",
           "jackson" : "2.9.x"
         },
@@ -20,46 +22,15 @@
     },
     "3.1.x" : {
       "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
-      },
+      "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-compress" : "1.19.x",
           "apache-commons-lang" : "3.2.x",
+          "hive-shims-scheduler" : "3.1.x",
           "hive-storage-api" : "2.7.x",
           "jackson" : "2.12.x"
         },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "4.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "4.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "4.2.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "4.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

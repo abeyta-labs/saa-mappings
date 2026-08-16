@@ -45,7 +45,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "3.2.x",
           "apache-commons-compress" : "1.4.x",
           "apache-commons-lang" : "2.4.x",
           "jackson" : "1.8.x",
@@ -150,10 +149,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.12.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -164,12 +160,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "2.6.x",
-          "jackson" : "2.9.x",
-          "jackson-annotations" : "2.9.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -191,12 +182,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-lang" : "3.12.x",
-          "jackson" : "2.16.x",
-          "spring-cloud-gateway" : "1.51.x",
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -207,13 +193,7 @@
         "project" : null
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-lang" : "3.12.x",
-          "jackson" : "2.16.x",
-          "spring-cloud-gateway" : "1.72.x",
-          "spring-framework" : "5.3.x",
-          "spring-ldap" : "2.4.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -221,13 +201,7 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : {
-          "apache-commons-lang" : "3.14.x",
-          "jackson" : "2.16.x",
-          "spring-cloud-gateway" : "1.72.x",
-          "spring-framework" : "5.3.x",
-          "spring-ldap" : "2.4.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

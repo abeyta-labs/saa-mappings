@@ -84,6 +84,17 @@
     },
     "7.7.x": {
       "recipes": [],
+      "nextRewrite": {
+        "version": "7.8.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "7.8.x": {
+      "recipes": [],
       "nextRewrite": null,
       "requirements": {
         "supportedGenerations": {},

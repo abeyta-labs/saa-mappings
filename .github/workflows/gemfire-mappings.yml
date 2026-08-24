@@ -1,0 +1,69 @@
+name: GemFire Mappings Update
+
+# Regenerates the GemFire mapping files (spring-boot / spring-data /
+# spring-session for VMware GemFire, plus the generic gemfire-10-x mapping)
+# from the Broadcom Artifactory catalog, and opens a PR when anything changed.
+#
+# The generator is authoritative and idempotent: it recomputes the full desired
+# state from Artifactory each run, so new versions and new hops are picked up
+# automatically. See scripts/generate_gemfire_mappings.py and the CLAUDE.md
+# "GemFire: custom cross-artifact hop chains" section.
+#
+# Required repository secrets:
+#   GEMFIRE_ARTIFACTORY_USERNAME  - Broadcom Artifactory user (email)
+#   GEMFIRE_ARTIFACTORY_PASSWORD  - Broadcom Artifactory access token / password
+#   GH_PULL_REQUEST_TOKEN         - token used to open the PR (existing)
+#
+# Optional repository variables (to point at an internal Artifactory mirror;
+# unset -> public Broadcom default):
+#   GEMFIRE_ARTIFACTORY_ROOT      - Artifactory root URL (…/artifactory)
+#   GEMFIRE_ARTIFACTORY_REPO      - repository key holding the GemFire artifacts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 1'  # 09:00 UTC every Monday
+
+jobs:
+  generate:
+    runs-on: java
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Generate GemFire mappings
+        env:
+          GEMFIRE_ARTIFACTORY_USERNAME: ${{ secrets.GEMFIRE_ARTIFACTORY_USERNAME }}
+          GEMFIRE_ARTIFACTORY_PASSWORD: ${{ secrets.GEMFIRE_ARTIFACTORY_PASSWORD }}
+          GEMFIRE_ARTIFACTORY_ROOT: ${{ vars.GEMFIRE_ARTIFACTORY_ROOT }}
+          GEMFIRE_ARTIFACTORY_REPO: ${{ vars.GEMFIRE_ARTIFACTORY_REPO }}
+        run: |
+          python3 scripts/generate_gemfire_mappings.py --verbose --delete-orphans
+          echo "----------------------------------------"
+          echo "Changes:"
+          git status --short .advisor/mappings || true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GH_PULL_REQUEST_TOKEN }}
+          commit-message: "gemfire mappings - regenerate from Artifactory"
+          title: "GemFire mappings update"
+          body: |
+            Automated regeneration of GemFire mapping files from the Broadcom
+            Artifactory catalog by `scripts/generate_gemfire_mappings.py`.
+
+            Review the diff for new versions, new hops, or coordinate changes.
+          branch: "gemfire-mappings-update"
+          add-paths: ".advisor/mappings"

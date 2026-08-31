@@ -182,7 +182,7 @@
           }
         }
       ],
-      "nextRewrite": "10.2.6",
+      "nextRewrite": "10.2.7",
       "requirements": {
         "supportedJavaVersions": {
           "major": 8,
@@ -335,7 +335,7 @@
         "excludedArtifacts": []
       }
     },
-    "10.2.6": {
+    "10.2.7": {
       "recipes": [],
       "nextRewrite": null,
       "requirements": {

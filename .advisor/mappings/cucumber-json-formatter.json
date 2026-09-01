@@ -6,8 +6,7 @@
     "0.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.2.x",
-        "project" : null
+        "version" : "0.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -20,8 +19,7 @@
     "0.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.3.x",
-        "project" : null
+        "version" : "0.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {

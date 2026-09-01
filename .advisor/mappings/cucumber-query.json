@@ -8,8 +8,7 @@
     "12.1.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "12.2.x",
-        "project": null
+        "version": "12.2.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -21,8 +20,7 @@
     "12.2.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "13.2.x",
-        "project": null
+        "version": "13.2.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -34,8 +32,7 @@
     "13.2.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "13.4.x",
-        "project": null
+        "version": "13.4.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -47,8 +44,7 @@
     "13.4.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "13.5.x",
-        "project": null
+        "version": "13.5.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -60,8 +56,7 @@
     "13.5.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "13.6.x",
-        "project": null
+        "version": "13.6.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -73,8 +68,7 @@
     "13.6.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "14.3.x",
-        "project": null
+        "version": "14.3.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -86,8 +80,7 @@
     "14.3.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "14.4.x",
-        "project": null
+        "version": "14.4.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -99,8 +92,7 @@
     "14.4.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "14.6.x",
-        "project": null
+        "version": "14.6.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -112,8 +104,7 @@
     "14.6.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "14.7.x",
-        "project": null
+        "version": "14.7.x"
       },
       "requirements": {
         "supportedGenerations": {

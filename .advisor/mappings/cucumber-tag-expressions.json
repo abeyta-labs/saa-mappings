@@ -8,8 +8,7 @@
     "1.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "1.1.x",
-        "project": null
+        "version": "1.1.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -19,8 +18,7 @@
     "1.1.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "2.0.x",
-        "project": null
+        "version": "2.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -30,8 +28,7 @@
     "2.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "3.0.x",
-        "project": null
+        "version": "3.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -41,8 +38,7 @@
     "3.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "4.0.x",
-        "project": null
+        "version": "4.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -52,8 +48,7 @@
     "4.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "4.1.x",
-        "project": null
+        "version": "4.1.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -63,8 +58,7 @@
     "4.1.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "5.0.x",
-        "project": null
+        "version": "5.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -74,8 +68,7 @@
     "5.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "6.0.x",
-        "project": null
+        "version": "6.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -85,8 +78,7 @@
     "6.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "6.1.x",
-        "project": null
+        "version": "6.1.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -96,8 +88,7 @@
     "6.1.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "8.0.x",
-        "project": null
+        "version": "8.0.x"
       },
       "requirements": {
         "supportedGenerations": {},
@@ -107,8 +98,7 @@
     "8.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "8.1.x",
-        "project": null
+        "version": "8.1.x"
       },
       "requirements": {
         "supportedGenerations": {},

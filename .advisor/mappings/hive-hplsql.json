@@ -6,8 +6,7 @@
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.1.x",
-        "project" : null
+        "version" : "2.1.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -17,8 +16,7 @@
     "2.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
+        "version" : "2.2.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -28,8 +26,7 @@
     "2.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.3.x",
-        "project" : null
+        "version" : "2.3.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -39,8 +36,7 @@
     "2.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.0.x",
-        "project" : null
+        "version" : "3.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -56,8 +52,7 @@
     "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.1.x",
-        "project" : null
+        "version" : "3.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -74,8 +69,7 @@
     "3.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
+        "version" : "4.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -93,17 +87,18 @@
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
+        "version" : "4.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
+          "apache-commons-collections" : "4.4.x",
           "apache-commons-compress" : "1.23.x",
           "apache-commons-lang" : "3.12.x",
-          "jackson" : "2.10.x",
+          "hive-hcatalog" : "4.0.x",
+          "jackson" : "2.16.x",
           "org.apache.hive.shims:hive-shims" : "4.0.x",
-          "spring-cloud-gateway" : "1.51.x"
+          "spring-cloud-gateway" : "1.51.x",
+          "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -111,18 +106,19 @@
     "4.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.2.x",
-        "project" : null
+        "version" : "4.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-collections" : "4.1.x",
+          "apache-commons-collections" : "4.4.x",
           "apache-commons-compress" : "1.26.x",
           "apache-commons-lang" : "3.12.x",
-          "jackson" : "2.12.x",
+          "hive-hcatalog" : "4.1.x",
+          "jackson" : "2.16.x",
           "mockito" : "5.17.x",
           "org.apache.hive.shims:hive-shims" : "4.1.x",
           "spring-cloud-gateway" : "1.72.x",
+          "spring-framework" : "5.3.x",
           "spring-ldap" : "2.4.x"
         },
         "excludedArtifacts" : [ ]
@@ -136,10 +132,13 @@
           "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.26.x",
           "apache-commons-lang" : "3.14.x",
-          "jackson" : "2.12.x",
+          "hive-hcatalog" : "4.2.x",
+          "jackson" : "2.16.x",
+          "junit" : "3.8.x",
           "mockito" : "5.17.x",
           "org.apache.hive.shims:hive-shims" : "4.2.x",
           "spring-cloud-gateway" : "1.72.x",
+          "spring-framework" : "5.3.x",
           "spring-ldap" : "2.4.x"
         },
         "excludedArtifacts" : [ ]

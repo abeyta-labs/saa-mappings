@@ -6,8 +6,7 @@
     "3.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.2.x",
-        "project" : null
+        "version" : "3.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -19,8 +18,7 @@
     "3.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.3.x",
-        "project" : null
+        "version" : "3.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -32,8 +30,7 @@
     "3.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.4.x",
-        "project" : null
+        "version" : "3.4.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -45,8 +42,7 @@
     "3.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
+        "version" : "4.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -58,8 +54,7 @@
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
+        "version" : "4.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -71,8 +66,7 @@
     "4.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.2.x",
-        "project" : null
+        "version" : "4.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -84,8 +78,7 @@
     "4.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.3.x",
-        "project" : null
+        "version" : "4.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -97,8 +90,7 @@
     "4.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.4.x",
-        "project" : null
+        "version" : "4.4.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -110,8 +102,7 @@
     "4.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.5.x",
-        "project" : null
+        "version" : "4.5.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -123,8 +114,7 @@
     "4.5.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.6.x",
-        "project" : null
+        "version" : "4.6.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -136,8 +126,7 @@
     "4.6.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.7.x",
-        "project" : null
+        "version" : "4.7.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -149,8 +138,7 @@
     "4.7.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.8.x",
-        "project" : null
+        "version" : "4.8.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -162,8 +150,7 @@
     "4.8.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "5.0.x",
-        "project" : null
+        "version" : "5.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -175,8 +162,7 @@
     "5.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "6.0.x",
-        "project" : null
+        "version" : "6.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -188,8 +174,7 @@
     "6.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "7.0.x",
-        "project" : null
+        "version" : "7.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -201,8 +186,7 @@
     "7.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "8.0.x",
-        "project" : null
+        "version" : "8.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -214,8 +198,7 @@
     "8.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "9.0.x",
-        "project" : null
+        "version" : "9.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -227,8 +210,7 @@
     "9.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "10.0.x",
-        "project" : null
+        "version" : "10.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -240,8 +222,7 @@
     "10.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "11.0.x",
-        "project" : null
+        "version" : "11.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -253,8 +234,7 @@
     "11.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "12.0.x",
-        "project" : null
+        "version" : "12.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -266,8 +246,7 @@
     "12.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "13.0.x",
-        "project" : null
+        "version" : "13.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -279,8 +258,7 @@
     "13.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "14.0.x",
-        "project" : null
+        "version" : "14.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -292,8 +270,7 @@
     "14.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "15.0.x",
-        "project" : null
+        "version" : "15.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -305,8 +282,7 @@
     "15.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "15.1.x",
-        "project" : null
+        "version" : "15.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -318,8 +294,7 @@
     "15.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "16.0.x",
-        "project" : null
+        "version" : "16.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -331,8 +306,7 @@
     "16.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "16.1.x",
-        "project" : null
+        "version" : "16.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -344,8 +318,7 @@
     "16.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "17.0.x",
-        "project" : null
+        "version" : "17.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -357,8 +330,7 @@
     "17.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "18.0.x",
-        "project" : null
+        "version" : "18.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -370,8 +342,7 @@
     "18.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "19.0.x",
-        "project" : null
+        "version" : "19.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -383,8 +354,7 @@
     "19.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "20.0.x",
-        "project" : null
+        "version" : "20.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -396,8 +366,7 @@
     "20.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "21.0.x",
-        "project" : null
+        "version" : "21.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -409,8 +378,7 @@
     "21.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "21.1.x",
-        "project" : null
+        "version" : "21.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -422,8 +390,7 @@
     "21.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "22.0.x",
-        "project" : null
+        "version" : "22.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -435,8 +402,7 @@
     "22.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "23.0.x",
-        "project" : null
+        "version" : "23.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -448,8 +414,7 @@
     "23.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "24.0.x",
-        "project" : null
+        "version" : "24.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -461,8 +426,7 @@
     "24.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "25.0.x",
-        "project" : null
+        "version" : "25.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {

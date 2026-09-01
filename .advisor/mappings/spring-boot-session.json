@@ -8,8 +8,7 @@
     "4.0.x": {
       "recipes": [],
       "nextRewrite": {
-        "version": "4.1.x",
-        "project": null
+        "version": "4.1.x"
       },
       "requirements": {
         "supportedGenerations": {
@@ -21,10 +20,23 @@
     },
     "4.1.x": {
       "recipes": [],
-      "nextRewrite": null,
+      "nextRewrite": {
+        "version": "4.2.x"
+      },
       "requirements": {
         "supportedGenerations": {
           "spring-framework": "7.0.x",
+          "spring-session": "4.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-framework": "7.1.x",
           "spring-session": "4.1.x"
         },
         "excludedArtifacts": []

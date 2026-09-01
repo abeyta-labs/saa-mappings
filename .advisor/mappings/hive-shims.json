@@ -3,16 +3,72 @@
   "coordinates" : [ "org.apache.hive:hive-shims" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.13.x" : {
+    "0.8.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.14.x",
-        "project" : null
+        "version" : "0.9.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.10.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.11.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "apache-commons-lang" : "2.4.x",
+          "jackson" : "1.8.x",
+          "junit" : "3.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.12.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "1.8.x",
+          "junit" : "3.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.13.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "1.8.x",
+          "junit" : "3.8.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.14.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
           "hive-shims-0.20" : "0.13.x",
           "hive-shims-0.20s" : "0.13.x",
           "hive-shims-common-secure" : "0.13.x"
@@ -23,13 +79,10 @@
     "0.14.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.0.x",
-        "project" : null
+        "version" : "1.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20" : "0.14.x",
           "hive-shims-0.20s" : "0.14.x",
           "hive-shims-common-secure" : "0.14.x"
@@ -40,13 +93,10 @@
     "1.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.1.x",
-        "project" : null
+        "version" : "1.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20" : "1.0.x",
           "hive-shims-0.20s" : "1.0.x",
           "hive-shims-common-secure" : "1.0.x"
@@ -57,13 +107,10 @@
     "1.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.2.x",
-        "project" : null
+        "version" : "1.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20s" : "1.1.x",
           "hive-shims-scheduler" : "1.1.x"
         },
@@ -73,13 +120,10 @@
     "1.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.0.x",
-        "project" : null
+        "version" : "2.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.4.x",
-          "apache-commons-lang" : "2.6.x",
           "hive-shims-0.20s" : "1.2.x",
           "hive-shims-scheduler" : "1.2.x"
         },
@@ -89,16 +133,11 @@
     "2.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.1.x",
-        "project" : null
+        "version" : "2.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "2.6.x",
-          "hive-orc" : "2.0.x",
-          "hive-shims-scheduler" : "2.0.x",
-          "jackson" : "2.4.x"
+          "hive-shims-scheduler" : "2.0.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -106,16 +145,11 @@
     "2.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
+        "version" : "2.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "2.6.x",
-          "hive-orc" : "2.1.x",
-          "hive-shims-scheduler" : "2.1.x",
-          "jackson" : "2.4.x"
+          "hive-shims-scheduler" : "2.1.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -123,17 +157,11 @@
     "2.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "2.3.x",
-        "project" : null
+        "version" : "2.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.1.x",
-          "hive-orc" : "2.2.x",
-          "hive-shims-scheduler" : "2.2.x",
-          "hive-storage-api" : "2.3.x",
-          "jackson" : "2.4.x"
+          "hive-shims-scheduler" : "2.2.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -141,16 +169,11 @@
     "2.3.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.0.x",
-        "project" : null
+        "version" : "3.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.12.x",
-          "hive-shims-scheduler" : "2.3.x",
-          "hive-storage-api" : "2.4.x",
-          "jackson" : "2.12.x"
+          "hive-shims-scheduler" : "2.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -158,30 +181,57 @@
     "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.1.x",
-        "project" : null
+        "version" : "3.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.9.x",
-          "apache-commons-lang" : "3.2.x",
-          "hive-shims-scheduler" : "3.0.x",
-          "hive-storage-api" : "2.6.x",
-          "jackson" : "2.9.x"
+          "hive-shims-scheduler" : "3.0.x"
         },
         "excludedArtifacts" : [ ]
       }
     },
     "3.1.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "hive-shims-scheduler" : "3.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "org.apache.hive.shims:hive-shims" : "4.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "org.apache.hive.shims:hive-shims" : "4.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.2.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "apache-commons-compress" : "1.19.x",
-          "apache-commons-lang" : "3.9.x",
-          "hive-shims-scheduler" : "3.1.x",
-          "hive-storage-api" : "2.7.x",
-          "jackson" : "2.12.x"
+          "org.apache.hive.shims:hive-shims" : "4.2.x"
         },
         "excludedArtifacts" : [ ]
       }

@@ -6,8 +6,7 @@
     "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "3.1.x",
-        "project" : null
+        "version" : "3.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -24,8 +23,7 @@
     "3.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.0.x",
-        "project" : null
+        "version" : "4.0.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -43,8 +41,7 @@
     "4.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.1.x",
-        "project" : null
+        "version" : "4.1.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -61,8 +58,7 @@
     "4.1.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "4.2.x",
-        "project" : null
+        "version" : "4.2.x"
       },
       "requirements" : {
         "supportedGenerations" : {

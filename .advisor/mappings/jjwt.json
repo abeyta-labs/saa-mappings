@@ -3,11 +3,58 @@
   "coordinates" : [ "io.jsonwebtoken:jjwt-api", "io.jsonwebtoken:jjwt-impl" ],
   "repositoryUrl" : "",
   "rewrite" : {
+    "0.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "0.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "0.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.4.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
     "0.5.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.6.x",
-        "project" : null
+        "version" : "0.6.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -19,8 +66,7 @@
     "0.6.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.7.x",
-        "project" : null
+        "version" : "0.7.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -32,8 +78,7 @@
     "0.7.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.8.x",
-        "project" : null
+        "version" : "0.8.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -45,8 +90,7 @@
     "0.8.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.9.x",
-        "project" : null
+        "version" : "0.9.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -58,8 +102,7 @@
     "0.9.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.10.x",
-        "project" : null
+        "version" : "0.10.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -71,8 +114,7 @@
     "0.10.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.11.x",
-        "project" : null
+        "version" : "0.11.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -82,8 +124,7 @@
     "0.11.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.12.x",
-        "project" : null
+        "version" : "0.12.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -93,8 +134,7 @@
     "0.12.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.13.x",
-        "project" : null
+        "version" : "0.13.x"
       },
       "requirements" : {
         "supportedGenerations" : { },

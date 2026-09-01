@@ -6,8 +6,7 @@
     "13.2.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "13.3.x",
-        "project" : null
+        "version" : "13.3.x"
       },
       "requirements" : {
         "supportedGenerations" : { },
@@ -15,6 +14,16 @@
       }
     },
     "13.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {

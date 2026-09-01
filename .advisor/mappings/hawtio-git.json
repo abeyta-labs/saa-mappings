@@ -6,8 +6,7 @@
     "1.4.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "1.5.x",
-        "project" : null
+        "version" : "1.5.x"
       },
       "requirements" : {
         "supportedGenerations" : {

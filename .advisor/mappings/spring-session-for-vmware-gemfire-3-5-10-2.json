@@ -28,12 +28,40 @@
             "oldArtifactId": "spring-session-3.5-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-session-4.0-gemfire-10.2",
-            "newVersion": "2.0.1"
+            "newVersion": "2.0.2"
           }
         }
       ],
       "nextRewrite": {
-        "version": "2.0.1",
+        "version": "2.0.2",
+        "project": "spring-session-for-vmware-gemfire-4-0-10-2"
+      },
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 17,
+          "minor": 17
+        },
+        "supportedGenerations": {
+          "spring-boot": "3.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.1": {
+      "recipes": [
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-session-3.5-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-session-4.0-gemfire-10.2",
+            "newVersion": "2.0.2"
+          }
+        }
+      ],
+      "nextRewrite": {
+        "version": "2.0.2",
         "project": "spring-session-for-vmware-gemfire-4-0-10-2"
       },
       "requirements": {

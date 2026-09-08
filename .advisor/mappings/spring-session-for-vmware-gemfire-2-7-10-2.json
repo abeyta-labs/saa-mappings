@@ -1,0 +1,37 @@
+{
+  "slug": "spring-session-for-vmware-gemfire-2-7-10-2",
+  "coordinates": [
+    "com.vmware.gemfire:spring-session-2.7-gemfire-10.2"
+  ],
+  "repositoryUrl": "https://github.com/gemfire/spring-session-for-vmware-gemfire",
+  "rewrite": {
+    "2.0.x": {
+      "recipes": [
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-session-2.7-gemfire-10.2",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-session-3.5-gemfire-10.2",
+            "newVersion": "2.0.1"
+          }
+        }
+      ],
+      "nextRewrite": {
+        "version": "2.0.1",
+        "project": "spring-session-for-vmware-gemfire-3-5-10-2"
+      },
+      "requirements": {
+        "supportedJavaVersions": {
+          "major": 8,
+          "minor": 8
+        },
+        "supportedGenerations": {
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

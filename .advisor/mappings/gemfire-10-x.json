@@ -45,6 +45,96 @@
           "name": "org.openrewrite.java.dependencies.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-actuator-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-actuator-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-actuator-autoconfigure-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-actuator-autoconfigure-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-autoconfigure-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-autoconfigure-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-core-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-core-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-2.7-gemfire-extensions-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-2.7-gemfire-extensions-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-actuator-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-actuator-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-logging-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-logging-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-boot-session-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-boot-session-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-boot-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-3.5-gemfire-10.2",
@@ -145,6 +235,16 @@
           "name": "org.openrewrite.java.dependencies.ChangeDependency",
           "params": {
             "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-data-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-data-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
             "oldArtifactId": "spring-data-3.5-gemfire-10.1",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-3.5-gemfire-10.2",
@@ -169,6 +269,16 @@
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-integration-6.5-gemfire-10.2",
             "newVersion": "1.0.0"
+          }
+        },
+        {
+          "name": "org.openrewrite.java.dependencies.ChangeDependency",
+          "params": {
+            "oldGroupId": "com.vmware.gemfire",
+            "oldArtifactId": "spring-session-2.7-gemfire-10.1",
+            "newGroupId": "com.vmware.gemfire",
+            "newArtifactId": "spring-session-2.7-gemfire-10.2",
+            "newVersion": "2.0.0"
           }
         },
         {
@@ -201,7 +311,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -211,7 +321,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-actuator-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-actuator-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -221,7 +331,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-actuator-autoconfigure-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-actuator-autoconfigure-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -231,7 +341,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-autoconfigure-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-autoconfigure-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -241,7 +351,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-core-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-core-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -251,7 +361,7 @@
             "oldArtifactId": "spring-boot-4.1-gemfire-extensions-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-4.1-gemfire-extensions-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -261,7 +371,7 @@
             "oldArtifactId": "spring-boot-actuator-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-actuator-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -271,7 +381,7 @@
             "oldArtifactId": "spring-boot-logging-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-logging-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -281,7 +391,7 @@
             "oldArtifactId": "spring-boot-session-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-boot-session-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -291,7 +401,7 @@
             "oldArtifactId": "spring-data-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -301,7 +411,7 @@
             "oldArtifactId": "spring-data-4.1-gemfire-test-framework-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-data-4.1-gemfire-test-framework-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         },
         {
@@ -311,7 +421,7 @@
             "oldArtifactId": "spring-integration-7.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-integration-7.1-gemfire-10.3",
-            "newVersion": "1.0.0"
+            "newVersion": "1.0.1"
           }
         },
         {
@@ -321,7 +431,7 @@
             "oldArtifactId": "spring-session-4.1-gemfire-10.2",
             "newGroupId": "com.vmware.gemfire",
             "newArtifactId": "spring-session-4.1-gemfire-10.3",
-            "newVersion": "2.0.0"
+            "newVersion": "2.0.1"
           }
         }
       ],

@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 
 def update_aws_sdk_mapping():
     # 1. Path Calculation (Sibling logic)
@@ -51,10 +52,13 @@ def update_aws_sdk_mapping():
 
     except FileNotFoundError:
         print(f"Error: Could not find file at {file_path}")
+        sys.exit(1)
     except json.JSONDecodeError:
         print("Error: Invalid JSON format.")
+        sys.exit(1)
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     update_aws_sdk_mapping()

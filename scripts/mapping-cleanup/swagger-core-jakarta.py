@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import subprocess
 
 def update_swagger_core_jakarta_mapping():
@@ -38,7 +39,7 @@ def update_swagger_core_jakarta_mapping():
         source_path = target_path
     else:
         print(f"Error: Neither {generated_path} nor {target_path} were found")
-        return
+        sys.exit(1)
 
     try:
         print(f"Opening file: {source_path}")
@@ -86,8 +87,10 @@ def update_swagger_core_jakarta_mapping():
 
     except json.JSONDecodeError:
         print("Error: Failed to decode JSON. Check the file format.")
+        sys.exit(1)
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     update_swagger_core_jakarta_mapping()

@@ -4,8 +4,8 @@ on:
   # Manual trigger (on-demand)
   workflow_dispatch:
   schedule:
-    # Runs at 9:00 AM UTC on the 1st and 15th of every month
-    - cron: '0 9 1,15 * *'
+    # Runs at 12:40 UTC on the 1st and 15th of every month
+    - cron: '40 12 1,15 * *'
 
 permissions:
   contents: write

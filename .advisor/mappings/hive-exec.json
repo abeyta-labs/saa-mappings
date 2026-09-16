@@ -3,50 +3,10 @@
   "coordinates" : [ "org.apache.hive:hive-exec" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "0.8.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.9.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.9.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.10.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.10.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.11.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.11.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "0.13.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "0.13.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
-        "version" : "0.14.x"
+        "version" : "2.3.x"
       },
       "requirements" : {
         "supportedGenerations" : {
@@ -57,76 +17,6 @@
           "hive-shims-0.20s" : "0.13.x",
           "hive-shims-common-secure" : "0.13.x"
         },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "0.14.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.0.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "1.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.1.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "1.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.2.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "1.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.0.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.0.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.1.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.2.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.3.x"
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -224,7 +114,7 @@
         "supportedGenerations" : {
           "apache-commons-collections" : "4.1.x",
           "apache-commons-compress" : "1.26.x",
-          "apache-commons-lang" : "3.12.x",
+          "apache-commons-lang" : "3.14.x",
           "jackson" : "2.16.x",
           "mockito" : "5.17.x",
           "org.apache.hive.shims:hive-shims" : "4.2.x",

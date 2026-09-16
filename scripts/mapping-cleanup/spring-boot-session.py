@@ -1,5 +1,6 @@
 import json
 import os
+import subprocess
 
 def update_spring_boot_session_mapping():
     # 1. Dynamically calculate paths relative to the sibling .advisor directory
@@ -7,9 +8,11 @@ def update_spring_boot_session_mapping():
     # Generated file: ../../.advisor/mappings/spring-boot.json (repo-derived name)
     # Desired file:   ../../.advisor/mappings/spring-boot-session.json
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    mappings_dir = os.path.normpath(os.path.join(script_dir, "..", "..", ".advisor", "mappings"))
+    repo_root = os.path.normpath(os.path.join(script_dir, "..", ".."))
+    mappings_dir = os.path.join(repo_root, ".advisor", "mappings")
     generated_path = os.path.join(mappings_dir, "spring-boot.json")
     target_path = os.path.join(mappings_dir, "spring-boot-session.json")
+    generated_rel = os.path.relpath(generated_path, repo_root)
 
     new_slug = "spring-boot-session"
     wrong_coordinate = "org.springframework.boot:spring-boot"
@@ -50,8 +53,22 @@ def update_spring_boot_session_mapping():
         print(f"Successfully wrote: {target_path}")
 
         if source_path == generated_path:
-            os.remove(generated_path)
-            print(f"Removed stale generated file: {generated_path}")
+            # spring-boot.json can collide with a committed mapping owned by
+            # another workflow for the same repo. This run's generator just clobbered that in the
+            # working tree with this mapping's narrower content -- if HEAD
+            # already has a committed version at this path, restore it rather
+            # than deleting, so the other mapping isn't lost on commit.
+            head_has_file = subprocess.run(
+                ["git", "cat-file", "-e", f"HEAD:{generated_rel}"],
+                cwd=repo_root, capture_output=True
+            ).returncode == 0
+
+            if head_has_file:
+                subprocess.run(["git", "checkout", "HEAD", "--", generated_rel], cwd=repo_root, check=True)
+                print(f"Restored committed version of: {generated_path}")
+            else:
+                os.remove(generated_path)
+                print(f"Removed stale generated file: {generated_path}")
 
     except json.JSONDecodeError:
         print("Error: Failed to decode JSON. Check the file format.")

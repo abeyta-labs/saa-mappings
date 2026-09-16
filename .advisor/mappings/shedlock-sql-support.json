@@ -97,6 +97,16 @@
     },
     "7.9.x": {
       "recipes": [],
+      "nextRewrite": {
+        "version": "7.10.x"
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "7.10.x": {
+      "recipes": [],
       "nextRewrite": null,
       "requirements": {
         "supportedGenerations": {},

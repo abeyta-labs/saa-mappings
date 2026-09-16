@@ -29,10 +29,9 @@ on:
         required: false
         type: string
       cron_schedule:
-        description: 'Cron schedule for the workflow (optional, defaults to "0 9 1,15 * *")'
+        description: 'Cron schedule for the workflow (optional; default derived from the name to spread runs across the day)'
         required: false
         type: string
-        default: '0 9 1,15 * *'
 
 permissions:
   contents: write
@@ -55,8 +54,11 @@ jobs:
           
           # Use provided cron schedule or default
           CRON_SCHEDULE="${{ inputs.cron_schedule }}"
+          # No explicit schedule: derive a stable slot from the name so runs
+          # spread across the day instead of all firing at once.
           if [ -z "$CRON_SCHEDULE" ]; then
-            CRON_SCHEDULE="0 9 1,15 * *"
+            cron_slot=$(printf '%s' "${{ inputs.mapping-name }}" | cksum | cut -d' ' -f1)
+            CRON_SCHEDULE="$(( cron_slot % 3 * 20 )) $(( 2 + cron_slot / 3 % 13 )) 1,15 * *"
           fi
           
           # Start generating the workflow file
@@ -213,8 +215,11 @@ jobs:
           fi
           
           CRON_SCHEDULE="${{ inputs.cron_schedule }}"
+          # No explicit schedule: derive a stable slot from the name so runs
+          # spread across the day instead of all firing at once.
           if [ -z "$CRON_SCHEDULE" ]; then
-            CRON_SCHEDULE="0 9 1,15 * *"
+            cron_slot=$(printf '%s' "${{ inputs.mapping-name }}" | cksum | cut -d' ' -f1)
+            CRON_SCHEDULE="$(( cron_slot % 3 * 20 )) $(( 2 + cron_slot / 3 % 13 )) 1,15 * *"
           fi
           echo "- **Cron Schedule**: \`$CRON_SCHEDULE\`" >> $GITHUB_STEP_SUMMARY
           
@@ -226,8 +231,4 @@ jobs:
           
           # Parse and explain the cron schedule
           echo "" >> $GITHUB_STEP_SUMMARY
-          if [ "$CRON_SCHEDULE" = "0 9 1,15 * *" ]; then
-            echo "*Schedule: At 9:00 AM UTC on the 1st and 15th of every month*" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "*Custom schedule configured*" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "*Schedule: \`$CRON_SCHEDULE\` (1st and 15th of every month)*" >> $GITHUB_STEP_SUMMARY

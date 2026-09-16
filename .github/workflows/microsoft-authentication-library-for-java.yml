@@ -3,7 +3,7 @@ name: microsoft-authentication-library-for-java
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 1,15 * *'
+    - cron: '40 11 1,15 * *'
 
 permissions:
   contents: write

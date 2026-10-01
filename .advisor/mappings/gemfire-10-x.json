@@ -292,7 +292,7 @@
           }
         }
       ],
-      "nextRewrite": "10.2.7",
+      "nextRewrite": "10.2.8",
       "requirements": {
         "supportedJavaVersions": {
           "major": 8,
@@ -435,7 +435,7 @@
           }
         }
       ],
-      "nextRewrite": "10.3.1",
+      "nextRewrite": "10.3.2",
       "requirements": {
         "supportedJavaVersions": {
           "major": 17,
@@ -445,7 +445,7 @@
         "excludedArtifacts": []
       }
     },
-    "10.2.7": {
+    "10.2.8": {
       "recipes": [],
       "nextRewrite": null,
       "requirements": {
@@ -457,7 +457,7 @@
         "excludedArtifacts": []
       }
     },
-    "10.3.1": {
+    "10.3.2": {
       "recipes": [],
       "nextRewrite": null,
       "requirements": {

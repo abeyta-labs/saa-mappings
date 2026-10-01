@@ -37,7 +37,7 @@
       "requirements": {
         "supportedGenerations": {
           "spring-framework": "7.1.x",
-          "spring-session": "4.1.x"
+          "spring-session": "4.2.x"
         },
         "excludedArtifacts": []
       }

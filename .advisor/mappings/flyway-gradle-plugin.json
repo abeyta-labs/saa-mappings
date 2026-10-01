@@ -1235,6 +1235,26 @@
     },
     "13.7.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.8.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.9.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.9.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

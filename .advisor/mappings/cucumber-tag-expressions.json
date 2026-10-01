@@ -107,6 +107,16 @@
     },
     "8.1.x": {
       "recipes": [],
+      "nextRewrite": {
+        "version": "11.0.x"
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "11.0.x": {
+      "recipes": [],
       "nextRewrite": null,
       "requirements": {
         "supportedGenerations": {},

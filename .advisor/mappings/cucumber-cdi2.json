@@ -10,14 +10,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.0.x",
-          "cucumber-expressions" : "15.1.x",
-          "gherkin" : "23.0.x",
-          "html-formatter" : "19.1.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.8.x",
-          "messages" : "18.0.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.3.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -29,14 +22,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.0.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "23.0.x",
-          "html-formatter" : "19.2.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.8.x",
-          "messages" : "18.0.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.4.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -48,14 +34,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "23.0.x",
-          "html-formatter" : "19.2.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "18.0.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.5.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -67,14 +46,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "24.0.x",
-          "html-formatter" : "20.0.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "19.0.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.6.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -86,14 +58,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "24.0.x",
-          "html-formatter" : "20.0.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "19.1.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.7.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -105,14 +70,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "24.0.x",
-          "html-formatter" : "20.1.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "19.1.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.8.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -124,14 +82,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.0.x",
-          "gherkin" : "24.1.x",
-          "html-formatter" : "20.1.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "19.1.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.9.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -143,14 +94,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.1.x",
-          "gherkin" : "25.0.x",
-          "html-formatter" : "20.2.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "messages" : "19.1.x",
-          "tag-expressions" : "4.1.x"
+          "cucumber-core" : "7.10.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -162,15 +106,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.1.x",
-          "cucumber-expressions" : "16.1.x",
-          "gherkin" : "26.0.x",
-          "html-formatter" : "20.2.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "junit-xml-formatter" : "0.1.x",
-          "messages" : "21.0.x",
-          "tag-expressions" : "5.0.x"
+          "cucumber-core" : "7.11.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -182,15 +118,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.2.x",
-          "cucumber-expressions" : "16.1.x",
-          "gherkin" : "26.2.x",
-          "html-formatter" : "20.3.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "junit-xml-formatter" : "0.2.x",
-          "messages" : "22.0.x",
-          "tag-expressions" : "5.0.x"
+          "cucumber-core" : "7.12.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -202,15 +130,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "9.2.x",
-          "cucumber-expressions" : "16.1.x",
-          "gherkin" : "26.2.x",
-          "html-formatter" : "20.3.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.9.x",
-          "junit-xml-formatter" : "0.2.x",
-          "messages" : "22.0.x",
-          "tag-expressions" : "5.0.x"
+          "cucumber-core" : "7.13.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -222,15 +142,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.0.x",
-          "gherkin" : "26.2.x",
-          "html-formatter" : "20.4.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.10.x",
-          "junit-xml-formatter" : "0.2.x",
-          "messages" : "22.0.x",
-          "tag-expressions" : "6.0.x"
+          "cucumber-core" : "7.14.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -242,15 +154,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.0.x",
-          "gherkin" : "26.2.x",
-          "html-formatter" : "20.4.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.10.x",
-          "junit-xml-formatter" : "0.2.x",
-          "messages" : "22.0.x",
-          "tag-expressions" : "6.0.x"
+          "cucumber-core" : "7.15.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -262,15 +166,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.1.x",
-          "gherkin" : "28.0.x",
-          "html-formatter" : "21.3.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.10.x",
-          "junit-xml-formatter" : "0.3.x",
-          "messages" : "24.1.x",
-          "tag-expressions" : "6.1.x"
+          "cucumber-core" : "7.16.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -282,17 +178,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.1.x",
-          "gherkin" : "28.0.x",
-          "html-formatter" : "21.3.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.10.x",
-          "junit-xml-formatter" : "0.4.x",
-          "messages" : "24.1.x",
-          "query" : "12.1.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.1.x"
+          "cucumber-core" : "7.17.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -304,17 +190,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.1.x",
-          "gherkin" : "28.0.x",
-          "html-formatter" : "21.4.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.10.x",
-          "junit-xml-formatter" : "0.5.x",
-          "messages" : "24.1.x",
-          "query" : "12.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.2.x"
+          "cucumber-core" : "7.18.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -326,17 +202,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.1.x",
-          "gherkin" : "28.0.x",
-          "html-formatter" : "21.7.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.11.x",
-          "junit-xml-formatter" : "0.5.x",
-          "messages" : "24.1.x",
-          "query" : "12.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.2.x"
+          "cucumber-core" : "7.19.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -348,17 +214,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "17.1.x",
-          "gherkin" : "28.0.x",
-          "html-formatter" : "21.7.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.11.x",
-          "junit-xml-formatter" : "0.5.x",
-          "messages" : "24.1.x",
-          "query" : "12.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.2.x"
+          "cucumber-core" : "7.20.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -370,17 +226,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "31.0.x",
-          "html-formatter" : "21.9.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.11.x",
-          "junit-xml-formatter" : "0.7.x",
-          "messages" : "27.2.x",
-          "query" : "13.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.3.x"
+          "cucumber-core" : "7.21.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -392,17 +238,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "32.1.x",
-          "html-formatter" : "21.10.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.12.x",
-          "junit-xml-formatter" : "0.7.x",
-          "messages" : "27.2.x",
-          "query" : "13.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.3.x"
+          "cucumber-core" : "7.22.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -414,17 +250,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "32.1.x",
-          "html-formatter" : "21.10.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.12.x",
-          "junit-xml-formatter" : "0.7.x",
-          "messages" : "27.2.x",
-          "query" : "13.2.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.3.x"
+          "cucumber-core" : "7.23.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -436,18 +262,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "33.0.x",
-          "html-formatter" : "21.13.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.8.x",
-          "messages" : "28.0.x",
-          "pretty-formatter" : "0.2.x",
-          "query" : "13.4.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.4.x"
+          "cucumber-core" : "7.24.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -459,18 +274,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "33.0.x",
-          "html-formatter" : "21.13.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.8.x",
-          "messages" : "28.0.x",
-          "pretty-formatter" : "0.3.x",
-          "query" : "13.5.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.4.x"
+          "cucumber-core" : "7.25.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -482,18 +286,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "33.0.x",
-          "html-formatter" : "21.13.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.8.x",
-          "messages" : "28.0.x",
-          "pretty-formatter" : "0.3.x",
-          "query" : "13.5.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.4.x"
+          "cucumber-core" : "7.26.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -505,18 +298,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "gherkin" : "34.0.x",
-          "html-formatter" : "21.13.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.8.x",
-          "messages" : "28.1.x",
-          "pretty-formatter" : "2.1.x",
-          "query" : "13.6.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.5.x"
+          "cucumber-core" : "7.27.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -528,19 +310,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.1.x",
-          "gherkin" : "34.0.x",
-          "html-formatter" : "21.13.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.8.x",
-          "messages" : "28.1.x",
-          "pretty-formatter" : "2.1.x",
-          "query" : "13.6.x",
-          "tag-expressions" : "6.1.x",
-          "testng-xml-formatter" : "0.5.x"
+          "cucumber-core" : "7.28.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -552,20 +322,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.2.x",
-          "gherkin" : "35.1.x",
-          "html-formatter" : "21.15.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.13.x",
-          "junit-xml-formatter" : "0.9.x",
-          "messages" : "29.0.x",
-          "pretty-formatter" : "2.3.x",
-          "query" : "14.3.x",
-          "tag-expressions" : "6.1.x",
-          "teamcity-formatter" : "0.1.x",
-          "testng-xml-formatter" : "0.6.x"
+          "cucumber-core" : "7.29.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -577,20 +334,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "10.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.2.x",
-          "gherkin" : "35.1.x",
-          "html-formatter" : "21.15.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.14.x",
-          "junit-xml-formatter" : "0.9.x",
-          "messages" : "29.0.x",
-          "pretty-formatter" : "2.3.x",
-          "query" : "14.4.x",
-          "tag-expressions" : "6.1.x",
-          "teamcity-formatter" : "0.1.x",
-          "testng-xml-formatter" : "0.6.x"
+          "cucumber-core" : "7.30.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -602,21 +346,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "12.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.3.x",
-          "gherkin" : "36.0.x",
-          "html-formatter" : "22.0.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.14.x",
-          "junit-xml-formatter" : "0.10.x",
-          "messages" : "30.1.x",
-          "pretty-formatter" : "2.4.x",
-          "query" : "14.6.x",
-          "tag-expressions" : "8.0.x",
-          "teamcity-formatter" : "0.2.x",
-          "testng-xml-formatter" : "0.7.x",
-          "usage-formatter" : "0.1.x"
+          "cucumber-core" : "7.31.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -628,21 +358,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "12.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.3.x",
-          "gherkin" : "36.1.x",
-          "html-formatter" : "22.1.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.14.x",
-          "junit-xml-formatter" : "0.11.x",
-          "messages" : "30.1.x",
-          "pretty-formatter" : "2.4.x",
-          "query" : "14.6.x",
-          "tag-expressions" : "8.0.x",
-          "teamcity-formatter" : "0.2.x",
-          "testng-xml-formatter" : "0.7.x",
-          "usage-formatter" : "0.1.x"
+          "cucumber-core" : "7.32.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -654,21 +370,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "12.0.x",
-          "cucumber-expressions" : "18.0.x",
-          "cucumber-json-formatter" : "0.3.x",
-          "gherkin" : "36.1.x",
-          "html-formatter" : "22.2.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.14.x",
-          "junit-xml-formatter" : "0.11.x",
-          "messages" : "30.1.x",
-          "pretty-formatter" : "2.4.x",
-          "query" : "14.6.x",
-          "tag-expressions" : "8.1.x",
-          "teamcity-formatter" : "0.2.x",
-          "testng-xml-formatter" : "0.7.x",
-          "usage-formatter" : "0.1.x"
+          "cucumber-core" : "7.33.x"
         },
         "excludedArtifacts" : [ ]
       }
@@ -678,22 +380,7 @@
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
-          "ci-environment" : "12.0.x",
-          "cucumber-expressions" : "18.1.x",
-          "cucumber-json-formatter" : "0.3.x",
-          "gherkin" : "36.1.x",
-          "html-formatter" : "22.3.x",
-          "junit" : "4.13.x",
-          "junit-platform" : "1.14.x",
-          "junit-xml-formatter" : "0.11.x",
-          "messages" : "30.1.x",
-          "messages-ndjson" : "0.3.x",
-          "pretty-formatter" : "2.4.x",
-          "query" : "14.7.x",
-          "tag-expressions" : "8.1.x",
-          "teamcity-formatter" : "0.2.x",
-          "testng-xml-formatter" : "0.7.x",
-          "usage-formatter" : "0.1.x"
+          "cucumber-core" : "7.34.x"
         },
         "excludedArtifacts" : [ ]
       }

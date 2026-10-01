@@ -155,6 +155,16 @@
     },
     "18.1.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "20.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "20.1.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

@@ -817,7 +817,9 @@
     },
     "7.34.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "8.0.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "12.0.x",
@@ -833,6 +835,28 @@
           "teamcity-formatter" : "0.2.x",
           "testng-xml-formatter" : "0.7.x",
           "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "15.0.x",
+          "cucumber-expressions" : "20.1.x",
+          "cucumber-json-formatter" : "0.4.x",
+          "gherkin" : "42.0.x",
+          "html-formatter" : "24.2.x",
+          "junit-xml-formatter" : "0.15.x",
+          "messages" : "34.2.x",
+          "messages-ndjson" : "0.5.x",
+          "pretty-formatter" : "4.1.x",
+          "tag-expressions" : "11.0.x",
+          "teamcity-formatter" : "0.3.x",
+          "testng-xml-formatter" : "0.9.x",
+          "usage-formatter" : "0.2.x"
         },
         "excludedArtifacts" : [ ]
       }

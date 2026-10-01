@@ -197,6 +197,16 @@
     },
     "30.1.x": {
       "recipes": [],
+      "nextRewrite": {
+        "version": "34.2.x"
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "34.2.x": {
+      "recipes": [],
       "nextRewrite": null,
       "requirements": {
         "supportedGenerations": {},

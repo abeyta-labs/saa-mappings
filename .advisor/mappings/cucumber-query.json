@@ -115,10 +115,22 @@
     },
     "14.7.x": {
       "recipes": [],
-      "nextRewrite": null,
+      "nextRewrite": {
+        "version": "16.1.x"
+      },
       "requirements": {
         "supportedGenerations": {
           "messages": "30.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "16.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "messages": "34.2.x"
         },
         "excludedArtifacts": []
       }

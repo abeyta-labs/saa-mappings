@@ -68,7 +68,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.0.x",
+          "cucumber-cdi2" : "7.3.x",
+          "cucumber-deltaspike" : "7.3.x",
           "cucumber-expressions" : "15.1.x",
+          "cucumber-openejb" : "7.3.x",
           "gherkin" : "23.0.x",
           "html-formatter" : "19.1.x",
           "junit" : "4.13.x",
@@ -87,7 +90,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.0.x",
+          "cucumber-cdi2" : "7.4.x",
+          "cucumber-deltaspike" : "7.4.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.4.x",
           "gherkin" : "23.0.x",
           "html-formatter" : "19.2.x",
           "junit" : "4.13.x",
@@ -106,7 +112,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.5.x",
+          "cucumber-deltaspike" : "7.5.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.5.x",
           "gherkin" : "23.0.x",
           "html-formatter" : "19.2.x",
           "junit" : "4.13.x",
@@ -125,7 +134,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.6.x",
+          "cucumber-deltaspike" : "7.6.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.6.x",
           "gherkin" : "24.0.x",
           "html-formatter" : "20.0.x",
           "junit" : "4.13.x",
@@ -144,7 +156,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.7.x",
+          "cucumber-deltaspike" : "7.7.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.7.x",
           "gherkin" : "24.0.x",
           "html-formatter" : "20.0.x",
           "junit" : "4.13.x",
@@ -163,7 +178,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.8.x",
+          "cucumber-deltaspike" : "7.8.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.8.x",
           "gherkin" : "24.0.x",
           "html-formatter" : "20.1.x",
           "junit" : "4.13.x",
@@ -182,7 +200,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.9.x",
+          "cucumber-deltaspike" : "7.9.x",
           "cucumber-expressions" : "16.0.x",
+          "cucumber-openejb" : "7.9.x",
           "gherkin" : "24.1.x",
           "html-formatter" : "20.1.x",
           "junit" : "4.13.x",
@@ -201,7 +222,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.10.x",
+          "cucumber-deltaspike" : "7.10.x",
           "cucumber-expressions" : "16.1.x",
+          "cucumber-openejb" : "7.10.x",
           "gherkin" : "25.0.x",
           "html-formatter" : "20.2.x",
           "junit" : "4.13.x",
@@ -220,7 +244,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.1.x",
+          "cucumber-cdi2" : "7.11.x",
+          "cucumber-deltaspike" : "7.11.x",
           "cucumber-expressions" : "16.1.x",
+          "cucumber-openejb" : "7.11.x",
           "gherkin" : "26.0.x",
           "html-formatter" : "20.2.x",
           "junit" : "4.13.x",
@@ -240,7 +267,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.2.x",
+          "cucumber-cdi2" : "7.12.x",
+          "cucumber-deltaspike" : "7.12.x",
           "cucumber-expressions" : "16.1.x",
+          "cucumber-openejb" : "7.12.x",
           "gherkin" : "26.2.x",
           "html-formatter" : "20.3.x",
           "junit" : "4.13.x",
@@ -260,7 +290,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "9.2.x",
+          "cucumber-cdi2" : "7.13.x",
+          "cucumber-deltaspike" : "7.13.x",
           "cucumber-expressions" : "16.1.x",
+          "cucumber-openejb" : "7.13.x",
           "gherkin" : "26.2.x",
           "html-formatter" : "20.3.x",
           "junit" : "4.13.x",
@@ -280,7 +313,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.14.x",
+          "cucumber-deltaspike" : "7.14.x",
           "cucumber-expressions" : "17.0.x",
+          "cucumber-openejb" : "7.14.x",
           "gherkin" : "26.2.x",
           "html-formatter" : "20.4.x",
           "junit" : "4.13.x",
@@ -300,7 +336,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.15.x",
+          "cucumber-deltaspike" : "7.15.x",
           "cucumber-expressions" : "17.0.x",
+          "cucumber-openejb" : "7.15.x",
           "gherkin" : "26.2.x",
           "html-formatter" : "20.4.x",
           "junit" : "4.13.x",
@@ -320,7 +359,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.16.x",
+          "cucumber-deltaspike" : "7.16.x",
           "cucumber-expressions" : "17.1.x",
+          "cucumber-openejb" : "7.16.x",
           "gherkin" : "28.0.x",
           "html-formatter" : "21.3.x",
           "junit" : "4.13.x",
@@ -340,7 +382,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.17.x",
+          "cucumber-deltaspike" : "7.17.x",
           "cucumber-expressions" : "17.1.x",
+          "cucumber-openejb" : "7.17.x",
           "gherkin" : "28.0.x",
           "html-formatter" : "21.3.x",
           "junit" : "4.13.x",
@@ -362,7 +407,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.18.x",
+          "cucumber-deltaspike" : "7.18.x",
           "cucumber-expressions" : "17.1.x",
+          "cucumber-openejb" : "7.18.x",
           "gherkin" : "28.0.x",
           "html-formatter" : "21.4.x",
           "junit" : "4.13.x",
@@ -384,7 +432,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.19.x",
+          "cucumber-deltaspike" : "7.19.x",
           "cucumber-expressions" : "17.1.x",
+          "cucumber-openejb" : "7.19.x",
           "gherkin" : "28.0.x",
           "html-formatter" : "21.7.x",
           "junit" : "4.13.x",
@@ -406,7 +457,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.20.x",
+          "cucumber-deltaspike" : "7.20.x",
           "cucumber-expressions" : "17.1.x",
+          "cucumber-openejb" : "7.20.x",
           "gherkin" : "28.0.x",
           "html-formatter" : "21.7.x",
           "junit" : "4.13.x",
@@ -428,7 +482,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.21.x",
+          "cucumber-deltaspike" : "7.21.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.21.x",
           "gherkin" : "31.0.x",
           "html-formatter" : "21.9.x",
           "junit" : "4.13.x",
@@ -450,7 +507,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.22.x",
+          "cucumber-deltaspike" : "7.22.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.22.x",
           "gherkin" : "32.1.x",
           "html-formatter" : "21.10.x",
           "junit" : "4.13.x",
@@ -472,7 +532,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.23.x",
+          "cucumber-deltaspike" : "7.23.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.23.x",
           "gherkin" : "32.1.x",
           "html-formatter" : "21.10.x",
           "junit" : "4.13.x",
@@ -494,7 +557,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.24.x",
+          "cucumber-deltaspike" : "7.24.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.24.x",
           "gherkin" : "33.0.x",
           "html-formatter" : "21.13.x",
           "junit" : "4.13.x",
@@ -517,7 +583,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.25.x",
+          "cucumber-deltaspike" : "7.25.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.25.x",
           "gherkin" : "33.0.x",
           "html-formatter" : "21.13.x",
           "junit" : "4.13.x",
@@ -540,7 +609,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.26.x",
+          "cucumber-deltaspike" : "7.26.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.26.x",
           "gherkin" : "33.0.x",
           "html-formatter" : "21.13.x",
           "junit" : "4.13.x",
@@ -563,7 +635,10 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.27.x",
+          "cucumber-deltaspike" : "7.27.x",
           "cucumber-expressions" : "18.0.x",
+          "cucumber-openejb" : "7.27.x",
           "gherkin" : "34.0.x",
           "html-formatter" : "21.13.x",
           "junit" : "4.13.x",
@@ -586,8 +661,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.28.x",
+          "cucumber-deltaspike" : "7.28.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.1.x",
+          "cucumber-openejb" : "7.28.x",
           "gherkin" : "34.0.x",
           "html-formatter" : "21.13.x",
           "junit" : "4.13.x",
@@ -610,8 +688,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.29.x",
+          "cucumber-deltaspike" : "7.29.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.2.x",
+          "cucumber-openejb" : "7.29.x",
           "gherkin" : "35.1.x",
           "html-formatter" : "21.15.x",
           "junit" : "4.13.x",
@@ -635,8 +716,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "10.0.x",
+          "cucumber-cdi2" : "7.30.x",
+          "cucumber-deltaspike" : "7.30.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.2.x",
+          "cucumber-openejb" : "7.30.x",
           "gherkin" : "35.1.x",
           "html-formatter" : "21.15.x",
           "junit" : "4.13.x",
@@ -660,8 +744,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "12.0.x",
+          "cucumber-cdi2" : "7.31.x",
+          "cucumber-deltaspike" : "7.31.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.3.x",
+          "cucumber-openejb" : "7.31.x",
           "gherkin" : "36.0.x",
           "html-formatter" : "22.0.x",
           "junit" : "4.13.x",
@@ -686,8 +773,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "12.0.x",
+          "cucumber-cdi2" : "7.32.x",
+          "cucumber-deltaspike" : "7.32.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.3.x",
+          "cucumber-openejb" : "7.32.x",
           "gherkin" : "36.1.x",
           "html-formatter" : "22.1.x",
           "junit" : "4.13.x",
@@ -712,8 +802,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "12.0.x",
+          "cucumber-cdi2" : "7.33.x",
+          "cucumber-deltaspike" : "7.33.x",
           "cucumber-expressions" : "18.0.x",
           "cucumber-json-formatter" : "0.3.x",
+          "cucumber-openejb" : "7.33.x",
           "gherkin" : "36.1.x",
           "html-formatter" : "22.2.x",
           "junit" : "4.13.x",
@@ -732,12 +825,17 @@
     },
     "7.34.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "8.0.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "ci-environment" : "12.0.x",
+          "cucumber-cdi2" : "7.34.x",
+          "cucumber-deltaspike" : "7.34.x",
           "cucumber-expressions" : "18.1.x",
           "cucumber-json-formatter" : "0.3.x",
+          "cucumber-openejb" : "7.34.x",
           "gherkin" : "36.1.x",
           "html-formatter" : "22.3.x",
           "junit" : "4.13.x",
@@ -751,6 +849,31 @@
           "teamcity-formatter" : "0.2.x",
           "testng-xml-formatter" : "0.7.x",
           "usage-formatter" : "0.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "ci-environment" : "15.0.x",
+          "cucumber-expressions" : "20.1.x",
+          "cucumber-json-formatter" : "0.4.x",
+          "gherkin" : "42.0.x",
+          "html-formatter" : "24.2.x",
+          "junit" : "4.13.x",
+          "junit-platform" : "6.1.x",
+          "junit-xml-formatter" : "0.15.x",
+          "messages" : "34.2.x",
+          "messages-ndjson" : "0.5.x",
+          "pretty-formatter" : "4.1.x",
+          "query" : "16.1.x",
+          "tag-expressions" : "11.0.x",
+          "teamcity-formatter" : "0.3.x",
+          "testng-xml-formatter" : "0.9.x",
+          "usage-formatter" : "0.2.x"
         },
         "excludedArtifacts" : [ ]
       }

@@ -705,6 +705,16 @@
     },
     "7.34.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "8.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "8.0.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

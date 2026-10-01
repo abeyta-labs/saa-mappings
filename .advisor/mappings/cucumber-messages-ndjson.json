@@ -7,10 +7,22 @@
   "rewrite": {
     "0.3.x": {
       "recipes": [],
-      "nextRewrite": null,
+      "nextRewrite": {
+        "version": "0.5.x"
+      },
       "requirements": {
         "supportedGenerations": {
           "messages": "30.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "messages": "34.2.x"
         },
         "excludedArtifacts": []
       }

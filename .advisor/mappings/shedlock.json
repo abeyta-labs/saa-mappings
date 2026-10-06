@@ -1,6 +1,6 @@
 {
   "slug" : "shedlock",
-  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-core", "net.javacrumbs.shedlock:shedlock-spring" ],
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-bom", "net.javacrumbs.shedlock:shedlock-cdi", "net.javacrumbs.shedlock:shedlock-core", "net.javacrumbs.shedlock:shedlock-micrometer", "net.javacrumbs.shedlock:shedlock-micronaut4", "net.javacrumbs.shedlock:shedlock-provider-arangodb", "net.javacrumbs.shedlock:shedlock-provider-cassandra", "net.javacrumbs.shedlock:shedlock-provider-couchbase-javaclient3", "net.javacrumbs.shedlock:shedlock-provider-datastore", "net.javacrumbs.shedlock:shedlock-provider-dynamodb2", "net.javacrumbs.shedlock:shedlock-provider-elasticsearch9", "net.javacrumbs.shedlock:shedlock-provider-etcd-jetcd", "net.javacrumbs.shedlock:shedlock-provider-exposed", "net.javacrumbs.shedlock:shedlock-provider-firestore", "net.javacrumbs.shedlock:shedlock-provider-gcs", "net.javacrumbs.shedlock:shedlock-provider-hazelcast4", "net.javacrumbs.shedlock:shedlock-provider-ignite", "net.javacrumbs.shedlock:shedlock-provider-inmemory", "net.javacrumbs.shedlock:shedlock-provider-jdbc", "net.javacrumbs.shedlock:shedlock-provider-jdbc-internal", "net.javacrumbs.shedlock:shedlock-provider-jdbc-micronaut", "net.javacrumbs.shedlock:shedlock-provider-jdbc-template", "net.javacrumbs.shedlock:shedlock-provider-jetstream", "net.javacrumbs.shedlock:shedlock-provider-jooq", "net.javacrumbs.shedlock:shedlock-provider-memcached-spy", "net.javacrumbs.shedlock:shedlock-provider-mongo", "net.javacrumbs.shedlock:shedlock-provider-mongo-reactivestreams", "net.javacrumbs.shedlock:shedlock-provider-neo4j", "net.javacrumbs.shedlock:shedlock-provider-opensearch-java", "net.javacrumbs.shedlock:shedlock-provider-r2dbc", "net.javacrumbs.shedlock:shedlock-provider-redis-jedis4", "net.javacrumbs.shedlock:shedlock-provider-redis-lettuce", "net.javacrumbs.shedlock:shedlock-provider-redis-spring", "net.javacrumbs.shedlock:shedlock-provider-s3v2", "net.javacrumbs.shedlock:shedlock-provider-spanner", "net.javacrumbs.shedlock:shedlock-provider-zookeeper-curator", "net.javacrumbs.shedlock:shedlock-spring", "net.javacrumbs.shedlock:shedlock-sql-support", "net.javacrumbs.shedlock:shedlock-support-redis" ],
   "repositoryUrl" : "",
   "rewrite" : {
     "0.1.x" : {
@@ -9,9 +9,7 @@
         "version" : "0.2.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -21,9 +19,7 @@
         "version" : "0.3.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -33,9 +29,7 @@
         "version" : "0.4.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -45,9 +39,7 @@
         "version" : "0.5.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -57,9 +49,7 @@
         "version" : "0.6.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -69,9 +59,7 @@
         "version" : "0.7.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -81,9 +69,7 @@
         "version" : "0.8.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -93,9 +79,7 @@
         "version" : "0.9.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -105,9 +89,7 @@
         "version" : "0.10.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -117,9 +99,7 @@
         "version" : "0.11.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -129,9 +109,7 @@
         "version" : "0.12.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -141,9 +119,7 @@
         "version" : "0.13.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -153,9 +129,7 @@
         "version" : "0.14.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -165,9 +139,7 @@
         "version" : "0.15.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -177,9 +149,7 @@
         "version" : "0.16.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -189,9 +159,7 @@
         "version" : "0.17.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -201,9 +169,7 @@
         "version" : "0.18.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -213,9 +179,7 @@
         "version" : "1.0.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "4.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -225,9 +189,7 @@
         "version" : "1.1.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -237,9 +199,7 @@
         "version" : "1.2.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -249,9 +209,7 @@
         "version" : "1.3.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -261,9 +219,7 @@
         "version" : "2.0.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -273,9 +229,7 @@
         "version" : "2.1.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -285,9 +239,7 @@
         "version" : "2.2.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -297,9 +249,7 @@
         "version" : "2.3.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -309,9 +259,7 @@
         "version" : "2.4.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -321,9 +269,7 @@
         "version" : "2.5.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -333,9 +279,7 @@
         "version" : "2.6.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -345,9 +289,7 @@
         "version" : "3.0.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -357,9 +299,7 @@
         "version" : "4.0.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -369,9 +309,7 @@
         "version" : "4.1.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -381,9 +319,7 @@
         "version" : "4.2.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -393,9 +329,7 @@
         "version" : "4.3.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -405,9 +339,7 @@
         "version" : "4.4.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -417,9 +349,7 @@
         "version" : "4.5.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -429,9 +359,7 @@
         "version" : "4.6.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -441,9 +369,7 @@
         "version" : "4.7.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -453,9 +379,7 @@
         "version" : "4.8.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -465,9 +389,7 @@
         "version" : "4.9.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -477,9 +399,7 @@
         "version" : "4.10.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -489,9 +409,7 @@
         "version" : "4.11.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -501,9 +419,7 @@
         "version" : "4.12.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -513,9 +429,7 @@
         "version" : "4.13.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.1.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -525,9 +439,7 @@
         "version" : "4.14.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -537,9 +449,7 @@
         "version" : "4.15.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -549,9 +459,7 @@
         "version" : "4.16.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -561,9 +469,7 @@
         "version" : "4.17.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -573,9 +479,7 @@
         "version" : "4.18.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -585,9 +489,7 @@
         "version" : "4.19.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -597,9 +499,7 @@
         "version" : "4.20.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -609,9 +509,7 @@
         "version" : "4.21.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -621,9 +519,7 @@
         "version" : "4.22.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -633,9 +529,7 @@
         "version" : "4.23.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -645,9 +539,7 @@
         "version" : "4.24.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -657,9 +549,7 @@
         "version" : "4.25.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -669,9 +559,7 @@
         "version" : "4.26.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -681,9 +569,7 @@
         "version" : "4.27.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -693,9 +579,7 @@
         "version" : "4.28.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -705,9 +589,7 @@
         "version" : "4.29.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -717,9 +599,7 @@
         "version" : "4.30.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -729,9 +609,7 @@
         "version" : "4.31.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -741,9 +619,7 @@
         "version" : "4.32.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -753,9 +629,7 @@
         "version" : "4.33.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -765,9 +639,7 @@
         "version" : "4.34.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -777,9 +649,7 @@
         "version" : "4.35.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -789,9 +659,7 @@
         "version" : "4.36.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "5.3.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -802,6 +670,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.36.x",
+          "shedlock-provider-consul" : "4.36.x",
+          "shedlock-provider-couchbase-javaclient" : "4.36.x",
+          "shedlock-provider-dynamodb" : "4.36.x",
+          "shedlock-provider-elasticsearch" : "4.36.x",
+          "shedlock-provider-reactivestreams" : "4.36.x",
+          "shedlock-provider-redis-jedis" : "4.36.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -814,6 +695,18 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.37.x",
+          "shedlock-provider-consul" : "4.37.x",
+          "shedlock-provider-couchbase-javaclient" : "4.37.x",
+          "shedlock-provider-dynamodb" : "4.37.x",
+          "shedlock-provider-elasticsearch" : "4.37.x",
+          "shedlock-provider-redis-jedis" : "4.37.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -826,6 +719,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.38.x",
+          "shedlock-provider-consul" : "4.38.x",
+          "shedlock-provider-couchbase-javaclient" : "4.38.x",
+          "shedlock-provider-dynamodb" : "4.38.x",
+          "shedlock-provider-elasticsearch" : "4.38.x",
+          "shedlock-provider-opensearch" : "4.38.x",
+          "shedlock-provider-redis-jedis" : "4.38.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -838,7 +744,20 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
           "jackson" : "2.13.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.39.x",
+          "shedlock-provider-consul" : "4.39.x",
+          "shedlock-provider-couchbase-javaclient" : "4.39.x",
+          "shedlock-provider-dynamodb" : "4.39.x",
+          "shedlock-provider-elasticsearch" : "4.39.x",
+          "shedlock-provider-opensearch" : "4.39.x",
+          "shedlock-provider-redis-jedis" : "4.39.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -851,7 +770,20 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
           "jackson" : "2.13.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.40.x",
+          "shedlock-provider-consul" : "4.40.x",
+          "shedlock-provider-couchbase-javaclient" : "4.40.x",
+          "shedlock-provider-dynamodb" : "4.40.x",
+          "shedlock-provider-elasticsearch" : "4.40.x",
+          "shedlock-provider-opensearch" : "4.40.x",
+          "shedlock-provider-redis-jedis" : "4.40.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -864,7 +796,20 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
           "jackson" : "2.13.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.41.x",
+          "shedlock-provider-consul" : "4.41.x",
+          "shedlock-provider-couchbase-javaclient" : "4.41.x",
+          "shedlock-provider-dynamodb" : "4.41.x",
+          "shedlock-provider-elasticsearch" : "4.41.x",
+          "shedlock-provider-opensearch" : "4.41.x",
+          "shedlock-provider-redis-jedis" : "4.41.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -877,6 +822,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.42.x",
+          "shedlock-provider-consul" : "4.42.x",
+          "shedlock-provider-couchbase-javaclient" : "4.42.x",
+          "shedlock-provider-dynamodb" : "4.42.x",
+          "shedlock-provider-elasticsearch" : "4.42.x",
+          "shedlock-provider-opensearch" : "4.42.x",
+          "shedlock-provider-redis-jedis" : "4.42.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -889,6 +847,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.43.x",
+          "shedlock-provider-consul" : "4.43.x",
+          "shedlock-provider-couchbase-javaclient" : "4.43.x",
+          "shedlock-provider-dynamodb" : "4.43.x",
+          "shedlock-provider-elasticsearch" : "4.43.x",
+          "shedlock-provider-opensearch" : "4.43.x",
+          "shedlock-provider-redis-jedis" : "4.43.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -901,6 +872,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.44.x",
+          "shedlock-provider-consul" : "4.44.x",
+          "shedlock-provider-couchbase-javaclient" : "4.44.x",
+          "shedlock-provider-dynamodb" : "4.44.x",
+          "shedlock-provider-elasticsearch" : "4.44.x",
+          "shedlock-provider-opensearch" : "4.44.x",
+          "shedlock-provider-redis-jedis" : "4.44.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -913,6 +897,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.45.x",
+          "shedlock-provider-consul" : "4.45.x",
+          "shedlock-provider-couchbase-javaclient" : "4.45.x",
+          "shedlock-provider-dynamodb" : "4.45.x",
+          "shedlock-provider-elasticsearch" : "4.45.x",
+          "shedlock-provider-opensearch" : "4.45.x",
+          "shedlock-provider-redis-jedis" : "4.45.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -925,6 +922,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.46.x",
+          "shedlock-provider-consul" : "4.46.x",
+          "shedlock-provider-couchbase-javaclient" : "4.46.x",
+          "shedlock-provider-dynamodb" : "4.46.x",
+          "shedlock-provider-elasticsearch" : "4.46.x",
+          "shedlock-provider-opensearch" : "4.46.x",
+          "shedlock-provider-redis-jedis" : "4.46.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -937,6 +947,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.47.x",
+          "shedlock-provider-consul" : "4.47.x",
+          "shedlock-provider-couchbase-javaclient" : "4.47.x",
+          "shedlock-provider-dynamodb" : "4.47.x",
+          "shedlock-provider-elasticsearch" : "4.47.x",
+          "shedlock-provider-opensearch" : "4.47.x",
+          "shedlock-provider-redis-jedis" : "4.47.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -949,6 +972,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.14.x",
+          "jedis" : "3.8.x",
+          "mongo-java-driver" : "3.12.x",
+          "r2dbc-spi" : "0.9.x",
+          "reactor" : "3.4.x",
+          "shedlock-micronaut" : "4.48.x",
+          "shedlock-provider-consul" : "4.48.x",
+          "shedlock-provider-couchbase-javaclient" : "4.48.x",
+          "shedlock-provider-dynamodb" : "4.48.x",
+          "shedlock-provider-elasticsearch" : "4.48.x",
+          "shedlock-provider-opensearch" : "4.48.x",
+          "shedlock-provider-redis-jedis" : "4.48.x",
+          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -961,6 +997,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.15.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.7.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.0.x",
+          "shedlock-provider-consul" : "5.0.x",
+          "shedlock-provider-couchbase-javaclient" : "5.0.x",
+          "shedlock-provider-dynamodb" : "5.0.x",
+          "shedlock-provider-elasticsearch" : "5.0.x",
+          "shedlock-provider-opensearch" : "5.0.x",
+          "shedlock-provider-redis-jedis" : "5.0.x",
+          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -973,6 +1022,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.15.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.1.x",
+          "shedlock-provider-consul" : "5.1.x",
+          "shedlock-provider-couchbase-javaclient" : "5.1.x",
+          "shedlock-provider-dynamodb" : "5.1.x",
+          "shedlock-provider-elasticsearch" : "5.1.x",
+          "shedlock-provider-opensearch" : "5.1.x",
+          "shedlock-provider-redis-jedis" : "5.1.x",
+          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -985,6 +1047,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.15.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.2.x",
+          "shedlock-provider-consul" : "5.2.x",
+          "shedlock-provider-couchbase-javaclient" : "5.2.x",
+          "shedlock-provider-dynamodb" : "5.2.x",
+          "shedlock-provider-elasticsearch" : "5.2.x",
+          "shedlock-provider-opensearch" : "5.2.x",
+          "shedlock-provider-redis-jedis" : "5.2.x",
+          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -997,6 +1072,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.15.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.3.x",
+          "shedlock-provider-consul" : "5.3.x",
+          "shedlock-provider-couchbase-javaclient" : "5.3.x",
+          "shedlock-provider-dynamodb" : "5.3.x",
+          "shedlock-provider-elasticsearch" : "5.3.x",
+          "shedlock-provider-opensearch" : "5.3.x",
+          "shedlock-provider-redis-jedis" : "5.3.x",
+          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1009,6 +1097,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.16.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.4.x",
+          "shedlock-provider-consul" : "5.4.x",
+          "shedlock-provider-couchbase-javaclient" : "5.4.x",
+          "shedlock-provider-dynamodb" : "5.4.x",
+          "shedlock-provider-elasticsearch" : "5.4.x",
+          "shedlock-provider-opensearch" : "5.4.x",
+          "shedlock-provider-redis-jedis" : "5.4.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1021,6 +1122,19 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.16.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.5.x",
+          "shedlock-provider-consul" : "5.5.x",
+          "shedlock-provider-couchbase-javaclient" : "5.5.x",
+          "shedlock-provider-dynamodb" : "5.5.x",
+          "shedlock-provider-elasticsearch" : "5.5.x",
+          "shedlock-provider-opensearch" : "5.5.x",
+          "shedlock-provider-redis-jedis" : "5.5.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1033,6 +1147,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.6.x",
+          "shedlock-provider-consul" : "5.6.x",
+          "shedlock-provider-opensearch" : "5.6.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1045,6 +1168,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.7.x",
+          "shedlock-provider-consul" : "5.7.x",
+          "shedlock-provider-opensearch" : "5.7.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1057,6 +1189,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.8.x",
+          "shedlock-provider-consul" : "5.8.x",
+          "shedlock-provider-opensearch" : "5.8.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1069,6 +1210,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "4.3.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.5.x",
+          "shedlock-micronaut" : "5.9.x",
+          "shedlock-provider-consul" : "5.9.x",
+          "shedlock-provider-opensearch" : "5.9.x",
+          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1081,6 +1231,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.10.x",
+          "shedlock-provider-consul" : "5.10.x",
+          "shedlock-provider-opensearch" : "5.10.x",
+          "shedlock-provider-redis-quarkus2" : "5.10.x",
+          "spring-data" : "3.2.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1093,6 +1253,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.11.x",
+          "shedlock-provider-consul" : "5.11.x",
+          "shedlock-provider-opensearch" : "5.11.x",
+          "shedlock-provider-redis-quarkus2" : "5.11.x",
+          "spring-data" : "3.2.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1105,6 +1275,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "4.8.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.12.x",
+          "shedlock-provider-consul" : "5.12.x",
+          "shedlock-provider-opensearch" : "5.12.x",
+          "shedlock-provider-redis-quarkus2" : "5.12.x",
+          "spring-data" : "3.2.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1117,6 +1297,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "5.0.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.13.x",
+          "shedlock-provider-consul" : "5.13.x",
+          "shedlock-provider-opensearch" : "5.13.x",
+          "shedlock-provider-redis-quarkus2" : "5.13.x",
+          "spring-data" : "3.2.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1129,6 +1319,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "5.1.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.14.x",
+          "shedlock-provider-consul" : "5.14.x",
+          "shedlock-provider-opensearch" : "5.14.x",
+          "shedlock-provider-redis-quarkus2" : "5.14.x",
+          "spring-data" : "3.3.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1141,6 +1341,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "5.1.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.15.x",
+          "shedlock-provider-consul" : "5.15.x",
+          "shedlock-provider-opensearch" : "5.15.x",
+          "shedlock-provider-redis-quarkus2" : "5.15.x",
+          "spring-data" : "3.3.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1153,6 +1363,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "cassandra-java-driver" : "4.17.x",
+          "jedis" : "5.1.x",
+          "mongo-java-driver" : "5.1.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.6.x",
+          "shedlock-micronaut" : "5.16.x",
+          "shedlock-provider-consul" : "5.16.x",
+          "shedlock-provider-opensearch" : "5.16.x",
+          "shedlock-provider-redis-quarkus2" : "5.16.x",
+          "spring-data" : "3.3.x",
           "spring-framework" : "6.1.x"
         },
         "excludedArtifacts" : [ ]
@@ -1165,6 +1385,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.29.x",
+          "cassandra-java-driver" : "4.18.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.2.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.0.x",
+          "shedlock-provider-opensearch" : "6.0.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1177,6 +1406,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.29.x",
+          "cassandra-java-driver" : "4.18.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.2.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.1.x",
+          "shedlock-provider-opensearch" : "6.1.x",
+          "shedlock-provider-s3" : "6.1.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1189,6 +1428,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.29.x",
+          "cassandra-java-driver" : "4.18.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.2.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.2.x",
+          "shedlock-provider-opensearch" : "6.2.x",
+          "shedlock-provider-s3" : "6.2.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1201,6 +1450,15 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.4.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.3.x",
+          "shedlock-provider-opensearch" : "6.3.x",
+          "shedlock-provider-s3" : "6.3.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1213,6 +1471,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.4.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.4.x",
+          "shedlock-provider-elasticsearch8" : "6.4.x",
+          "shedlock-provider-opensearch" : "6.4.x",
+          "shedlock-provider-s3" : "6.4.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1225,6 +1493,16 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "mongo-java-driver" : "5.4.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.5.x",
+          "shedlock-provider-elasticsearch8" : "6.5.x",
+          "shedlock-provider-opensearch" : "6.5.x",
+          "shedlock-provider-s3" : "6.5.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1237,6 +1515,17 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "lettuce" : "6.6.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.6.x",
+          "shedlock-provider-elasticsearch8" : "6.6.x",
+          "shedlock-provider-opensearch" : "6.6.x",
+          "shedlock-provider-s3" : "6.6.x",
+          "spring-data" : "3.4.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1249,6 +1538,17 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "lettuce" : "6.6.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.7.x",
+          "shedlock-provider-elasticsearch8" : "6.7.x",
+          "shedlock-provider-opensearch" : "6.7.x",
+          "shedlock-provider-s3" : "6.7.x",
+          "spring-data" : "3.5.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1261,6 +1561,17 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "aws-sdk-java" : "2.31.x",
+          "jedis" : "5.2.x",
+          "lettuce" : "6.6.x",
+          "mongo-java-driver" : "5.5.x",
+          "r2dbc-spi" : "1.0.x",
+          "reactor" : "3.7.x",
+          "shedlock-provider-consul" : "6.8.x",
+          "shedlock-provider-elasticsearch8" : "6.8.x",
+          "shedlock-provider-opensearch" : "6.8.x",
+          "shedlock-provider-s3" : "6.8.x",
+          "spring-data" : "3.5.x",
           "spring-framework" : "6.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -1272,9 +1583,7 @@
         "version" : "6.10.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "6.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1284,9 +1593,7 @@
         "version" : "7.0.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "6.2.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1296,9 +1603,7 @@
         "version" : "7.1.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1308,9 +1613,7 @@
         "version" : "7.2.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1320,9 +1623,7 @@
         "version" : "7.3.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1332,9 +1633,7 @@
         "version" : "7.4.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1344,9 +1643,7 @@
         "version" : "7.5.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1356,9 +1653,7 @@
         "version" : "7.6.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1368,9 +1663,7 @@
         "version" : "7.7.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1380,9 +1673,7 @@
         "version" : "7.8.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1392,9 +1683,7 @@
         "version" : "7.9.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1404,9 +1693,7 @@
         "version" : "7.10.x"
       },
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     },
@@ -1414,9 +1701,7 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : {
-          "spring-framework" : "7.0.x"
-        },
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

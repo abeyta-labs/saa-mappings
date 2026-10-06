@@ -1,0 +1,75 @@
+{
+  "slug" : "shedlock-provider-redis-quarkus2",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-provider-redis-quarkus2" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "5.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.11.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.12.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.13.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.13.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.14.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.14.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.15.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.15.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.16.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.16.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

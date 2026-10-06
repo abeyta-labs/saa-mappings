@@ -1,0 +1,17 @@
+{
+  "slug" : "shedlock-test-support",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-test-support" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "6.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "5.12.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

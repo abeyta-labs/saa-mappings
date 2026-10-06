@@ -1,0 +1,15 @@
+{
+  "slug" : "shedlock-provider-reactivestreams",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-provider-reactivestreams" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "4.36.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

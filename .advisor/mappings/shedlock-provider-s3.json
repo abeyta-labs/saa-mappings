@@ -1,0 +1,95 @@
+{
+  "slug" : "shedlock-provider-s3",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-provider-s3" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "6.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.3.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.3.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.4.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.4.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.5.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.18.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.5.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.6.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.7.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.7.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "6.8.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "6.8.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.19.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

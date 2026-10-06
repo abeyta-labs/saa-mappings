@@ -1,0 +1,17 @@
+{
+  "slug" : "shedlock-test-support-redis",
+  "coordinates" : [ "net.javacrumbs.shedlock:shedlock-test-support-redis" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "6.6.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "testcontainers" : "1.21.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

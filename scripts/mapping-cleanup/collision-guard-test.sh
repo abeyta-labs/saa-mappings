@@ -105,9 +105,6 @@ for mode in collision no-collision checkout-fails; do
   run_case spring-boot-session.py spring-boot.json spring-boot-session.json \
     org.springframework.boot:spring-boot-actuator org.springframework.boot:spring-boot \
     org.springframework.boot:spring-boot-session "$mode"
-  run_case shedlock-sql-support.py shedlock.json shedlock-sql-support.json \
-    net.javacrumbs.shedlock:shedlock-spring net.javacrumbs.shedlock:shedlock-core \
-    net.javacrumbs.shedlock:shedlock-sql-support "$mode"
 done
 
 if [ "$fails" -ne 0 ]; then

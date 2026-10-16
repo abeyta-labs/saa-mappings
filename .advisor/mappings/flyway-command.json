@@ -265,6 +265,16 @@
     },
     "13.9.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.10.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.10.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

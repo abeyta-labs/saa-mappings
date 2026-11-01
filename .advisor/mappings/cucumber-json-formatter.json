@@ -10,6 +10,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "json-schema-validator" : "1.5.x",
           "messages" : "28.1.x",
           "query" : "13.6.x"
         },

@@ -278,6 +278,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.9.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -291,6 +292,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.9.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -304,6 +306,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -317,6 +320,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -330,6 +334,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -343,6 +348,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -356,6 +362,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -369,6 +376,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -382,6 +390,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.16.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -395,6 +404,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -408,6 +418,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -421,6 +432,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -434,6 +446,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -447,6 +460,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.10.x",
           "testcontainers" : "42.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -460,6 +474,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.12.x",
           "testcontainers" : "42.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -473,6 +488,7 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.17.x",
+          "msal4j" : "1.12.x",
           "testcontainers" : "42.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -1026,9 +1042,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1042,9 +1060,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1058,9 +1078,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1074,9 +1096,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1090,9 +1114,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1106,9 +1132,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1122,9 +1150,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1138,9 +1168,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.1.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1154,9 +1186,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1170,9 +1204,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "2.19.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1186,9 +1222,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "3.0.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1202,9 +1240,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1218,9 +1258,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1234,9 +1276,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1250,9 +1294,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database-databricks" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1266,9 +1312,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.32.x",
+          "azure-identity" : "1.15.x",
           "flyway-database" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1282,9 +1330,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.44.x",
+          "azure-identity" : "1.15.x",
           "flyway-database" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1298,9 +1348,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.44.x",
+          "azure-identity" : "1.15.x",
           "flyway-database" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1314,9 +1366,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.44.x",
+          "azure-identity" : "1.15.x",
           "flyway-database" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1330,9 +1384,11 @@
       "requirements" : {
         "supportedGenerations" : {
           "aws-sdk-java" : "2.44.x",
+          "azure-identity" : "1.15.x",
           "flyway-database" : "10.24.x",
           "jackson" : "3.1.x",
           "mongo-java-driver" : "5.6.x",
+          "msal4j" : "1.20.x",
           "testcontainers" : "42.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -1449,6 +1505,36 @@
       }
     },
     "13.9.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.10.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.11.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.12.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.12.x" : {
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {

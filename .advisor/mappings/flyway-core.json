@@ -1415,11 +1415,45 @@
     },
     "13.9.x" : {
       "recipes" : [ ],
-      "nextRewrite" : null,
+      "nextRewrite" : {
+        "version" : "13.10.x"
+      },
       "requirements" : {
         "supportedGenerations" : {
           "jackson-annotations" : "2.22.x"
         },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.11.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson-annotations" : "2.22.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.12.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson-annotations" : "2.22.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.12.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : { },
         "excludedArtifacts" : [ ]
       }
     }

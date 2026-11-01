@@ -670,8 +670,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.14.x",
-          "jedis" : "3.8.x",
           "mongo-java-driver" : "3.12.x",
           "r2dbc-spi" : "0.9.x",
           "reactor" : "3.4.x",
@@ -682,7 +680,6 @@
           "shedlock-provider-elasticsearch" : "4.36.x",
           "shedlock-provider-reactivestreams" : "4.36.x",
           "shedlock-provider-redis-jedis" : "4.36.x",
-          "spring-data" : "2.7.x",
           "spring-framework" : "5.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -997,8 +994,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.15.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.7.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1009,7 +1004,6 @@
           "shedlock-provider-elasticsearch" : "5.0.x",
           "shedlock-provider-opensearch" : "5.0.x",
           "shedlock-provider-redis-jedis" : "5.0.x",
-          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1022,8 +1016,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.15.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.8.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1034,7 +1026,6 @@
           "shedlock-provider-elasticsearch" : "5.1.x",
           "shedlock-provider-opensearch" : "5.1.x",
           "shedlock-provider-redis-jedis" : "5.1.x",
-          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1047,8 +1038,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.15.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.8.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1059,7 +1048,6 @@
           "shedlock-provider-elasticsearch" : "5.2.x",
           "shedlock-provider-opensearch" : "5.2.x",
           "shedlock-provider-redis-jedis" : "5.2.x",
-          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1072,8 +1060,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.15.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.8.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1084,7 +1070,6 @@
           "shedlock-provider-elasticsearch" : "5.3.x",
           "shedlock-provider-opensearch" : "5.3.x",
           "shedlock-provider-redis-jedis" : "5.3.x",
-          "spring-data" : "3.0.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1097,8 +1082,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.16.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.8.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1109,7 +1092,6 @@
           "shedlock-provider-elasticsearch" : "5.4.x",
           "shedlock-provider-opensearch" : "5.4.x",
           "shedlock-provider-redis-jedis" : "5.4.x",
-          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]
@@ -1122,8 +1104,6 @@
       },
       "requirements" : {
         "supportedGenerations" : {
-          "cassandra-java-driver" : "4.16.x",
-          "jedis" : "4.3.x",
           "mongo-java-driver" : "4.8.x",
           "r2dbc-spi" : "1.0.x",
           "reactor" : "3.5.x",
@@ -1134,7 +1114,6 @@
           "shedlock-provider-elasticsearch" : "5.5.x",
           "shedlock-provider-opensearch" : "5.5.x",
           "shedlock-provider-redis-jedis" : "5.5.x",
-          "spring-data" : "3.1.x",
           "spring-framework" : "6.0.x"
         },
         "excludedArtifacts" : [ ]

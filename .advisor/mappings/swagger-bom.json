@@ -1,0 +1,29 @@
+{
+  "slug" : "swagger-bom",
+  "coordinates" : [ "io.swagger.core.v3:swagger-bom" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.20.x",
+          "jackson" : "2.22.x",
+          "jackson-annotations" : "2.22.x",
+          "swagger-annotations-jakarta" : "2.2.x",
+          "swagger-core-jakarta" : "2.2.x",
+          "swagger-integration-jakarta" : "2.2.x",
+          "swagger-jaxrs2" : "2.2.x",
+          "swagger-jaxrs2-jakarta" : "2.2.x",
+          "swagger-jaxrs2-servlet-initializer" : "2.2.x",
+          "swagger-jaxrs2-servlet-initializer-jakarta" : "2.2.x",
+          "swagger-jaxrs2-servlet-initializer-v2" : "2.2.x",
+          "swagger-jaxrs2-servlet-initializer-v2-jakarta" : "2.2.x",
+          "swagger-models-jakarta" : "2.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

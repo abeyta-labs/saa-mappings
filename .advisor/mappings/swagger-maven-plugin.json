@@ -1,0 +1,51 @@
+{
+  "slug" : "swagger-maven-plugin",
+  "coordinates" : [ "io.swagger.core.v3:swagger-maven-plugin" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-io" : "2.5.x",
+          "apache-commons-lang" : "3.7.x",
+          "jackson" : "2.9.x",
+          "jackson-annotations" : "2.9.x",
+          "swagger-jaxrs2" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.12.x",
+          "jackson" : "2.12.x",
+          "jackson-annotations" : "2.12.x",
+          "swagger-jaxrs2" : "2.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.20.x",
+          "jackson" : "2.22.x",
+          "jackson-annotations" : "2.22.x",
+          "swagger-jaxrs2" : "2.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

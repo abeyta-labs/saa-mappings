@@ -1,0 +1,45 @@
+{
+  "slug" : "swagger-jaxrs2",
+  "coordinates" : [ "io.swagger.core.v3:swagger-jaxrs2" ],
+  "repositoryUrl" : "",
+  "rewrite" : {
+    "2.0.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-io" : "2.5.x",
+          "jackson" : "2.9.x",
+          "swagger-integration" : "2.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.1.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "2.2.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.12.x",
+          "swagger-integration" : "2.1.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "2.2.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : null,
+      "requirements" : {
+        "supportedGenerations" : {
+          "jackson" : "2.22.x",
+          "swagger-integration" : "2.2.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    }
+  }
+}

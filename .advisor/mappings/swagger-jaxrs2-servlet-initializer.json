@@ -27,7 +27,12 @@
       "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
-        "supportedGenerations" : { },
+        "supportedGenerations" : {
+          "apache-commons-lang" : "3.20.x",
+          "jackson" : "2.22.x",
+          "jackson-annotations" : "2.22.x",
+          "swagger-integration" : "2.2.x"
+        },
         "excludedArtifacts" : [ ]
       }
     }

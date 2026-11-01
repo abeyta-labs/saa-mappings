@@ -25,6 +25,16 @@
     },
     "2.2.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "3.0.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "3.0.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

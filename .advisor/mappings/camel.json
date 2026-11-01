@@ -521,6 +521,18 @@
     },
     "4.22.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "4.23.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "spring-framework" : "7.0.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "4.23.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {

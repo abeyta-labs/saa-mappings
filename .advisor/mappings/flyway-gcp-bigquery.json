@@ -995,6 +995,36 @@
     },
     "13.9.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.10.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.10.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.11.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.11.x" : {
+      "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "13.12.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : { },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "13.12.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : { },

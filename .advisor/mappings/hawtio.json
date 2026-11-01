@@ -10,6 +10,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "1.4.x",
           "hawtio-git" : "1.4.x",
           "spring-boot" : "1.4.x"
@@ -24,6 +25,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "1.5.x",
           "hawtio-git" : "1.5.x",
           "spring-boot" : "1.5.x"
@@ -38,6 +40,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.0.x",
           "spring-boot" : "1.5.x"
         },
@@ -51,6 +54,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.1.x",
           "spring-boot" : "1.5.x"
         },
@@ -64,6 +68,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.2.x",
           "spring-boot" : "1.5.x"
         },
@@ -77,6 +82,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.3.x",
           "spring-boot" : "2.0.x"
         },
@@ -90,6 +96,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.4.x",
           "spring-boot" : "2.1.x"
         },
@@ -103,6 +110,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.5.x",
           "spring-boot" : "2.1.x"
         },
@@ -116,6 +124,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.6.x",
           "spring-boot" : "2.1.x"
         },
@@ -129,6 +138,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.7.x",
           "spring-boot" : "2.1.x"
         },
@@ -142,6 +152,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.8.x",
           "spring-boot" : "2.1.x"
         },
@@ -155,6 +166,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.9.x",
           "spring-boot" : "2.2.x"
         },
@@ -168,6 +180,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.10.x",
           "spring-boot" : "2.3.x"
         },
@@ -181,6 +194,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.11.x",
           "spring-boot" : "2.3.x"
         },
@@ -194,6 +208,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.2.x",
           "hawtio-core" : "2.12.x",
           "spring-boot" : "2.3.x"
         },
@@ -207,6 +222,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.11.x",
           "hawtio-core" : "2.13.x",
           "spring-boot" : "2.3.x"
         },
@@ -220,6 +236,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.11.x",
           "hawtio-core" : "2.14.x",
           "spring-boot" : "2.6.x"
         },
@@ -233,6 +250,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.11.x",
           "hawtio-core" : "2.15.x",
           "spring-boot" : "2.7.x"
         },
@@ -246,6 +264,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.11.x",
           "hawtio-core" : "2.16.x",
           "spring-boot" : "2.7.x"
         },
@@ -259,6 +278,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.11.x",
           "hawtio-core" : "2.17.x",
           "spring-boot" : "2.7.x"
         },
@@ -272,6 +292,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.16.x",
           "spring-boot" : "2.7.x"
         },
         "excludedArtifacts" : [ ]
@@ -284,6 +305,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.16.x",
           "spring-boot" : "3.2.x"
         },
         "excludedArtifacts" : [ ]
@@ -296,6 +318,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.16.x",
           "spring-boot" : "3.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -308,6 +331,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.16.x",
           "spring-boot" : "3.3.x"
         },
         "excludedArtifacts" : [ ]
@@ -320,6 +344,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.18.x",
           "spring-boot" : "3.4.x"
         },
         "excludedArtifacts" : [ ]
@@ -332,6 +357,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.18.x",
           "spring-boot" : "3.4.x"
         },
         "excludedArtifacts" : [ ]
@@ -344,6 +370,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.20.x",
           "spring-boot" : "3.4.x"
         },
         "excludedArtifacts" : [ ]
@@ -356,6 +383,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.20.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -368,6 +396,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.20.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -380,6 +409,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.20.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -392,6 +422,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.21.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -404,6 +435,7 @@
       },
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.22.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
@@ -411,9 +443,23 @@
     },
     "5.3.x" : {
       "recipes" : [ ],
+      "nextRewrite" : {
+        "version" : "5.4-dev-1.x"
+      },
+      "requirements" : {
+        "supportedGenerations" : {
+          "apache-commons-io" : "2.22.x",
+          "spring-boot" : "3.5.x"
+        },
+        "excludedArtifacts" : [ ]
+      }
+    },
+    "5.4-dev-1.x" : {
+      "recipes" : [ ],
       "nextRewrite" : null,
       "requirements" : {
         "supportedGenerations" : {
+          "apache-commons-io" : "2.22.x",
           "spring-boot" : "3.5.x"
         },
         "excludedArtifacts" : [ ]
